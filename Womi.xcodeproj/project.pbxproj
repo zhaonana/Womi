@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397BE3501A7099A8001B62DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE34F1A7099A8001B62DE /* main.m */; };
+		397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3521A7099A8001B62DE /* AppDelegate.m */; };
+		397BE3591A7099A8001B62DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3571A7099A8001B62DE /* Main.storyboard */; };
+		397BE35B1A7099A8001B62DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397BE35A1A7099A8001B62DE /* Images.xcassets */; };
+		397BE35E1A7099A8001B62DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE35C1A7099A8001B62DE /* LaunchScreen.xib */; };
+		397BE36A1A7099A9001B62DE /* WomiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3691A7099A9001B62DE /* WomiTests.m */; };
+		397BE39F1A709B6A001B62DE /* 10.1标签管理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */; };
+		397BE3A01A709B6A001B62DE /* 10个人资料-个人资料.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */; };
+		397BE3A11A709B6A001B62DE /* 11个人资料-时间轴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */; };
+		397BE3A21A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */; };
+		397BE3A31A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */; };
+		397BE3A41A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */; };
+		397BE3A51A709B6A001B62DE /* 13收藏职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3891A709B6A001B62DE /* 13收藏职位.jpg */; };
+		397BE3A61A709B6A001B62DE /* 14.0日历-周.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */; };
+		397BE3A71A709B6A001B62DE /* 14.1日历-添加提醒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */; };
+		397BE3A81A709B6A001B62DE /* 14.2日历-提醒时间.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */; };
+		397BE3A91A709B6A001B62DE /* 14日历_月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38D1A709B6A001B62DE /* 14日历_月.jpg */; };
+		397BE3AA1A709B6A001B62DE /* 1我米登录页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */; };
+		397BE3AB1A709B6A001B62DE /* 2微聘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38F1A709B6A001B62DE /* 2微聘.jpg */; };
+		397BE3AC1A709B6A001B62DE /* 3搜索_工作.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */; };
+		397BE3AD1A709B6A001B62DE /* 4.1招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */; };
+		397BE3AE1A709B6A001B62DE /* 4招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3921A709B6A001B62DE /* 4招聘信息.jpg */; };
+		397BE3AF1A709B6A001B62DE /* 5.1职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */; };
+		397BE3B01A709B6A001B62DE /* 5职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3941A709B6A001B62DE /* 5职位详情.jpg */; };
+		397BE3B11A709B6A001B62DE /* 6.1公司详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */; };
+		397BE3B21A709B6A001B62DE /* 6名企.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3961A709B6A001B62DE /* 6名企.jpg */; };
+		397BE3B31A709B6A001B62DE /* 7.0攻略详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */; };
+		397BE3B41A709B6A001B62DE /* 7求职攻略.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3981A709B6A001B62DE /* 7求职攻略.jpg */; };
+		397BE3B51A709B6A001B62DE /* 8.1订阅设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */; };
+		397BE3B61A709B6A001B62DE /* 8订阅职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */; };
+		397BE3B71A709B6A001B62DE /* 9简历状态.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39B1A709B6A001B62DE /* 9简历状态.jpg */; };
+		397BE3B81A709B6A001B62DE /* 我.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39C1A709B6A001B62DE /* 我.jpg */; };
+		397BE3B91A709B6A001B62DE /* 搜索_话题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */; };
+		397BE3BA1A709B6A001B62DE /* 注册页面1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39E1A709B6A001B62DE /* 注册页面1.jpg */; };
+		397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F41A70D323001B62DE /* BaseViewController.m */; };
+		397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F71A70D323001B62DE /* EngageInfoViewController.m */; };
+		397BE4211A70D323001B62DE /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */; };
+		397BE4221A70D323001B62DE /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3FD1A70D323001B62DE /* JobDetailViewController.m */; };
+		397BE4231A70D323001B62DE /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4001A70D323001B62DE /* LabelManageViewController.m */; };
+		397BE4241A70D323001B62DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4031A70D323001B62DE /* LoginViewController.m */; };
+		397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4061A70D323001B62DE /* MiEngageViewController.m */; };
+		397BE4261A70D323001B62DE /* PersonalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4091A70D323001B62DE /* PersonalDataViewController.m */; };
+		397BE4271A70D323001B62DE /* RaidersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */; };
+		397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE40E1A70D323001B62DE /* RaidersJobViewController.m */; };
+		397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4111A70D323001B62DE /* RegisterViewController.m */; };
+		397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4141A70D323001B62DE /* ResumeStatusViewController.m */; };
+		397BE42B1A70D323001B62DE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4161A70D323001B62DE /* RootViewController.m */; };
+		397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4191A70D323001B62DE /* SearchViewController.m */; };
+		397BE42D1A70D323001B62DE /* SubscribePositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE41C1A70D323001B62DE /* SubscribePositionViewController.m */; };
+		397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE41E1A70D323001B62DE /* SubscribeSettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		397BE3641A7099A9001B62DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397BE3421A7099A8001B62DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BE3491A7099A8001B62DE;
+			remoteInfo = Womi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		397BE34A1A7099A8001B62DE /* Womi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Womi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397BE34E1A7099A8001B62DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397BE34F1A7099A8001B62DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		397BE3511A7099A8001B62DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		397BE3521A7099A8001B62DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		397BE3581A7099A8001B62DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		397BE35A1A7099A8001B62DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		397BE35D1A7099A8001B62DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		397BE3631A7099A9001B62DE /* WomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397BE3681A7099A9001B62DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397BE3691A7099A9001B62DE /* WomiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WomiTests.m; sourceTree = "<group>"; };
+		397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10.1标签管理.jpg"; sourceTree = "<group>"; };
+		397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10个人资料-个人资料.jpg"; sourceTree = "<group>"; };
+		397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11个人资料-时间轴.jpg"; sourceTree = "<group>"; };
+		397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.0个人资料-我的简历_简历列表.jpg"; sourceTree = "<group>"; };
+		397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.1个人资料-我的简历_有简历.jpg"; sourceTree = "<group>"; };
+		397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12个人资料-我的简历_无简历.jpg"; sourceTree = "<group>"; };
+		397BE3891A709B6A001B62DE /* 13收藏职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13收藏职位.jpg"; sourceTree = "<group>"; };
+		397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.0日历-周.jpg"; sourceTree = "<group>"; };
+		397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.1日历-添加提醒.jpg"; sourceTree = "<group>"; };
+		397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.2日历-提醒时间.jpg"; sourceTree = "<group>"; };
+		397BE38D1A709B6A001B62DE /* 14日历_月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14日历_月.jpg"; sourceTree = "<group>"; };
+		397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1我米登录页.jpg"; sourceTree = "<group>"; };
+		397BE38F1A709B6A001B62DE /* 2微聘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2微聘.jpg"; sourceTree = "<group>"; };
+		397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3搜索_工作.jpg"; sourceTree = "<group>"; };
+		397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4.1招聘信息.jpg"; sourceTree = "<group>"; };
+		397BE3921A709B6A001B62DE /* 4招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4招聘信息.jpg"; sourceTree = "<group>"; };
+		397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.1职位详情.jpg"; sourceTree = "<group>"; };
+		397BE3941A709B6A001B62DE /* 5职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5职位详情.jpg"; sourceTree = "<group>"; };
+		397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6.1公司详情.jpg"; sourceTree = "<group>"; };
+		397BE3961A709B6A001B62DE /* 6名企.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6名企.jpg"; sourceTree = "<group>"; };
+		397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7.0攻略详情.jpg"; sourceTree = "<group>"; };
+		397BE3981A709B6A001B62DE /* 7求职攻略.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7求职攻略.jpg"; sourceTree = "<group>"; };
+		397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8.1订阅设置.jpg"; sourceTree = "<group>"; };
+		397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8订阅职位.jpg"; sourceTree = "<group>"; };
+		397BE39B1A709B6A001B62DE /* 9简历状态.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9简历状态.jpg"; sourceTree = "<group>"; };
+		397BE39C1A709B6A001B62DE /* 我.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我.jpg"; sourceTree = "<group>"; };
+		397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "搜索_话题.jpg"; sourceTree = "<group>"; };
+		397BE39E1A709B6A001B62DE /* 注册页面1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "注册页面1.jpg"; sourceTree = "<group>"; };
+		397BE3F31A70D323001B62DE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		397BE3F41A70D323001B62DE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		397BE3F61A70D323001B62DE /* EngageInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngageInfoViewController.h; sourceTree = "<group>"; };
+		397BE3F71A70D323001B62DE /* EngageInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngageInfoViewController.m; sourceTree = "<group>"; };
+		397BE3F91A70D323001B62DE /* FamousEnterpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousEnterpriseViewController.h; sourceTree = "<group>"; };
+		397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousEnterpriseViewController.m; sourceTree = "<group>"; };
+		397BE3FC1A70D323001B62DE /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
+		397BE3FD1A70D323001B62DE /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
+		397BE3FF1A70D323001B62DE /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelManageViewController.h; sourceTree = "<group>"; };
+		397BE4001A70D323001B62DE /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelManageViewController.m; sourceTree = "<group>"; };
+		397BE4021A70D323001B62DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		397BE4031A70D323001B62DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		397BE4051A70D323001B62DE /* MiEngageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiEngageViewController.h; sourceTree = "<group>"; };
+		397BE4061A70D323001B62DE /* MiEngageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiEngageViewController.m; sourceTree = "<group>"; };
+		397BE4081A70D323001B62DE /* PersonalDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDataViewController.h; sourceTree = "<group>"; };
+		397BE4091A70D323001B62DE /* PersonalDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDataViewController.m; sourceTree = "<group>"; };
+		397BE40B1A70D323001B62DE /* RaidersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersDetailViewController.h; sourceTree = "<group>"; };
+		397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersDetailViewController.m; sourceTree = "<group>"; };
+		397BE40D1A70D323001B62DE /* RaidersJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersJobViewController.h; sourceTree = "<group>"; };
+		397BE40E1A70D323001B62DE /* RaidersJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersJobViewController.m; sourceTree = "<group>"; };
+		397BE4101A70D323001B62DE /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		397BE4111A70D323001B62DE /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		397BE4131A70D323001B62DE /* ResumeStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeStatusViewController.h; sourceTree = "<group>"; };
+		397BE4141A70D323001B62DE /* ResumeStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeStatusViewController.m; sourceTree = "<group>"; };
+		397BE4151A70D323001B62DE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		397BE4161A70D323001B62DE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		397BE4181A70D323001B62DE /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		397BE4191A70D323001B62DE /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		397BE41B1A70D323001B62DE /* SubscribePositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribePositionViewController.h; sourceTree = "<group>"; };
+		397BE41C1A70D323001B62DE /* SubscribePositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribePositionViewController.m; sourceTree = "<group>"; };
+		397BE41D1A70D323001B62DE /* SubscribeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeSettingViewController.h; sourceTree = "<group>"; };
+		397BE41E1A70D323001B62DE /* SubscribeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeSettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397BE3471A7099A8001B62DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE3601A7099A9001B62DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397BE3411A7099A8001B62DE = {
+			isa = PBXGroup;
+			children = (
+				397BE34C1A7099A8001B62DE /* Womi */,
+				397BE3661A7099A9001B62DE /* WomiTests */,
+				397BE34B1A7099A8001B62DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		397BE34B1A7099A8001B62DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397BE34A1A7099A8001B62DE /* Womi.app */,
+				397BE3631A7099A9001B62DE /* WomiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		397BE34C1A7099A8001B62DE /* Womi */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3511A7099A8001B62DE /* AppDelegate.h */,
+				397BE3521A7099A8001B62DE /* AppDelegate.m */,
+				397BE3F01A70D323001B62DE /* Classes */,
+				397BE3821A709B6A001B62DE /* appPic */,
+				397BE3571A7099A8001B62DE /* Main.storyboard */,
+				397BE35A1A7099A8001B62DE /* Images.xcassets */,
+				397BE35C1A7099A8001B62DE /* LaunchScreen.xib */,
+				397BE34D1A7099A8001B62DE /* Supporting Files */,
+			);
+			path = Womi;
+			sourceTree = "<group>";
+		};
+		397BE34D1A7099A8001B62DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397BE34E1A7099A8001B62DE /* Info.plist */,
+				397BE34F1A7099A8001B62DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397BE3661A7099A9001B62DE /* WomiTests */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3691A7099A9001B62DE /* WomiTests.m */,
+				397BE3671A7099A9001B62DE /* Supporting Files */,
+			);
+			path = WomiTests;
+			sourceTree = "<group>";
+		};
+		397BE3671A7099A9001B62DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3681A7099A9001B62DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397BE3821A709B6A001B62DE /* appPic */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */,
+				397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */,
+				397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */,
+				397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */,
+				397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */,
+				397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */,
+				397BE3891A709B6A001B62DE /* 13收藏职位.jpg */,
+				397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */,
+				397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */,
+				397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */,
+				397BE38D1A709B6A001B62DE /* 14日历_月.jpg */,
+				397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */,
+				397BE38F1A709B6A001B62DE /* 2微聘.jpg */,
+				397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */,
+				397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */,
+				397BE3921A709B6A001B62DE /* 4招聘信息.jpg */,
+				397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */,
+				397BE3941A709B6A001B62DE /* 5职位详情.jpg */,
+				397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */,
+				397BE3961A709B6A001B62DE /* 6名企.jpg */,
+				397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */,
+				397BE3981A709B6A001B62DE /* 7求职攻略.jpg */,
+				397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */,
+				397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */,
+				397BE39B1A709B6A001B62DE /* 9简历状态.jpg */,
+				397BE39C1A709B6A001B62DE /* 我.jpg */,
+				397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */,
+				397BE39E1A709B6A001B62DE /* 注册页面1.jpg */,
+			);
+			path = appPic;
+			sourceTree = "<group>";
+		};
+		397BE3F01A70D323001B62DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3F11A70D323001B62DE /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		397BE3F11A70D323001B62DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3F21A70D323001B62DE /* Base */,
+				397BE3F51A70D323001B62DE /* EngageInfo */,
+				397BE3F81A70D323001B62DE /* FamousEnterprise */,
+				397BE3FB1A70D323001B62DE /* JobDetail */,
+				397BE3FE1A70D323001B62DE /* LabelManage */,
+				397BE4011A70D323001B62DE /* Login */,
+				397BE4041A70D323001B62DE /* MiEngage */,
+				397BE4071A70D323001B62DE /* PersonalData */,
+				397BE40A1A70D323001B62DE /* RaidersJob */,
+				397BE40F1A70D323001B62DE /* Register */,
+				397BE4121A70D323001B62DE /* ResumeStatus */,
+				397BE4151A70D323001B62DE /* RootViewController.h */,
+				397BE4161A70D323001B62DE /* RootViewController.m */,
+				397BE4171A70D323001B62DE /* Search */,
+				397BE41A1A70D323001B62DE /* SubscribePosition */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		397BE3F21A70D323001B62DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3F31A70D323001B62DE /* BaseViewController.h */,
+				397BE3F41A70D323001B62DE /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		397BE3F51A70D323001B62DE /* EngageInfo */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3F61A70D323001B62DE /* EngageInfoViewController.h */,
+				397BE3F71A70D323001B62DE /* EngageInfoViewController.m */,
+			);
+			path = EngageInfo;
+			sourceTree = "<group>";
+		};
+		397BE3F81A70D323001B62DE /* FamousEnterprise */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3F91A70D323001B62DE /* FamousEnterpriseViewController.h */,
+				397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */,
+			);
+			path = FamousEnterprise;
+			sourceTree = "<group>";
+		};
+		397BE3FB1A70D323001B62DE /* JobDetail */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3FC1A70D323001B62DE /* JobDetailViewController.h */,
+				397BE3FD1A70D323001B62DE /* JobDetailViewController.m */,
+			);
+			path = JobDetail;
+			sourceTree = "<group>";
+		};
+		397BE3FE1A70D323001B62DE /* LabelManage */ = {
+			isa = PBXGroup;
+			children = (
+				397BE3FF1A70D323001B62DE /* LabelManageViewController.h */,
+				397BE4001A70D323001B62DE /* LabelManageViewController.m */,
+			);
+			path = LabelManage;
+			sourceTree = "<group>";
+		};
+		397BE4011A70D323001B62DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4021A70D323001B62DE /* LoginViewController.h */,
+				397BE4031A70D323001B62DE /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		397BE4041A70D323001B62DE /* MiEngage */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4051A70D323001B62DE /* MiEngageViewController.h */,
+				397BE4061A70D323001B62DE /* MiEngageViewController.m */,
+			);
+			path = MiEngage;
+			sourceTree = "<group>";
+		};
+		397BE4071A70D323001B62DE /* PersonalData */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4081A70D323001B62DE /* PersonalDataViewController.h */,
+				397BE4091A70D323001B62DE /* PersonalDataViewController.m */,
+			);
+			path = PersonalData;
+			sourceTree = "<group>";
+		};
+		397BE40A1A70D323001B62DE /* RaidersJob */ = {
+			isa = PBXGroup;
+			children = (
+				397BE40B1A70D323001B62DE /* RaidersDetailViewController.h */,
+				397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */,
+				397BE40D1A70D323001B62DE /* RaidersJobViewController.h */,
+				397BE40E1A70D323001B62DE /* RaidersJobViewController.m */,
+			);
+			path = RaidersJob;
+			sourceTree = "<group>";
+		};
+		397BE40F1A70D323001B62DE /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4101A70D323001B62DE /* RegisterViewController.h */,
+				397BE4111A70D323001B62DE /* RegisterViewController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		397BE4121A70D323001B62DE /* ResumeStatus */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4131A70D323001B62DE /* ResumeStatusViewController.h */,
+				397BE4141A70D323001B62DE /* ResumeStatusViewController.m */,
+			);
+			path = ResumeStatus;
+			sourceTree = "<group>";
+		};
+		397BE4171A70D323001B62DE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4181A70D323001B62DE /* SearchViewController.h */,
+				397BE4191A70D323001B62DE /* SearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		397BE41A1A70D323001B62DE /* SubscribePosition */ = {
+			isa = PBXGroup;
+			children = (
+				397BE41B1A70D323001B62DE /* SubscribePositionViewController.h */,
+				397BE41C1A70D323001B62DE /* SubscribePositionViewController.m */,
+				397BE41D1A70D323001B62DE /* SubscribeSettingViewController.h */,
+				397BE41E1A70D323001B62DE /* SubscribeSettingViewController.m */,
+			);
+			path = SubscribePosition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397BE3491A7099A8001B62DE /* Womi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397BE36D1A7099A9001B62DE /* Build configuration list for PBXNativeTarget "Womi" */;
+			buildPhases = (
+				397BE3461A7099A8001B62DE /* Sources */,
+				397BE3471A7099A8001B62DE /* Frameworks */,
+				397BE3481A7099A8001B62DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Womi;
+			productName = Womi;
+			productReference = 397BE34A1A7099A8001B62DE /* Womi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		397BE3621A7099A9001B62DE /* WomiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397BE3701A7099A9001B62DE /* Build configuration list for PBXNativeTarget "WomiTests" */;
+			buildPhases = (
+				397BE35F1A7099A9001B62DE /* Sources */,
+				397BE3601A7099A9001B62DE /* Frameworks */,
+				397BE3611A7099A9001B62DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397BE3651A7099A9001B62DE /* PBXTargetDependency */,
+			);
+			name = WomiTests;
+			productName = WomiTests;
+			productReference = 397BE3631A7099A9001B62DE /* WomiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397BE3421A7099A8001B62DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = NaNa;
+				TargetAttributes = {
+					397BE3491A7099A8001B62DE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					397BE3621A7099A9001B62DE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 397BE3491A7099A8001B62DE;
+					};
+				};
+			};
+			buildConfigurationList = 397BE3451A7099A8001B62DE /* Build configuration list for PBXProject "Womi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 397BE3411A7099A8001B62DE;
+			productRefGroup = 397BE34B1A7099A8001B62DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397BE3491A7099A8001B62DE /* Womi */,
+				397BE3621A7099A9001B62DE /* WomiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397BE3481A7099A8001B62DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE3591A7099A8001B62DE /* Main.storyboard in Resources */,
+				397BE3A41A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */,
+				397BE3A81A709B6A001B62DE /* 14.2日历-提醒时间.jpg in Resources */,
+				397BE35E1A7099A8001B62DE /* LaunchScreen.xib in Resources */,
+				397BE3A51A709B6A001B62DE /* 13收藏职位.jpg in Resources */,
+				397BE35B1A7099A8001B62DE /* Images.xcassets in Resources */,
+				397BE3AD1A709B6A001B62DE /* 4.1招聘信息.jpg in Resources */,
+				397BE3BA1A709B6A001B62DE /* 注册页面1.jpg in Resources */,
+				397BE3A01A709B6A001B62DE /* 10个人资料-个人资料.jpg in Resources */,
+				397BE39F1A709B6A001B62DE /* 10.1标签管理.jpg in Resources */,
+				397BE3A31A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
+				397BE3B81A709B6A001B62DE /* 我.jpg in Resources */,
+				397BE3B61A709B6A001B62DE /* 8订阅职位.jpg in Resources */,
+				397BE3B91A709B6A001B62DE /* 搜索_话题.jpg in Resources */,
+				397BE3B51A709B6A001B62DE /* 8.1订阅设置.jpg in Resources */,
+				397BE3B31A709B6A001B62DE /* 7.0攻略详情.jpg in Resources */,
+				397BE3B11A709B6A001B62DE /* 6.1公司详情.jpg in Resources */,
+				397BE3B71A709B6A001B62DE /* 9简历状态.jpg in Resources */,
+				397BE3B21A709B6A001B62DE /* 6名企.jpg in Resources */,
+				397BE3A21A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */,
+				397BE3A91A709B6A001B62DE /* 14日历_月.jpg in Resources */,
+				397BE3A61A709B6A001B62DE /* 14.0日历-周.jpg in Resources */,
+				397BE3A11A709B6A001B62DE /* 11个人资料-时间轴.jpg in Resources */,
+				397BE3AF1A709B6A001B62DE /* 5.1职位详情.jpg in Resources */,
+				397BE3A71A709B6A001B62DE /* 14.1日历-添加提醒.jpg in Resources */,
+				397BE3AB1A709B6A001B62DE /* 2微聘.jpg in Resources */,
+				397BE3AA1A709B6A001B62DE /* 1我米登录页.jpg in Resources */,
+				397BE3B01A709B6A001B62DE /* 5职位详情.jpg in Resources */,
+				397BE3AC1A709B6A001B62DE /* 3搜索_工作.jpg in Resources */,
+				397BE3B41A709B6A001B62DE /* 7求职攻略.jpg in Resources */,
+				397BE3AE1A709B6A001B62DE /* 4招聘信息.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE3611A7099A9001B62DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397BE3461A7099A8001B62DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE4271A70D323001B62DE /* RaidersDetailViewController.m in Sources */,
+				397BE4241A70D323001B62DE /* LoginViewController.m in Sources */,
+				397BE4211A70D323001B62DE /* FamousEnterpriseViewController.m in Sources */,
+				397BE4231A70D323001B62DE /* LabelManageViewController.m in Sources */,
+				397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */,
+				397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */,
+				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,
+				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
+				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
+				397BE4221A70D323001B62DE /* JobDetailViewController.m in Sources */,
+				397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */,
+				397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */,
+				397BE3501A7099A8001B62DE /* main.m in Sources */,
+				397BE42D1A70D323001B62DE /* SubscribePositionViewController.m in Sources */,
+				397BE4261A70D323001B62DE /* PersonalDataViewController.m in Sources */,
+				397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */,
+				397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */,
+				397BE42B1A70D323001B62DE /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE35F1A7099A9001B62DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE36A1A7099A9001B62DE /* WomiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		397BE3651A7099A9001B62DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397BE3491A7099A8001B62DE /* Womi */;
+			targetProxy = 397BE3641A7099A9001B62DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		397BE3571A7099A8001B62DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397BE3581A7099A8001B62DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		397BE35C1A7099A8001B62DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397BE35D1A7099A8001B62DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		397BE36B1A7099A9001B62DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397BE36C1A7099A9001B62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		397BE36E1A7099A9001B62DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Womi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		397BE36F1A7099A9001B62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Womi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		397BE3711A7099A9001B62DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WomiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Womi.app/Womi";
+			};
+			name = Debug;
+		};
+		397BE3721A7099A9001B62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WomiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Womi.app/Womi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397BE3451A7099A8001B62DE /* Build configuration list for PBXProject "Womi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE36B1A7099A9001B62DE /* Debug */,
+				397BE36C1A7099A9001B62DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397BE36D1A7099A9001B62DE /* Build configuration list for PBXNativeTarget "Womi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE36E1A7099A9001B62DE /* Debug */,
+				397BE36F1A7099A9001B62DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397BE3701A7099A9001B62DE /* Build configuration list for PBXNativeTarget "WomiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE3711A7099A9001B62DE /* Debug */,
+				397BE3721A7099A9001B62DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 397BE3421A7099A8001B62DE /* Project object */;
+}
