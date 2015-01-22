@@ -13,34 +13,6 @@
 		397BE35B1A7099A8001B62DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397BE35A1A7099A8001B62DE /* Images.xcassets */; };
 		397BE35E1A7099A8001B62DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE35C1A7099A8001B62DE /* LaunchScreen.xib */; };
 		397BE36A1A7099A9001B62DE /* WomiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3691A7099A9001B62DE /* WomiTests.m */; };
-		397BE39F1A709B6A001B62DE /* 10.1标签管理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */; };
-		397BE3A01A709B6A001B62DE /* 10个人资料-个人资料.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */; };
-		397BE3A11A709B6A001B62DE /* 11个人资料-时间轴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */; };
-		397BE3A21A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */; };
-		397BE3A31A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */; };
-		397BE3A41A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */; };
-		397BE3A51A709B6A001B62DE /* 13收藏职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3891A709B6A001B62DE /* 13收藏职位.jpg */; };
-		397BE3A61A709B6A001B62DE /* 14.0日历-周.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */; };
-		397BE3A71A709B6A001B62DE /* 14.1日历-添加提醒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */; };
-		397BE3A81A709B6A001B62DE /* 14.2日历-提醒时间.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */; };
-		397BE3A91A709B6A001B62DE /* 14日历_月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38D1A709B6A001B62DE /* 14日历_月.jpg */; };
-		397BE3AA1A709B6A001B62DE /* 1我米登录页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */; };
-		397BE3AB1A709B6A001B62DE /* 2微聘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE38F1A709B6A001B62DE /* 2微聘.jpg */; };
-		397BE3AC1A709B6A001B62DE /* 3搜索_工作.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */; };
-		397BE3AD1A709B6A001B62DE /* 4.1招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */; };
-		397BE3AE1A709B6A001B62DE /* 4招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3921A709B6A001B62DE /* 4招聘信息.jpg */; };
-		397BE3AF1A709B6A001B62DE /* 5.1职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */; };
-		397BE3B01A709B6A001B62DE /* 5职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3941A709B6A001B62DE /* 5职位详情.jpg */; };
-		397BE3B11A709B6A001B62DE /* 6.1公司详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */; };
-		397BE3B21A709B6A001B62DE /* 6名企.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3961A709B6A001B62DE /* 6名企.jpg */; };
-		397BE3B31A709B6A001B62DE /* 7.0攻略详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */; };
-		397BE3B41A709B6A001B62DE /* 7求职攻略.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3981A709B6A001B62DE /* 7求职攻略.jpg */; };
-		397BE3B51A709B6A001B62DE /* 8.1订阅设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */; };
-		397BE3B61A709B6A001B62DE /* 8订阅职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */; };
-		397BE3B71A709B6A001B62DE /* 9简历状态.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39B1A709B6A001B62DE /* 9简历状态.jpg */; };
-		397BE3B81A709B6A001B62DE /* 我.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39C1A709B6A001B62DE /* 我.jpg */; };
-		397BE3B91A709B6A001B62DE /* 搜索_话题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */; };
-		397BE3BA1A709B6A001B62DE /* 注册页面1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE39E1A709B6A001B62DE /* 注册页面1.jpg */; };
 		397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F41A70D323001B62DE /* BaseViewController.m */; };
 		397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F71A70D323001B62DE /* EngageInfoViewController.m */; };
 		397BE4211A70D323001B62DE /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */; };
@@ -57,6 +29,58 @@
 		397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4191A70D323001B62DE /* SearchViewController.m */; };
 		397BE42D1A70D323001B62DE /* SubscribePositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE41C1A70D323001B62DE /* SubscribePositionViewController.m */; };
 		397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE41E1A70D323001B62DE /* SubscribeSettingViewController.m */; };
+		397BE4661A70D6B9001B62DE /* 10.1标签管理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4311A70D6B9001B62DE /* 10.1标签管理.jpg */; };
+		397BE4671A70D6B9001B62DE /* 10个人资料-个人资料.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4321A70D6B9001B62DE /* 10个人资料-个人资料.jpg */; };
+		397BE4681A70D6B9001B62DE /* 11个人资料-时间轴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4331A70D6B9001B62DE /* 11个人资料-时间轴.jpg */; };
+		397BE4691A70D6B9001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4341A70D6B9001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */; };
+		397BE46A1A70D6B9001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4351A70D6B9001B62DE /* 12.1个人资料-我的简历_有简历.jpg */; };
+		397BE46B1A70D6B9001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4361A70D6B9001B62DE /* 12个人资料-我的简历_无简历.jpg */; };
+		397BE46C1A70D6B9001B62DE /* 13收藏职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4371A70D6B9001B62DE /* 13收藏职位.jpg */; };
+		397BE46D1A70D6B9001B62DE /* 14.0日历-周.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4381A70D6B9001B62DE /* 14.0日历-周.jpg */; };
+		397BE46E1A70D6B9001B62DE /* 14.1日历-添加提醒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4391A70D6B9001B62DE /* 14.1日历-添加提醒.jpg */; };
+		397BE46F1A70D6B9001B62DE /* 14.2日历-提醒时间.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43A1A70D6B9001B62DE /* 14.2日历-提醒时间.jpg */; };
+		397BE4701A70D6B9001B62DE /* 14日历_月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43B1A70D6B9001B62DE /* 14日历_月.jpg */; };
+		397BE4711A70D6B9001B62DE /* 1我米登录页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43C1A70D6B9001B62DE /* 1我米登录页.jpg */; };
+		397BE4721A70D6B9001B62DE /* 2微聘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43D1A70D6B9001B62DE /* 2微聘.jpg */; };
+		397BE4731A70D6B9001B62DE /* 3搜索_工作.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43E1A70D6B9001B62DE /* 3搜索_工作.jpg */; };
+		397BE4741A70D6B9001B62DE /* 4.1招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE43F1A70D6B9001B62DE /* 4.1招聘信息.jpg */; };
+		397BE4751A70D6B9001B62DE /* 4招聘信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4401A70D6B9001B62DE /* 4招聘信息.jpg */; };
+		397BE4761A70D6B9001B62DE /* 5.1职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4411A70D6B9001B62DE /* 5.1职位详情.jpg */; };
+		397BE4771A70D6B9001B62DE /* 5职位详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4421A70D6B9001B62DE /* 5职位详情.jpg */; };
+		397BE4781A70D6B9001B62DE /* 6.1公司详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4431A70D6B9001B62DE /* 6.1公司详情.jpg */; };
+		397BE4791A70D6B9001B62DE /* 6名企.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4441A70D6B9001B62DE /* 6名企.jpg */; };
+		397BE47A1A70D6B9001B62DE /* 7.0攻略详情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4451A70D6B9001B62DE /* 7.0攻略详情.jpg */; };
+		397BE47B1A70D6B9001B62DE /* 7求职攻略.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4461A70D6B9001B62DE /* 7求职攻略.jpg */; };
+		397BE47C1A70D6B9001B62DE /* 8.1订阅设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4471A70D6B9001B62DE /* 8.1订阅设置.jpg */; };
+		397BE47D1A70D6B9001B62DE /* 8订阅职位.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4481A70D6B9001B62DE /* 8订阅职位.jpg */; };
+		397BE47E1A70D6B9001B62DE /* 9简历状态.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4491A70D6B9001B62DE /* 9简历状态.jpg */; };
+		397BE47F1A70D6B9001B62DE /* 我.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE44A1A70D6B9001B62DE /* 我.jpg */; };
+		397BE4801A70D6B9001B62DE /* 搜索_话题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE44B1A70D6B9001B62DE /* 搜索_话题.jpg */; };
+		397BE4811A70D6B9001B62DE /* 注册页面1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE44C1A70D6B9001B62DE /* 注册页面1.jpg */; };
+		397BE4821A70D6B9001B62DE /* bai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE44E1A70D6B9001B62DE /* bai@2x.png */; };
+		397BE4831A70D6B9001B62DE /* baidianji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE44F1A70D6B9001B62DE /* baidianji@2x.png */; };
+		397BE4841A70D6B9001B62DE /* baise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4501A70D6B9001B62DE /* baise@2x.png */; };
+		397BE4851A70D6B9001B62DE /* kuang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4511A70D6B9001B62DE /* kuang@2x.png */; };
+		397BE4861A70D6B9001B62DE /* kuang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4521A70D6B9001B62DE /* kuang@3x.png */; };
+		397BE4871A70D6B9001B62DE /* lan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4531A70D6B9001B62DE /* lan@2x.png */; };
+		397BE4881A70D6B9001B62DE /* landianji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4541A70D6B9001B62DE /* landianji@2x.png */; };
+		397BE4891A70D6B9001B62DE /* lanse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4551A70D6B9001B62DE /* lanse@2x.png */; };
+		397BE48A1A70D6B9001B62DE /* loca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4561A70D6B9001B62DE /* loca@2x.png */; };
+		397BE48B1A70D6B9001B62DE /* loca@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4571A70D6B9001B62DE /* loca@3x.png */; };
+		397BE48C1A70D6B9001B62DE /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4581A70D6B9001B62DE /* lock@2x.png */; };
+		397BE48D1A70D6B9001B62DE /* lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4591A70D6B9001B62DE /* lock@3x.png */; };
+		397BE48E1A70D6B9001B62DE /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45A1A70D6B9001B62DE /* note@2x.png */; };
+		397BE48F1A70D6B9001B62DE /* note@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45B1A70D6B9001B62DE /* note@3x.png */; };
+		397BE4901A70D6B9001B62DE /* person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45C1A70D6B9001B62DE /* person@2x.png */; };
+		397BE4911A70D6B9001B62DE /* person@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45D1A70D6B9001B62DE /* person@3x.png */; };
+		397BE4921A70D6B9001B62DE /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45E1A70D6B9001B62DE /* phone@2x.png */; };
+		397BE4931A70D6B9001B62DE /* phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE45F1A70D6B9001B62DE /* phone@3x.png */; };
+		397BE4941A70D6B9001B62DE /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4601A70D6B9001B62DE /* time@2x.png */; };
+		397BE4951A70D6B9001B62DE /* time@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4611A70D6B9001B62DE /* time@3x.png */; };
+		397BE4961A70D6B9001B62DE /* you@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4621A70D6B9001B62DE /* you@2x.png */; };
+		397BE4971A70D6B9001B62DE /* you@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4631A70D6B9001B62DE /* you@3x.png */; };
+		397BE4981A70D6B9001B62DE /* zuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4641A70D6B9001B62DE /* zuo@2x.png */; };
+		397BE4991A70D6B9001B62DE /* zuo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE4651A70D6B9001B62DE /* zuo@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,34 +105,6 @@
 		397BE3631A7099A9001B62DE /* WomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BE3681A7099A9001B62DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397BE3691A7099A9001B62DE /* WomiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WomiTests.m; sourceTree = "<group>"; };
-		397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10.1标签管理.jpg"; sourceTree = "<group>"; };
-		397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10个人资料-个人资料.jpg"; sourceTree = "<group>"; };
-		397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11个人资料-时间轴.jpg"; sourceTree = "<group>"; };
-		397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.0个人资料-我的简历_简历列表.jpg"; sourceTree = "<group>"; };
-		397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.1个人资料-我的简历_有简历.jpg"; sourceTree = "<group>"; };
-		397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12个人资料-我的简历_无简历.jpg"; sourceTree = "<group>"; };
-		397BE3891A709B6A001B62DE /* 13收藏职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13收藏职位.jpg"; sourceTree = "<group>"; };
-		397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.0日历-周.jpg"; sourceTree = "<group>"; };
-		397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.1日历-添加提醒.jpg"; sourceTree = "<group>"; };
-		397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.2日历-提醒时间.jpg"; sourceTree = "<group>"; };
-		397BE38D1A709B6A001B62DE /* 14日历_月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14日历_月.jpg"; sourceTree = "<group>"; };
-		397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1我米登录页.jpg"; sourceTree = "<group>"; };
-		397BE38F1A709B6A001B62DE /* 2微聘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2微聘.jpg"; sourceTree = "<group>"; };
-		397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3搜索_工作.jpg"; sourceTree = "<group>"; };
-		397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4.1招聘信息.jpg"; sourceTree = "<group>"; };
-		397BE3921A709B6A001B62DE /* 4招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4招聘信息.jpg"; sourceTree = "<group>"; };
-		397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.1职位详情.jpg"; sourceTree = "<group>"; };
-		397BE3941A709B6A001B62DE /* 5职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5职位详情.jpg"; sourceTree = "<group>"; };
-		397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6.1公司详情.jpg"; sourceTree = "<group>"; };
-		397BE3961A709B6A001B62DE /* 6名企.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6名企.jpg"; sourceTree = "<group>"; };
-		397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7.0攻略详情.jpg"; sourceTree = "<group>"; };
-		397BE3981A709B6A001B62DE /* 7求职攻略.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7求职攻略.jpg"; sourceTree = "<group>"; };
-		397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8.1订阅设置.jpg"; sourceTree = "<group>"; };
-		397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8订阅职位.jpg"; sourceTree = "<group>"; };
-		397BE39B1A709B6A001B62DE /* 9简历状态.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9简历状态.jpg"; sourceTree = "<group>"; };
-		397BE39C1A709B6A001B62DE /* 我.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我.jpg"; sourceTree = "<group>"; };
-		397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "搜索_话题.jpg"; sourceTree = "<group>"; };
-		397BE39E1A709B6A001B62DE /* 注册页面1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "注册页面1.jpg"; sourceTree = "<group>"; };
 		397BE3F31A70D323001B62DE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		397BE3F41A70D323001B62DE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		397BE3F61A70D323001B62DE /* EngageInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngageInfoViewController.h; sourceTree = "<group>"; };
@@ -141,6 +137,58 @@
 		397BE41C1A70D323001B62DE /* SubscribePositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribePositionViewController.m; sourceTree = "<group>"; };
 		397BE41D1A70D323001B62DE /* SubscribeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeSettingViewController.h; sourceTree = "<group>"; };
 		397BE41E1A70D323001B62DE /* SubscribeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeSettingViewController.m; sourceTree = "<group>"; };
+		397BE4311A70D6B9001B62DE /* 10.1标签管理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10.1标签管理.jpg"; sourceTree = "<group>"; };
+		397BE4321A70D6B9001B62DE /* 10个人资料-个人资料.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10个人资料-个人资料.jpg"; sourceTree = "<group>"; };
+		397BE4331A70D6B9001B62DE /* 11个人资料-时间轴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11个人资料-时间轴.jpg"; sourceTree = "<group>"; };
+		397BE4341A70D6B9001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.0个人资料-我的简历_简历列表.jpg"; sourceTree = "<group>"; };
+		397BE4351A70D6B9001B62DE /* 12.1个人资料-我的简历_有简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12.1个人资料-我的简历_有简历.jpg"; sourceTree = "<group>"; };
+		397BE4361A70D6B9001B62DE /* 12个人资料-我的简历_无简历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12个人资料-我的简历_无简历.jpg"; sourceTree = "<group>"; };
+		397BE4371A70D6B9001B62DE /* 13收藏职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13收藏职位.jpg"; sourceTree = "<group>"; };
+		397BE4381A70D6B9001B62DE /* 14.0日历-周.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.0日历-周.jpg"; sourceTree = "<group>"; };
+		397BE4391A70D6B9001B62DE /* 14.1日历-添加提醒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.1日历-添加提醒.jpg"; sourceTree = "<group>"; };
+		397BE43A1A70D6B9001B62DE /* 14.2日历-提醒时间.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14.2日历-提醒时间.jpg"; sourceTree = "<group>"; };
+		397BE43B1A70D6B9001B62DE /* 14日历_月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14日历_月.jpg"; sourceTree = "<group>"; };
+		397BE43C1A70D6B9001B62DE /* 1我米登录页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1我米登录页.jpg"; sourceTree = "<group>"; };
+		397BE43D1A70D6B9001B62DE /* 2微聘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2微聘.jpg"; sourceTree = "<group>"; };
+		397BE43E1A70D6B9001B62DE /* 3搜索_工作.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3搜索_工作.jpg"; sourceTree = "<group>"; };
+		397BE43F1A70D6B9001B62DE /* 4.1招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4.1招聘信息.jpg"; sourceTree = "<group>"; };
+		397BE4401A70D6B9001B62DE /* 4招聘信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4招聘信息.jpg"; sourceTree = "<group>"; };
+		397BE4411A70D6B9001B62DE /* 5.1职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.1职位详情.jpg"; sourceTree = "<group>"; };
+		397BE4421A70D6B9001B62DE /* 5职位详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5职位详情.jpg"; sourceTree = "<group>"; };
+		397BE4431A70D6B9001B62DE /* 6.1公司详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6.1公司详情.jpg"; sourceTree = "<group>"; };
+		397BE4441A70D6B9001B62DE /* 6名企.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6名企.jpg"; sourceTree = "<group>"; };
+		397BE4451A70D6B9001B62DE /* 7.0攻略详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7.0攻略详情.jpg"; sourceTree = "<group>"; };
+		397BE4461A70D6B9001B62DE /* 7求职攻略.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7求职攻略.jpg"; sourceTree = "<group>"; };
+		397BE4471A70D6B9001B62DE /* 8.1订阅设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8.1订阅设置.jpg"; sourceTree = "<group>"; };
+		397BE4481A70D6B9001B62DE /* 8订阅职位.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8订阅职位.jpg"; sourceTree = "<group>"; };
+		397BE4491A70D6B9001B62DE /* 9简历状态.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9简历状态.jpg"; sourceTree = "<group>"; };
+		397BE44A1A70D6B9001B62DE /* 我.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我.jpg"; sourceTree = "<group>"; };
+		397BE44B1A70D6B9001B62DE /* 搜索_话题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "搜索_话题.jpg"; sourceTree = "<group>"; };
+		397BE44C1A70D6B9001B62DE /* 注册页面1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "注册页面1.jpg"; sourceTree = "<group>"; };
+		397BE44E1A70D6B9001B62DE /* bai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bai@2x.png"; sourceTree = "<group>"; };
+		397BE44F1A70D6B9001B62DE /* baidianji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baidianji@2x.png"; sourceTree = "<group>"; };
+		397BE4501A70D6B9001B62DE /* baise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baise@2x.png"; sourceTree = "<group>"; };
+		397BE4511A70D6B9001B62DE /* kuang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuang@2x.png"; sourceTree = "<group>"; };
+		397BE4521A70D6B9001B62DE /* kuang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuang@3x.png"; sourceTree = "<group>"; };
+		397BE4531A70D6B9001B62DE /* lan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lan@2x.png"; sourceTree = "<group>"; };
+		397BE4541A70D6B9001B62DE /* landianji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landianji@2x.png"; sourceTree = "<group>"; };
+		397BE4551A70D6B9001B62DE /* lanse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanse@2x.png"; sourceTree = "<group>"; };
+		397BE4561A70D6B9001B62DE /* loca@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loca@2x.png"; sourceTree = "<group>"; };
+		397BE4571A70D6B9001B62DE /* loca@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loca@3x.png"; sourceTree = "<group>"; };
+		397BE4581A70D6B9001B62DE /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
+		397BE4591A70D6B9001B62DE /* lock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@3x.png"; sourceTree = "<group>"; };
+		397BE45A1A70D6B9001B62DE /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@2x.png"; sourceTree = "<group>"; };
+		397BE45B1A70D6B9001B62DE /* note@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@3x.png"; sourceTree = "<group>"; };
+		397BE45C1A70D6B9001B62DE /* person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@2x.png"; sourceTree = "<group>"; };
+		397BE45D1A70D6B9001B62DE /* person@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@3x.png"; sourceTree = "<group>"; };
+		397BE45E1A70D6B9001B62DE /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		397BE45F1A70D6B9001B62DE /* phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@3x.png"; sourceTree = "<group>"; };
+		397BE4601A70D6B9001B62DE /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time@2x.png"; sourceTree = "<group>"; };
+		397BE4611A70D6B9001B62DE /* time@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time@3x.png"; sourceTree = "<group>"; };
+		397BE4621A70D6B9001B62DE /* you@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you@2x.png"; sourceTree = "<group>"; };
+		397BE4631A70D6B9001B62DE /* you@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you@3x.png"; sourceTree = "<group>"; };
+		397BE4641A70D6B9001B62DE /* zuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zuo@2x.png"; sourceTree = "<group>"; };
+		397BE4651A70D6B9001B62DE /* zuo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zuo@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +232,8 @@
 			children = (
 				397BE3511A7099A8001B62DE /* AppDelegate.h */,
 				397BE3521A7099A8001B62DE /* AppDelegate.m */,
+				397BE42F1A70D6B9001B62DE /* pic */,
 				397BE3F01A70D323001B62DE /* Classes */,
-				397BE3821A709B6A001B62DE /* appPic */,
 				397BE3571A7099A8001B62DE /* Main.storyboard */,
 				397BE35A1A7099A8001B62DE /* Images.xcassets */,
 				397BE35C1A7099A8001B62DE /* LaunchScreen.xib */,
@@ -218,41 +266,6 @@
 				397BE3681A7099A9001B62DE /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		397BE3821A709B6A001B62DE /* appPic */ = {
-			isa = PBXGroup;
-			children = (
-				397BE3831A709B6A001B62DE /* 10.1标签管理.jpg */,
-				397BE3841A709B6A001B62DE /* 10个人资料-个人资料.jpg */,
-				397BE3851A709B6A001B62DE /* 11个人资料-时间轴.jpg */,
-				397BE3861A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */,
-				397BE3871A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg */,
-				397BE3881A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg */,
-				397BE3891A709B6A001B62DE /* 13收藏职位.jpg */,
-				397BE38A1A709B6A001B62DE /* 14.0日历-周.jpg */,
-				397BE38B1A709B6A001B62DE /* 14.1日历-添加提醒.jpg */,
-				397BE38C1A709B6A001B62DE /* 14.2日历-提醒时间.jpg */,
-				397BE38D1A709B6A001B62DE /* 14日历_月.jpg */,
-				397BE38E1A709B6A001B62DE /* 1我米登录页.jpg */,
-				397BE38F1A709B6A001B62DE /* 2微聘.jpg */,
-				397BE3901A709B6A001B62DE /* 3搜索_工作.jpg */,
-				397BE3911A709B6A001B62DE /* 4.1招聘信息.jpg */,
-				397BE3921A709B6A001B62DE /* 4招聘信息.jpg */,
-				397BE3931A709B6A001B62DE /* 5.1职位详情.jpg */,
-				397BE3941A709B6A001B62DE /* 5职位详情.jpg */,
-				397BE3951A709B6A001B62DE /* 6.1公司详情.jpg */,
-				397BE3961A709B6A001B62DE /* 6名企.jpg */,
-				397BE3971A709B6A001B62DE /* 7.0攻略详情.jpg */,
-				397BE3981A709B6A001B62DE /* 7求职攻略.jpg */,
-				397BE3991A709B6A001B62DE /* 8.1订阅设置.jpg */,
-				397BE39A1A709B6A001B62DE /* 8订阅职位.jpg */,
-				397BE39B1A709B6A001B62DE /* 9简历状态.jpg */,
-				397BE39C1A709B6A001B62DE /* 我.jpg */,
-				397BE39D1A709B6A001B62DE /* 搜索_话题.jpg */,
-				397BE39E1A709B6A001B62DE /* 注册页面1.jpg */,
-			);
-			path = appPic;
 			sourceTree = "<group>";
 		};
 		397BE3F01A70D323001B62DE /* Classes */ = {
@@ -406,6 +419,81 @@
 			path = SubscribePosition;
 			sourceTree = "<group>";
 		};
+		397BE42F1A70D6B9001B62DE /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4301A70D6B9001B62DE /* appPic */,
+				397BE44D1A70D6B9001B62DE /* Login */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		397BE4301A70D6B9001B62DE /* appPic */ = {
+			isa = PBXGroup;
+			children = (
+				397BE4311A70D6B9001B62DE /* 10.1标签管理.jpg */,
+				397BE4321A70D6B9001B62DE /* 10个人资料-个人资料.jpg */,
+				397BE4331A70D6B9001B62DE /* 11个人资料-时间轴.jpg */,
+				397BE4341A70D6B9001B62DE /* 12.0个人资料-我的简历_简历列表.jpg */,
+				397BE4351A70D6B9001B62DE /* 12.1个人资料-我的简历_有简历.jpg */,
+				397BE4361A70D6B9001B62DE /* 12个人资料-我的简历_无简历.jpg */,
+				397BE4371A70D6B9001B62DE /* 13收藏职位.jpg */,
+				397BE4381A70D6B9001B62DE /* 14.0日历-周.jpg */,
+				397BE4391A70D6B9001B62DE /* 14.1日历-添加提醒.jpg */,
+				397BE43A1A70D6B9001B62DE /* 14.2日历-提醒时间.jpg */,
+				397BE43B1A70D6B9001B62DE /* 14日历_月.jpg */,
+				397BE43C1A70D6B9001B62DE /* 1我米登录页.jpg */,
+				397BE43D1A70D6B9001B62DE /* 2微聘.jpg */,
+				397BE43E1A70D6B9001B62DE /* 3搜索_工作.jpg */,
+				397BE43F1A70D6B9001B62DE /* 4.1招聘信息.jpg */,
+				397BE4401A70D6B9001B62DE /* 4招聘信息.jpg */,
+				397BE4411A70D6B9001B62DE /* 5.1职位详情.jpg */,
+				397BE4421A70D6B9001B62DE /* 5职位详情.jpg */,
+				397BE4431A70D6B9001B62DE /* 6.1公司详情.jpg */,
+				397BE4441A70D6B9001B62DE /* 6名企.jpg */,
+				397BE4451A70D6B9001B62DE /* 7.0攻略详情.jpg */,
+				397BE4461A70D6B9001B62DE /* 7求职攻略.jpg */,
+				397BE4471A70D6B9001B62DE /* 8.1订阅设置.jpg */,
+				397BE4481A70D6B9001B62DE /* 8订阅职位.jpg */,
+				397BE4491A70D6B9001B62DE /* 9简历状态.jpg */,
+				397BE44A1A70D6B9001B62DE /* 我.jpg */,
+				397BE44B1A70D6B9001B62DE /* 搜索_话题.jpg */,
+				397BE44C1A70D6B9001B62DE /* 注册页面1.jpg */,
+			);
+			path = appPic;
+			sourceTree = "<group>";
+		};
+		397BE44D1A70D6B9001B62DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				397BE44E1A70D6B9001B62DE /* bai@2x.png */,
+				397BE44F1A70D6B9001B62DE /* baidianji@2x.png */,
+				397BE4501A70D6B9001B62DE /* baise@2x.png */,
+				397BE4511A70D6B9001B62DE /* kuang@2x.png */,
+				397BE4521A70D6B9001B62DE /* kuang@3x.png */,
+				397BE4531A70D6B9001B62DE /* lan@2x.png */,
+				397BE4541A70D6B9001B62DE /* landianji@2x.png */,
+				397BE4551A70D6B9001B62DE /* lanse@2x.png */,
+				397BE4561A70D6B9001B62DE /* loca@2x.png */,
+				397BE4571A70D6B9001B62DE /* loca@3x.png */,
+				397BE4581A70D6B9001B62DE /* lock@2x.png */,
+				397BE4591A70D6B9001B62DE /* lock@3x.png */,
+				397BE45A1A70D6B9001B62DE /* note@2x.png */,
+				397BE45B1A70D6B9001B62DE /* note@3x.png */,
+				397BE45C1A70D6B9001B62DE /* person@2x.png */,
+				397BE45D1A70D6B9001B62DE /* person@3x.png */,
+				397BE45E1A70D6B9001B62DE /* phone@2x.png */,
+				397BE45F1A70D6B9001B62DE /* phone@3x.png */,
+				397BE4601A70D6B9001B62DE /* time@2x.png */,
+				397BE4611A70D6B9001B62DE /* time@3x.png */,
+				397BE4621A70D6B9001B62DE /* you@2x.png */,
+				397BE4631A70D6B9001B62DE /* you@3x.png */,
+				397BE4641A70D6B9001B62DE /* zuo@2x.png */,
+				397BE4651A70D6B9001B62DE /* zuo@3x.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -487,36 +575,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				397BE3591A7099A8001B62DE /* Main.storyboard in Resources */,
-				397BE3A41A709B6A001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */,
-				397BE3A81A709B6A001B62DE /* 14.2日历-提醒时间.jpg in Resources */,
+				397BE46B1A70D6B9001B62DE /* 12个人资料-我的简历_无简历.jpg in Resources */,
+				397BE46F1A70D6B9001B62DE /* 14.2日历-提醒时间.jpg in Resources */,
+				397BE4881A70D6B9001B62DE /* landianji@2x.png in Resources */,
+				397BE48F1A70D6B9001B62DE /* note@3x.png in Resources */,
 				397BE35E1A7099A8001B62DE /* LaunchScreen.xib in Resources */,
-				397BE3A51A709B6A001B62DE /* 13收藏职位.jpg in Resources */,
+				397BE46C1A70D6B9001B62DE /* 13收藏职位.jpg in Resources */,
+				397BE4891A70D6B9001B62DE /* lanse@2x.png in Resources */,
+				397BE48C1A70D6B9001B62DE /* lock@2x.png in Resources */,
 				397BE35B1A7099A8001B62DE /* Images.xcassets in Resources */,
-				397BE3AD1A709B6A001B62DE /* 4.1招聘信息.jpg in Resources */,
-				397BE3BA1A709B6A001B62DE /* 注册页面1.jpg in Resources */,
-				397BE3A01A709B6A001B62DE /* 10个人资料-个人资料.jpg in Resources */,
-				397BE39F1A709B6A001B62DE /* 10.1标签管理.jpg in Resources */,
-				397BE3A31A709B6A001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
-				397BE3B81A709B6A001B62DE /* 我.jpg in Resources */,
-				397BE3B61A709B6A001B62DE /* 8订阅职位.jpg in Resources */,
-				397BE3B91A709B6A001B62DE /* 搜索_话题.jpg in Resources */,
-				397BE3B51A709B6A001B62DE /* 8.1订阅设置.jpg in Resources */,
-				397BE3B31A709B6A001B62DE /* 7.0攻略详情.jpg in Resources */,
-				397BE3B11A709B6A001B62DE /* 6.1公司详情.jpg in Resources */,
-				397BE3B71A709B6A001B62DE /* 9简历状态.jpg in Resources */,
-				397BE3B21A709B6A001B62DE /* 6名企.jpg in Resources */,
-				397BE3A21A709B6A001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */,
-				397BE3A91A709B6A001B62DE /* 14日历_月.jpg in Resources */,
-				397BE3A61A709B6A001B62DE /* 14.0日历-周.jpg in Resources */,
-				397BE3A11A709B6A001B62DE /* 11个人资料-时间轴.jpg in Resources */,
-				397BE3AF1A709B6A001B62DE /* 5.1职位详情.jpg in Resources */,
-				397BE3A71A709B6A001B62DE /* 14.1日历-添加提醒.jpg in Resources */,
-				397BE3AB1A709B6A001B62DE /* 2微聘.jpg in Resources */,
-				397BE3AA1A709B6A001B62DE /* 1我米登录页.jpg in Resources */,
-				397BE3B01A709B6A001B62DE /* 5职位详情.jpg in Resources */,
-				397BE3AC1A709B6A001B62DE /* 3搜索_工作.jpg in Resources */,
-				397BE3B41A709B6A001B62DE /* 7求职攻略.jpg in Resources */,
-				397BE3AE1A709B6A001B62DE /* 4招聘信息.jpg in Resources */,
+				397BE4741A70D6B9001B62DE /* 4.1招聘信息.jpg in Resources */,
+				397BE4851A70D6B9001B62DE /* kuang@2x.png in Resources */,
+				397BE48B1A70D6B9001B62DE /* loca@3x.png in Resources */,
+				397BE4811A70D6B9001B62DE /* 注册页面1.jpg in Resources */,
+				397BE4831A70D6B9001B62DE /* baidianji@2x.png in Resources */,
+				397BE4671A70D6B9001B62DE /* 10个人资料-个人资料.jpg in Resources */,
+				397BE4661A70D6B9001B62DE /* 10.1标签管理.jpg in Resources */,
+				397BE46A1A70D6B9001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
+				397BE47F1A70D6B9001B62DE /* 我.jpg in Resources */,
+				397BE47D1A70D6B9001B62DE /* 8订阅职位.jpg in Resources */,
+				397BE4961A70D6B9001B62DE /* you@2x.png in Resources */,
+				397BE4801A70D6B9001B62DE /* 搜索_话题.jpg in Resources */,
+				397BE4931A70D6B9001B62DE /* phone@3x.png in Resources */,
+				397BE4971A70D6B9001B62DE /* you@3x.png in Resources */,
+				397BE4841A70D6B9001B62DE /* baise@2x.png in Resources */,
+				397BE47C1A70D6B9001B62DE /* 8.1订阅设置.jpg in Resources */,
+				397BE47A1A70D6B9001B62DE /* 7.0攻略详情.jpg in Resources */,
+				397BE4781A70D6B9001B62DE /* 6.1公司详情.jpg in Resources */,
+				397BE4861A70D6B9001B62DE /* kuang@3x.png in Resources */,
+				397BE48A1A70D6B9001B62DE /* loca@2x.png in Resources */,
+				397BE48E1A70D6B9001B62DE /* note@2x.png in Resources */,
+				397BE47E1A70D6B9001B62DE /* 9简历状态.jpg in Resources */,
+				397BE4791A70D6B9001B62DE /* 6名企.jpg in Resources */,
+				397BE4871A70D6B9001B62DE /* lan@2x.png in Resources */,
+				397BE4901A70D6B9001B62DE /* person@2x.png in Resources */,
+				397BE4991A70D6B9001B62DE /* zuo@3x.png in Resources */,
+				397BE4821A70D6B9001B62DE /* bai@2x.png in Resources */,
+				397BE4691A70D6B9001B62DE /* 12.0个人资料-我的简历_简历列表.jpg in Resources */,
+				397BE4701A70D6B9001B62DE /* 14日历_月.jpg in Resources */,
+				397BE4921A70D6B9001B62DE /* phone@2x.png in Resources */,
+				397BE48D1A70D6B9001B62DE /* lock@3x.png in Resources */,
+				397BE46D1A70D6B9001B62DE /* 14.0日历-周.jpg in Resources */,
+				397BE4941A70D6B9001B62DE /* time@2x.png in Resources */,
+				397BE4681A70D6B9001B62DE /* 11个人资料-时间轴.jpg in Resources */,
+				397BE4761A70D6B9001B62DE /* 5.1职位详情.jpg in Resources */,
+				397BE46E1A70D6B9001B62DE /* 14.1日历-添加提醒.jpg in Resources */,
+				397BE4721A70D6B9001B62DE /* 2微聘.jpg in Resources */,
+				397BE4951A70D6B9001B62DE /* time@3x.png in Resources */,
+				397BE4711A70D6B9001B62DE /* 1我米登录页.jpg in Resources */,
+				397BE4771A70D6B9001B62DE /* 5职位详情.jpg in Resources */,
+				397BE4911A70D6B9001B62DE /* person@3x.png in Resources */,
+				397BE4731A70D6B9001B62DE /* 3搜索_工作.jpg in Resources */,
+				397BE47B1A70D6B9001B62DE /* 7求职攻略.jpg in Resources */,
+				397BE4751A70D6B9001B62DE /* 4招聘信息.jpg in Resources */,
+				397BE4981A70D6B9001B62DE /* zuo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
