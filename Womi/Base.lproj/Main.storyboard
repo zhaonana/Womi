@@ -569,7 +569,7 @@
                                     <constraint firstAttribute="bottom" secondItem="D1F-07-TEy" secondAttribute="bottom" id="wRL-ah-n7O"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQ8-yn-gqf" customClass="NNAdscrollView">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQ8-yn-gqf">
                                 <rect key="frame" x="0.0" y="215" width="320" height="122"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
@@ -700,6 +700,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="adScrollBackView" destination="YQ8-yn-gqf" id="ZyW-MF-SKv"/>
                         <outlet property="tableView" destination="Z22-hv-cLs" id="qLW-BN-uv3"/>
                     </connections>
                 </viewController>

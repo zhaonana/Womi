@@ -8,11 +8,13 @@
 
 #import "MiEngageViewController.h"
 #import "MiEngageCell.h"
+#import "NNAdscrollView.h"
 
 @interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) NSMutableArray *dataArray;
+@property (weak, nonatomic) IBOutlet UIView      *adScrollBackView;
+@property (strong, nonatomic) NSMutableArray     *dataArray;
 
 @end
 
@@ -21,17 +23,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setUpView];
+    
     _dataArray = [[NSMutableArray alloc] initWithObjects:
-                  @"媒介经理",
-                  @"媒介经理",
-                  @"媒介经理",
-                  @"媒介经理",
-                  @"媒介经理", nil];
+                  @"1",
+                  @"2",
+                  @"3",
+                  @"4",
+                  @"5", nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - SetUpView
+- (void)setUpView {
+    NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 122)];
+    advertiseView.backgroundColor = [UIColor clearColor];
+    [_adScrollBackView addSubview:advertiseView];
+    [advertiseView loadAdvertisesArray:@[@"1",@"2",@"3"]];
 }
 
 #pragma mark - UITableViewDataSource methods
