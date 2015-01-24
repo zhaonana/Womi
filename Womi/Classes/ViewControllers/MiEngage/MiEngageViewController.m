@@ -10,6 +10,8 @@
 #import "MiEngageCell.h"
 #import "NNAdscrollView.h"
 #import "CONSTS.h"
+#import "FamousEnterpriseViewController.h"
+#import "JobDetailViewController.h"
 
 @interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -44,7 +46,14 @@
     NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 122)];
     advertiseView.backgroundColor = [UIColor whiteColor];
     [_adScrollBackView addSubview:advertiseView];
+    
+    //暂时写在这里 有数据再修改
     [advertiseView loadAdvertisesArray:@[@"1",@"2",@"3"]];
+    __block MiEngageViewController *miVc = self;
+    advertiseView.nnAdscorllViewClick = ^() {
+        FamousEnterpriseViewController *famousVc = [[FamousEnterpriseViewController alloc] init];
+        [miVc.navigationController pushViewController:famousVc animated:YES];
+    };
 }
 
 #pragma mark - UIButtonClick
@@ -69,6 +78,11 @@
 #pragma mark - UITableViewDelegate methods
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 86.0;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    JobDetailViewController *jobVc = [[JobDetailViewController alloc] init];
+    [self.navigationController pushViewController:jobVc animated:YES];
 }
 /*
 #pragma mark - Navigation

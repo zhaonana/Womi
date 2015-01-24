@@ -15,13 +15,10 @@
 		397BE36A1A7099A9001B62DE /* WomiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3691A7099A9001B62DE /* WomiTests.m */; };
 		397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F41A70D323001B62DE /* BaseViewController.m */; };
 		397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3F71A70D323001B62DE /* EngageInfoViewController.m */; };
-		397BE4211A70D323001B62DE /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */; };
-		397BE4221A70D323001B62DE /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3FD1A70D323001B62DE /* JobDetailViewController.m */; };
 		397BE4231A70D323001B62DE /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4001A70D323001B62DE /* LabelManageViewController.m */; };
 		397BE4241A70D323001B62DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4031A70D323001B62DE /* LoginViewController.m */; };
 		397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4061A70D323001B62DE /* MiEngageViewController.m */; };
 		397BE4261A70D323001B62DE /* PersonalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4091A70D323001B62DE /* PersonalDataViewController.m */; };
-		397BE4271A70D323001B62DE /* RaidersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */; };
 		397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE40E1A70D323001B62DE /* RaidersJobViewController.m */; };
 		397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4111A70D323001B62DE /* RegisterViewController.m */; };
 		397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE4141A70D323001B62DE /* ResumeStatusViewController.m */; };
@@ -154,6 +151,12 @@
 		397BE6761A73950D001B62DE /* dian_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6721A73950D001B62DE /* dian_blue@3x.png */; };
 		397BE6771A73950D001B62DE /* dian_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6731A73950D001B62DE /* dian_gray@2x.png */; };
 		397BE6781A73950D001B62DE /* dian_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6741A73950D001B62DE /* dian_gray@3x.png */; };
+		397BE67C1A73992F001B62DE /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */; };
+		397BE67D1A73992F001B62DE /* FamousEnterpriseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */; };
+		397BE6811A739C95001B62DE /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE67F1A739C95001B62DE /* JobDetailViewController.m */; };
+		397BE6821A739C95001B62DE /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6801A739C95001B62DE /* JobDetailViewController.xib */; };
+		397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */; };
+		397BE6871A739E1D001B62DE /* RaidersDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,10 +185,6 @@
 		397BE3F41A70D323001B62DE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		397BE3F61A70D323001B62DE /* EngageInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngageInfoViewController.h; sourceTree = "<group>"; };
 		397BE3F71A70D323001B62DE /* EngageInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngageInfoViewController.m; sourceTree = "<group>"; };
-		397BE3F91A70D323001B62DE /* FamousEnterpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousEnterpriseViewController.h; sourceTree = "<group>"; };
-		397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousEnterpriseViewController.m; sourceTree = "<group>"; };
-		397BE3FC1A70D323001B62DE /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
-		397BE3FD1A70D323001B62DE /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
 		397BE3FF1A70D323001B62DE /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelManageViewController.h; sourceTree = "<group>"; };
 		397BE4001A70D323001B62DE /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelManageViewController.m; sourceTree = "<group>"; };
 		397BE4021A70D323001B62DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -194,8 +193,6 @@
 		397BE4061A70D323001B62DE /* MiEngageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiEngageViewController.m; sourceTree = "<group>"; };
 		397BE4081A70D323001B62DE /* PersonalDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDataViewController.h; sourceTree = "<group>"; };
 		397BE4091A70D323001B62DE /* PersonalDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDataViewController.m; sourceTree = "<group>"; };
-		397BE40B1A70D323001B62DE /* RaidersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersDetailViewController.h; sourceTree = "<group>"; };
-		397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersDetailViewController.m; sourceTree = "<group>"; };
 		397BE40D1A70D323001B62DE /* RaidersJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersJobViewController.h; sourceTree = "<group>"; };
 		397BE40E1A70D323001B62DE /* RaidersJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersJobViewController.m; sourceTree = "<group>"; };
 		397BE4101A70D323001B62DE /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -343,6 +340,15 @@
 		397BE6721A73950D001B62DE /* dian_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_blue@3x.png"; sourceTree = "<group>"; };
 		397BE6731A73950D001B62DE /* dian_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_gray@2x.png"; sourceTree = "<group>"; };
 		397BE6741A73950D001B62DE /* dian_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_gray@3x.png"; sourceTree = "<group>"; };
+		397BE6791A73992F001B62DE /* FamousEnterpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FamousEnterpriseViewController.h; path = ../../../../../../Documents/FamousEnterpriseViewController.h; sourceTree = "<group>"; };
+		397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FamousEnterpriseViewController.m; path = ../../../../../../Documents/FamousEnterpriseViewController.m; sourceTree = "<group>"; };
+		397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FamousEnterpriseViewController.xib; path = ../../../../../../Documents/FamousEnterpriseViewController.xib; sourceTree = "<group>"; };
+		397BE67E1A739C95001B62DE /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobDetailViewController.h; path = ../../../../../../Documents/JobDetailViewController.h; sourceTree = "<group>"; };
+		397BE67F1A739C95001B62DE /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobDetailViewController.m; path = ../../../../../../Documents/JobDetailViewController.m; sourceTree = "<group>"; };
+		397BE6801A739C95001B62DE /* JobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobDetailViewController.xib; path = ../../../../../../Documents/JobDetailViewController.xib; sourceTree = "<group>"; };
+		397BE6831A739E1D001B62DE /* RaidersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersDetailViewController.h; sourceTree = "<group>"; };
+		397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersDetailViewController.m; sourceTree = "<group>"; };
+		397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RaidersDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,8 +481,9 @@
 		397BE3F81A70D323001B62DE /* FamousEnterprise */ = {
 			isa = PBXGroup;
 			children = (
-				397BE3F91A70D323001B62DE /* FamousEnterpriseViewController.h */,
-				397BE3FA1A70D323001B62DE /* FamousEnterpriseViewController.m */,
+				397BE6791A73992F001B62DE /* FamousEnterpriseViewController.h */,
+				397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */,
+				397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */,
 			);
 			path = FamousEnterprise;
 			sourceTree = "<group>";
@@ -484,8 +491,9 @@
 		397BE3FB1A70D323001B62DE /* JobDetail */ = {
 			isa = PBXGroup;
 			children = (
-				397BE3FC1A70D323001B62DE /* JobDetailViewController.h */,
-				397BE3FD1A70D323001B62DE /* JobDetailViewController.m */,
+				397BE67E1A739C95001B62DE /* JobDetailViewController.h */,
+				397BE67F1A739C95001B62DE /* JobDetailViewController.m */,
+				397BE6801A739C95001B62DE /* JobDetailViewController.xib */,
 			);
 			path = JobDetail;
 			sourceTree = "<group>";
@@ -531,10 +539,11 @@
 		397BE40A1A70D323001B62DE /* RaidersJob */ = {
 			isa = PBXGroup;
 			children = (
-				397BE40B1A70D323001B62DE /* RaidersDetailViewController.h */,
-				397BE40C1A70D323001B62DE /* RaidersDetailViewController.m */,
 				397BE40D1A70D323001B62DE /* RaidersJobViewController.h */,
 				397BE40E1A70D323001B62DE /* RaidersJobViewController.m */,
+				397BE6831A739E1D001B62DE /* RaidersDetailViewController.h */,
+				397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */,
+				397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */,
 			);
 			path = RaidersJob;
 			sourceTree = "<group>";
@@ -895,6 +904,7 @@
 				397BE5471A70F204001B62DE /* 10个人资料-个人资料.jpg in Resources */,
 				397BE5461A70F204001B62DE /* 10.1标签管理.jpg in Resources */,
 				397BE58A1A70F204001B62DE /* jianlizhuangtai@3x.png in Resources */,
+				397BE67D1A73992F001B62DE /* FamousEnterpriseViewController.xib in Resources */,
 				397BE54A1A70F204001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
 				397BE55F1A70F204001B62DE /* 我.jpg in Resources */,
 				397BE5991A70F204001B62DE /* qiuzhigonglue@2x.png in Resources */,
@@ -929,6 +939,7 @@
 				397BE59B1A70F204001B62DE /* qq.jpg in Resources */,
 				397BE59F1A70F204001B62DE /* wo@3x.png in Resources */,
 				397BE6701A736CFD001B62DE /* sousuokuang@3x.png in Resources */,
+				397BE6821A739C95001B62DE /* JobDetailViewController.xib in Resources */,
 				397BE5671A70F204001B62DE /* lan@2x.png in Resources */,
 				397BE5971A70F204001B62DE /* qiuzhi@2x.png in Resources */,
 				397BE5701A70F204001B62DE /* person@2x.png in Resources */,
@@ -967,6 +978,7 @@
 				397BE66A1A736BA3001B62DE /* zhuce@3x.png in Resources */,
 				397BE57C1A70F204001B62DE /* banner@2x.png in Resources */,
 				397BE5511A70F204001B62DE /* 1我米登录页.jpg in Resources */,
+				397BE6871A739E1D001B62DE /* RaidersDetailViewController.xib in Resources */,
 				397BE58F1A70F204001B62DE /* mipin_blue@2x.png in Resources */,
 				397BE66C1A736BA3001B62DE /* zhuce_xuanzhong@3x.png in Resources */,
 				397BE5A31A70F204001B62DE /* xiangyou@3x.png in Resources */,
@@ -996,20 +1008,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				397BE4271A70D323001B62DE /* RaidersDetailViewController.m in Sources */,
 				397BE4241A70D323001B62DE /* LoginViewController.m in Sources */,
-				397BE4211A70D323001B62DE /* FamousEnterpriseViewController.m in Sources */,
 				397BE5AC1A71118E001B62DE /* MiEngageCell.m in Sources */,
 				397BE63E1A7352FD001B62DE /* AdPageView.m in Sources */,
+				397BE67C1A73992F001B62DE /* FamousEnterpriseViewController.m in Sources */,
 				397BE4231A70D323001B62DE /* LabelManageViewController.m in Sources */,
 				397BE6481A7353E3001B62DE /* NSDate+ITTAdditions.m in Sources */,
 				397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */,
 				397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */,
+				397BE6811A739C95001B62DE /* JobDetailViewController.m in Sources */,
 				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,
 				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
 				397BE6411A7352FD001B62DE /* NNAdscrollView.m in Sources */,
 				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
-				397BE4221A70D323001B62DE /* JobDetailViewController.m in Sources */,
 				397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */,
 				397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */,
 				397BE3501A7099A8001B62DE /* main.m in Sources */,
@@ -1017,6 +1028,7 @@
 				397BE4261A70D323001B62DE /* PersonalDataViewController.m in Sources */,
 				397BE63F1A7352FD001B62DE /* AdscrollView.m in Sources */,
 				397BE6491A7353E3001B62DE /* UIView+ITTAdditions.m in Sources */,
+				397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */,
 				397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */,
 				397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */,
 				397BE42B1A70D323001B62DE /* RootViewController.m in Sources */,

@@ -10,6 +10,8 @@
 
 @interface NNAdscrollView : UIView
 
+@property (nonatomic, copy) void (^nnAdscorllViewClick)();
+
 - (void)loadAdvertisesArray:(NSArray *)array;
 
 @end

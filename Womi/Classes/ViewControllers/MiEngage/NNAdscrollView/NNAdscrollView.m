@@ -70,8 +70,11 @@
         view.height = self.height;
         view.width = self.width;
         view.origin = CGPointMake(i * view.width, 0);
+        __block NNAdscrollView *adView = self;
         view.adscrollViewClick = ^() {
-            NSLog(@"adscrollViewClick");
+            if (adView.nnAdscorllViewClick) {
+                adView.nnAdscorllViewClick();
+            }
         };
         [_advertiseScrollView addSubview:view];
     }
