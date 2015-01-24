@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -17,19 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1我米登录页.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dmY-FT-eEU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="womidengluyebeijing.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Qn-cv-Qho">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKR-gr-TFb">
-                                <rect key="frame" x="24" y="433" width="124" height="31"/>
-                                <state key="normal" title="登陆" backgroundImage="lanse.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKR-gr-TFb">
+                                <rect key="frame" x="25" y="491" width="125" height="34"/>
+                                <state key="normal" title="登陆" backgroundImage="denglu.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZD-Yn-h8x">
-                                <rect key="frame" x="172" y="433" width="124" height="31"/>
-                                <state key="normal" title="注册">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZD-Yn-h8x">
+                                <rect key="frame" x="170" y="491" width="125" height="34"/>
+                                <state key="normal" title="注册" backgroundImage="zhuce.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,10 +38,13 @@
                                     <segue destination="JKu-5c-ldP" kind="show" id="MV1-Tw-xna"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FY-h5-5yF">
-                                <rect key="frame" x="241" y="15" width="76" height="26"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="womi.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qb-u5-Zvm">
+                                <rect key="frame" x="85" y="135" width="150" height="85"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FY-h5-5yF">
+                                <rect key="frame" x="249" y="30" width="56" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="随便看看">
+                                <state key="normal" backgroundImage="suibiankankan.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -51,10 +55,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dmY-FT-eEU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Ns-6Y-i3i"/>
-                            <constraint firstAttribute="trailing" secondItem="dmY-FT-eEU" secondAttribute="trailing" id="d4Q-Xx-fwU"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dmY-FT-eEU" secondAttribute="bottom" id="j2G-SK-AlZ"/>
-                            <constraint firstItem="dmY-FT-eEU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tWx-O9-8BD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1Qn-cv-Qho" secondAttribute="bottom" id="1ay-my-MbK"/>
+                            <constraint firstItem="vZD-Yn-h8x" firstAttribute="leading" secondItem="dKR-gr-TFb" secondAttribute="trailing" constant="20" id="ANX-RU-vLk"/>
+                            <constraint firstItem="dKR-gr-TFb" firstAttribute="width" secondItem="vZD-Yn-h8x" secondAttribute="width" id="EAj-qe-Qkd"/>
+                            <constraint firstItem="7qb-u5-Zvm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="MAb-t0-Qzz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7qb-u5-Zvm" secondAttribute="trailing" constant="69" id="aEt-n3-626"/>
+                            <constraint firstItem="1FY-h5-5yF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="aJ5-OD-dTb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vZD-Yn-h8x" secondAttribute="bottom" constant="43" id="aR8-XX-S6p"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dKR-gr-TFb" secondAttribute="bottom" constant="43" id="e3Z-nP-v2y"/>
+                            <constraint firstItem="1Qn-cv-Qho" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="eVp-B7-r34"/>
+                            <constraint firstItem="7qb-u5-Zvm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="hHy-cj-Y6I"/>
+                            <constraint firstItem="dKR-gr-TFb" firstAttribute="height" secondItem="vZD-Yn-h8x" secondAttribute="height" id="hz5-2x-6fO"/>
+                            <constraint firstItem="1Qn-cv-Qho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="mQQ-Qc-fxV"/>
+                            <constraint firstItem="dKR-gr-TFb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="nNX-CX-vYN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1FY-h5-5yF" secondAttribute="trailing" constant="-1" id="w6Q-Qf-y1u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Qn-cv-Qho" secondAttribute="trailing" constant="-16" id="x46-oD-p8c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vZD-Yn-h8x" secondAttribute="trailing" constant="9" id="zTq-Eq-h9T"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b9O-mR-GZF"/>
@@ -675,7 +691,6 @@
     <resources>
         <image name="10.1标签管理.jpg" width="640" height="1136"/>
         <image name="12个人资料-我的简历_无简历.jpg" width="640" height="1136"/>
-        <image name="1我米登录页.jpg" width="640" height="1136"/>
         <image name="3搜索_工作.jpg" width="640" height="1136"/>
         <image name="4招聘信息.jpg" width="640" height="1136"/>
         <image name="5职位详情.jpg" width="640" height="1136"/>
@@ -685,7 +700,11 @@
         <image name="8.1订阅设置.jpg" width="640" height="1136"/>
         <image name="8订阅职位.jpg" width="640" height="1136"/>
         <image name="9简历状态.jpg" width="640" height="1136"/>
-        <image name="lanse.png" width="137" height="53"/>
+        <image name="denglu.png" width="127" height="34"/>
+        <image name="suibiankankan.png" width="56" height="13"/>
+        <image name="womi.png" width="155" height="85"/>
+        <image name="womidengluyebeijing.png" width="915" height="1136"/>
+        <image name="zhuce.png" width="127" height="34"/>
         <image name="我.jpg" width="640" height="1136"/>
         <image name="注册页面1.jpg" width="640" height="1136"/>
     </resources>
