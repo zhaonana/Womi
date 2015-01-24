@@ -25,6 +25,9 @@
                     <color key="textColor" red="0.25882352939999997" green="0.69803921570000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiangyou.png" translatesAutoresizingMaskIntoConstraints="NO" id="dzZ-g7-zYj">
+                    <rect key="frame" x="308" y="10" width="7" height="14"/>
+                </imageView>
                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="04m-cu-b8s">
                     <rect key="frame" x="11" y="39" width="297" height="61"/>
                     <subviews>
@@ -47,11 +50,13 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="0Te-kk-Jam" firstAttribute="leading" secondItem="ADh-i0-hKz" secondAttribute="leading" constant="8" id="5l1-zk-Mjw"/>
+                <constraint firstAttribute="trailing" secondItem="dzZ-g7-zYj" secondAttribute="trailing" constant="5" id="J2K-V5-u14"/>
                 <constraint firstItem="Opt-eu-UAn" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="8" id="NuC-PS-bB7"/>
                 <constraint firstAttribute="trailing" secondItem="Opt-eu-UAn" secondAttribute="trailing" constant="12" id="a7K-wL-d5z"/>
                 <constraint firstAttribute="bottom" secondItem="04m-cu-b8s" secondAttribute="bottom" constant="22" id="be3-Cb-fhB"/>
                 <constraint firstItem="04m-cu-b8s" firstAttribute="leading" secondItem="ADh-i0-hKz" secondAttribute="leading" constant="11" id="qqT-Br-Ixs"/>
                 <constraint firstItem="0Te-kk-Jam" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="8" id="sY9-hn-lbj"/>
+                <constraint firstItem="dzZ-g7-zYj" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="10" id="v71-RC-aFV"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
@@ -63,5 +68,6 @@
     <resources>
         <image name="huangV.png" width="18" height="20"/>
         <image name="qq.jpg" width="102" height="107"/>
+        <image name="xiangyou.png" width="7" height="14"/>
     </resources>
 </document>
