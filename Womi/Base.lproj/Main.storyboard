@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vNi-h4-bZN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vNi-h4-bZN">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -587,7 +588,7 @@
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQ8-yn-gqf">
                                 <rect key="frame" x="0.0" y="215" width="320" height="122"/>
-                                <color key="backgroundColor" red="0.69019607839999997" green="0.69019607839999997" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Z22-hv-cLs">
                                 <rect key="frame" x="0.0" y="340" width="320" height="184"/>
@@ -716,6 +717,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="adScrollBackView" destination="YQ8-yn-gqf" id="ZyW-MF-SKv"/>
                         <outlet property="tableView" destination="Z22-hv-cLs" id="qLW-BN-uv3"/>
                     </connections>
                 </viewController>
@@ -976,6 +978,7 @@
         <image name="faxian_gray.png" width="24" height="24"/>
         <image name="jianliguanli.png" width="53" height="53"/>
         <image name="jianlizhuangtai.png" width="53" height="53"/>
+        <image name="lanse.png" width="137" height="53"/>
         <image name="liaotian_blue.png" width="24" height="24"/>
         <image name="liaotian_gray.png" width="24" height="24"/>
         <image name="mipin_blue.png" width="24" height="24"/>
@@ -985,8 +988,6 @@
         <image name="qiuzhigonglue.png" width="53" height="53"/>
         <image name="wo.png" width="25" height="25"/>
         <image name="zhiweidingyue.png" width="53" height="53"/>
-        <image name="lanse.png" width="137" height="53"/>
-        <image name="我.jpg" width="640" height="1136"/>
         <image name="注册页面1.jpg" width="640" height="1136"/>
     </resources>
 </document>
