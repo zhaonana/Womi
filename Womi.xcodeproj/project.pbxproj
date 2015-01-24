@@ -157,6 +157,8 @@
 		397BE6821A739C95001B62DE /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6801A739C95001B62DE /* JobDetailViewController.xib */; };
 		397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */; };
 		397BE6871A739E1D001B62DE /* RaidersDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */; };
+		397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */; };
+		397BE6A31A73A7A1001B62DE /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6A11A73A7A1001B62DE /* AwesomeMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -349,6 +351,10 @@
 		397BE6831A739E1D001B62DE /* RaidersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersDetailViewController.h; sourceTree = "<group>"; };
 		397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersDetailViewController.m; sourceTree = "<group>"; };
 		397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RaidersDetailViewController.xib; sourceTree = "<group>"; };
+		397BE69E1A73A7A1001B62DE /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		397BE6A01A73A7A1001B62DE /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		397BE6A11A73A7A1001B62DE /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -521,6 +527,7 @@
 			children = (
 				397BE4051A70D323001B62DE /* MiEngageViewController.h */,
 				397BE4061A70D323001B62DE /* MiEngageViewController.m */,
+				397BE69D1A73A7A1001B62DE /* AwesomeMenu */,
 				397BE6361A7352FD001B62DE /* NNAdscrollView */,
 				397BE5A81A711161001B62DE /* Cell */,
 			);
@@ -786,6 +793,17 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
+		397BE69D1A73A7A1001B62DE /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				397BE69E1A73A7A1001B62DE /* AwesomeMenu.h */,
+				397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */,
+				397BE6A01A73A7A1001B62DE /* AwesomeMenuItem.h */,
+				397BE6A11A73A7A1001B62DE /* AwesomeMenuItem.m */,
+			);
+			path = AwesomeMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1020,6 +1038,7 @@
 				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,
 				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
 				397BE6411A7352FD001B62DE /* NNAdscrollView.m in Sources */,
+				397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */,
 				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
 				397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */,
 				397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */,
@@ -1030,6 +1049,7 @@
 				397BE6491A7353E3001B62DE /* UIView+ITTAdditions.m in Sources */,
 				397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */,
 				397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */,
+				397BE6A31A73A7A1001B62DE /* AwesomeMenuItem.m in Sources */,
 				397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */,
 				397BE42B1A70D323001B62DE /* RootViewController.m in Sources */,
 			);

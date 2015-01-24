@@ -705,10 +705,10 @@
             </objects>
             <point key="canvasLocation" x="1561" y="-2407"/>
         </scene>
-        <!--Engage Info View Controller-->
+        <!--Engage Info View Controller -->
         <scene sceneID="uYr-CL-rEr">
             <objects>
-                <viewController id="9pY-d2-hGC" customClass="EngageInfoViewController" sceneMemberID="viewController">
+                <viewController id="9pY-d2-hGC" userLabel="Engage Info View Controller " customClass="EngageInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kPJ-XQ-psO"/>
                         <viewControllerLayoutGuide type="bottom" id="zo9-Ay-Nap"/>

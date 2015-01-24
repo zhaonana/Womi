@@ -12,8 +12,10 @@
 #import "CONSTS.h"
 #import "FamousEnterpriseViewController.h"
 #import "JobDetailViewController.h"
+#import "AwesomeMenu.h"
+#import "UIView+ITTAdditions.h"
 
-@interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate, AwesomeMenuDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView      *adScrollBackView;
@@ -43,6 +45,11 @@
 
 #pragma mark - SetUpView
 - (void)setUpView {
+    [self setUpAdvertiseView];
+    [self setUpAwesomeMenu];
+}
+
+- (void)setUpAdvertiseView {
     NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 122)];
     advertiseView.backgroundColor = [UIColor whiteColor];
     [_adScrollBackView addSubview:advertiseView];
@@ -54,6 +61,55 @@
         FamousEnterpriseViewController *famousVc = [[FamousEnterpriseViewController alloc] init];
         [miVc.navigationController pushViewController:famousVc animated:YES];
     };
+}
+
+- (void)setUpAwesomeMenu {
+    AwesomeMenuItem *starMenuItem1 = [[AwesomeMenuItem alloc] initWithImage:nil
+                                                           highlightedImage:nil
+                                                               ContentImage:[UIImage imageNamed:@"dating"]
+                                                    highlightedContentImage:nil];
+    AwesomeMenuItem *starMenuItem2 = [[AwesomeMenuItem alloc] initWithImage:nil
+                                                           highlightedImage:nil
+                                                               ContentImage:[UIImage imageNamed:@"bagua"]
+                                                    highlightedContentImage:nil];
+    AwesomeMenuItem *starMenuItem3 = [[AwesomeMenuItem alloc] initWithImage:nil
+                                                           highlightedImage:nil
+                                                               ContentImage:[UIImage imageNamed:@"xingqv"]
+                                                    highlightedContentImage:nil];
+    AwesomeMenuItem *starMenuItem4 = [[AwesomeMenuItem alloc] initWithImage:nil
+                                                           highlightedImage:nil
+                                                               ContentImage:[UIImage imageNamed:@"qiuzhi"]
+                                                    highlightedContentImage:nil];
+    
+    NSArray *menus = [NSArray arrayWithObjects:starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4, nil];
+    
+    AwesomeMenuItem *startItem = [[AwesomeMenuItem alloc] initWithImage:[UIImage imageNamed:@"jia"]
+                                                       highlightedImage:[UIImage imageNamed:@"jia"]
+                                                           ContentImage:nil
+                                                highlightedContentImage:nil];
+    
+    AwesomeMenu *menu = [[AwesomeMenu alloc] initWithFrame:self.view.bounds startItem:startItem optionMenus:menus];
+    menu.delegate = self;
+    menu.menuWholeAngle = -M_PI_2;
+    menu.farRadius = 110.0f;
+    menu.endRadius = 100.0f;
+    menu.nearRadius = 90.0f;
+    menu.animationDuration = 0.3f;
+    menu.startPoint = CGPointMake(self.view.width - 28, self.view.height - 78);
+    [self.view addSubview:menu];
+}
+
+#pragma mark - AwesomeMenuDelegate
+- (void)awesomeMenu:(AwesomeMenu *)menu didSelectIndex:(NSInteger)idx {
+    NSLog(@"Select the index : %ld",(long)idx);
+}
+
+- (void)awesomeMenuDidFinishAnimationClose:(AwesomeMenu *)menu {
+    NSLog(@"Menu was closed!");
+}
+
+- (void)awesomeMenuDidFinishAnimationOpen:(AwesomeMenu *)menu {
+    NSLog(@"Menu is open!");
 }
 
 #pragma mark - UIButtonClick
