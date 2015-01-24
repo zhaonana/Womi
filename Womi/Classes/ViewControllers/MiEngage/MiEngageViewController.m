@@ -7,8 +7,12 @@
 //
 
 #import "MiEngageViewController.h"
+#import "MiEngageCell.h"
 
-@interface MiEngageViewController ()
+@interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSMutableArray *dataArray;
 
 @end
 
@@ -16,7 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _dataArray = [[NSMutableArray alloc] initWithObjects:
+                  @"媒介经理",
+                  @"媒介经理",
+                  @"媒介经理",
+                  @"媒介经理",
+                  @"媒介经理", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +34,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITableViewDataSource methods
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    MiEngageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MiEngageCell"];
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"MiEngageCell" owner:self options:nil] lastObject];
+    }
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate methods
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 86.0;
+}
 /*
 #pragma mark - Navigation
 
