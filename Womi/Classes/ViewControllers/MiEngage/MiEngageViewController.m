@@ -9,6 +9,7 @@
 #import "MiEngageViewController.h"
 #import "MiEngageCell.h"
 #import "NNAdscrollView.h"
+#import "CONSTS.h"
 
 @interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -40,10 +41,15 @@
 
 #pragma mark - SetUpView
 - (void)setUpView {
-    NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 122)];
-    advertiseView.backgroundColor = [UIColor clearColor];
+    NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 122)];
+    advertiseView.backgroundColor = [UIColor whiteColor];
     [_adScrollBackView addSubview:advertiseView];
     [advertiseView loadAdvertisesArray:@[@"1",@"2",@"3"]];
+}
+
+#pragma mark - UIButtonClick
+- (IBAction)buttonClick:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - UITableViewDataSource methods

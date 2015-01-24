@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 #define PAGE_VIEW_SPACE_BETWEEN_DOTS 6
-#define PAGE_VIEW_DOT_WIDTH 11
-#define PAGE_VIEW_DOT_HEIGHT 11
-#define PAGE_VIEW_SELECTED_DOT_IMAGE @"ic_focus_select"
-#define PAGE_VIEW_DOT_IMAGE @"ic_focus"
+#define PAGE_VIEW_DOT_WIDTH 7
+#define PAGE_VIEW_DOT_HEIGHT 7
+#define PAGE_VIEW_SELECTED_DOT_IMAGE @"focus_select"
+#define PAGE_VIEW_DOT_IMAGE @"focus"
 
 @interface AdPageView : UIView
 

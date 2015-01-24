@@ -70,6 +70,7 @@
     for (int i = 0; i < count; i++) {
         AdscrollView *view = [[[NSBundle mainBundle] loadNibNamed:@"AdscrollView" owner:nil options:nil] lastObject];
         view.height = self.height;
+        view.width = self.width;
         view.origin = CGPointMake(i * view.width, 0);
         view.adscrollViewClick = ^() {
             NSLog(@"adscrollViewClick");
@@ -79,7 +80,7 @@
     _advertiseScrollView.contentSize = CGSizeMake(count * _advertiseScrollView.width, 0);
     if (count) {
         _myPageView = [[AdPageView alloc] initWithPageNum:count];
-        _myPageView.center = CGPointMake(280, self.height - 20);
+        _myPageView.center = CGPointMake(self.width/2, self.height - 20);
         [_advertiseScrollView.superview addSubview:_myPageView];
     }
     
