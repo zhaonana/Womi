@@ -450,6 +450,7 @@
                                                 <state key="normal" backgroundImage="sousuokuang.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="highlighted" backgroundImage="sousuokuang.png"/>
                                                 <connections>
                                                     <segue destination="rGZ-HK-yN4" kind="show" id="W4P-l6-Anq"/>
                                                 </connections>

@@ -63,8 +63,6 @@
         [view removeFromSuperview];
     }
     
-    NSLog(@"count  %ld    %f",(unsigned long)_advertiseScrollView.subviews.count,_advertiseScrollView.contentOffset.x);
-    
     _advertiseScrollView.contentOffset = CGPointMake(0, 0);
     
     for (int i = 0; i < count; i++) {
