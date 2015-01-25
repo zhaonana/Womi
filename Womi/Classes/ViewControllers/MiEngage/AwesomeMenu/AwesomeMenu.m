@@ -328,8 +328,8 @@ static CGPoint RotateCGPointAroundCenter(CGPoint point, CGPoint center, float an
     [item.layer addAnimation:animationgroup forKey:@"Expand"];
     item.center = item.endPoint;
     
+    item.hidden = NO;
     _flag ++;
-    
 }
 
 - (void)_close
@@ -343,7 +343,7 @@ static CGPoint RotateCGPointAroundCenter(CGPoint point, CGPoint center, float an
     }
     
     NSUInteger tag = 1000 + _flag;
-     AwesomeMenuItem *item = (AwesomeMenuItem *)[self viewWithTag:tag];
+    AwesomeMenuItem *item = (AwesomeMenuItem *)[self viewWithTag:tag];
     
     CAKeyframeAnimation *rotateAnimation = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
     rotateAnimation.values = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0f],[NSNumber numberWithFloat:closeRotation],[NSNumber numberWithFloat:0.0f], nil];
@@ -374,9 +374,11 @@ static CGPoint RotateCGPointAroundCenter(CGPoint point, CGPoint center, float an
     
     [item.layer addAnimation:animationgroup forKey:@"Close"];
     item.center = item.startPoint;
-
+    
+    item.hidden = YES;
     _flag --;
 }
+
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
     if([[anim valueForKey:@"id"] isEqual:@"lastAnimation"]) {
         if(self.delegate && [self.delegate respondsToSelector:@selector(awesomeMenuDidFinishAnimationClose:)]){
