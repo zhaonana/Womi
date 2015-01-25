@@ -159,6 +159,8 @@
 		397BE6871A739E1D001B62DE /* RaidersDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */; };
 		397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */; };
 		397BE6A31A73A7A1001B62DE /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6A11A73A7A1001B62DE /* AwesomeMenuItem.m */; };
+		397BE6A81A7491D9001B62DE /* CompanyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6A61A7491D9001B62DE /* CompanyDetailViewController.m */; };
+		397BE6A91A7491D9001B62DE /* CompanyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6A71A7491D9001B62DE /* CompanyDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,6 +357,9 @@
 		397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
 		397BE6A01A73A7A1001B62DE /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
 		397BE6A11A73A7A1001B62DE /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		397BE6A51A7491D9001B62DE /* CompanyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailViewController.h; sourceTree = "<group>"; };
+		397BE6A61A7491D9001B62DE /* CompanyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailViewController.m; sourceTree = "<group>"; };
+		397BE6A71A7491D9001B62DE /* CompanyDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +463,7 @@
 				397BE40A1A70D323001B62DE /* RaidersJob */,
 				397BE40F1A70D323001B62DE /* Register */,
 				397BE4121A70D323001B62DE /* ResumeStatus */,
+				397BE6A41A7491B9001B62DE /* CompanyDetail */,
 				397BE4151A70D323001B62DE /* RootViewController.h */,
 				397BE4161A70D323001B62DE /* RootViewController.m */,
 				397BE4171A70D323001B62DE /* Search */,
@@ -804,6 +810,16 @@
 			path = AwesomeMenu;
 			sourceTree = "<group>";
 		};
+		397BE6A41A7491B9001B62DE /* CompanyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				397BE6A51A7491D9001B62DE /* CompanyDetailViewController.h */,
+				397BE6A61A7491D9001B62DE /* CompanyDetailViewController.m */,
+				397BE6A71A7491D9001B62DE /* CompanyDetailViewController.xib */,
+			);
+			path = CompanyDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -977,6 +993,7 @@
 				397BE5501A70F204001B62DE /* 14日历_月.jpg in Resources */,
 				397BE5721A70F204001B62DE /* phone@2x.png in Resources */,
 				397BE5A41A70F204001B62DE /* xingqv@2x.png in Resources */,
+				397BE6A91A7491D9001B62DE /* CompanyDetailViewController.xib in Resources */,
 				397BE56D1A70F204001B62DE /* lock@3x.png in Resources */,
 				397BE6781A73950D001B62DE /* dian_gray@3x.png in Resources */,
 				397BE66B1A736BA3001B62DE /* zhuce_xuanzhong@2x.png in Resources */,
@@ -1033,6 +1050,7 @@
 				397BE4231A70D323001B62DE /* LabelManageViewController.m in Sources */,
 				397BE6481A7353E3001B62DE /* NSDate+ITTAdditions.m in Sources */,
 				397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */,
+				397BE6A81A7491D9001B62DE /* CompanyDetailViewController.m in Sources */,
 				397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */,
 				397BE6811A739C95001B62DE /* JobDetailViewController.m in Sources */,
 				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,

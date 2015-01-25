@@ -14,11 +14,13 @@
 #import "JobDetailViewController.h"
 #import "AwesomeMenu.h"
 #import "UIView+ITTAdditions.h"
+#import "CompanyDetailViewController.h"
 
 @interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate, AwesomeMenuDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView      *adScrollBackView;
+@property (weak, nonatomic) IBOutlet UIView      *checkMoreView;
 @property (strong, nonatomic) NSMutableArray     *dataArray;
 
 @end
@@ -45,12 +47,15 @@
 
 #pragma mark - SetUpView
 - (void)setUpView {
+    UITapGestureRecognizer *checkTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(checkMoreTap:)];
+    [_checkMoreView addGestureRecognizer:checkTap];
+    
     [self setUpAdvertiseView];
     [self setUpAwesomeMenu];
 }
 
 - (void)setUpAdvertiseView {
-    NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 122)];
+    NNAdscrollView *advertiseView = [[NNAdscrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 92)];
     advertiseView.backgroundColor = [UIColor whiteColor];
     [_adScrollBackView addSubview:advertiseView];
     
@@ -58,8 +63,8 @@
     [advertiseView loadAdvertisesArray:@[@"1",@"2",@"3"]];
     __block MiEngageViewController *miVc = self;
     advertiseView.nnAdscorllViewClick = ^() {
-        FamousEnterpriseViewController *famousVc = [[FamousEnterpriseViewController alloc] init];
-        [miVc.navigationController pushViewController:famousVc animated:YES];
+        CompanyDetailViewController *companyVc = [[CompanyDetailViewController alloc] init];
+        [miVc.navigationController pushViewController:companyVc animated:YES];
     };
 }
 
@@ -115,6 +120,12 @@
 #pragma mark - UIButtonClick
 - (IBAction)buttonClick:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+#pragma mark - UITapGesture
+- (void)checkMoreTap:(UITapGestureRecognizer *)tap {
+    FamousEnterpriseViewController *famousVc = [[FamousEnterpriseViewController alloc] init];
+    [self.navigationController pushViewController:famousVc animated:YES];
 }
 
 #pragma mark - UITableViewDataSource methods

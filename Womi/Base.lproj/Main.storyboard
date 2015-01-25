@@ -494,9 +494,36 @@
                                     <constraint firstAttribute="bottom" secondItem="D1F-07-TEy" secondAttribute="bottom" id="wRL-ah-n7O"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9c3-Wk-2Tl">
+                                <rect key="frame" x="0.0" y="215" width="320" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名企推荐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-Ce-WyK">
+                                        <rect key="frame" x="7" y="8" width="66" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.25882352939999997" green="0.69803921570000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="查看更多" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AID-uo-GSI">
+                                        <rect key="frame" x="241" y="8" width="66" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.25882352939999997" green="0.69803921570000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="xiangyou.png" translatesAutoresizingMaskIntoConstraints="NO" id="TFJ-cq-9KH">
+                                        <rect key="frame" x="307" y="10" width="7" height="14"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="AID-uo-GSI" secondAttribute="trailing" constant="13" id="CHa-Oe-pME"/>
+                                    <constraint firstAttribute="trailing" secondItem="TFJ-cq-9KH" secondAttribute="trailing" constant="6" id="LRw-5Z-SF2"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQ8-yn-gqf">
-                                <rect key="frame" x="0.0" y="215" width="320" height="122"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="245" width="320" height="92"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Z22-hv-cLs">
                                 <rect key="frame" x="0.0" y="340" width="320" height="184"/>
@@ -618,12 +645,13 @@
                         <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="is1-YV-2RJ" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="28y-Af-KRu"/>
-                            <constraint firstItem="YQ8-yn-gqf" firstAttribute="top" secondItem="ljs-DW-Yd9" secondAttribute="bottom" constant="2" id="2G3-xf-mtZ"/>
                             <constraint firstItem="kfH-5c-gle" firstAttribute="top" secondItem="Z22-hv-cLs" secondAttribute="bottom" constant="44" id="4TH-rD-mQ5"/>
                             <constraint firstAttribute="trailing" secondItem="fIC-Mv-ojv" secondAttribute="trailing" id="83w-ue-XaQ"/>
                             <constraint firstItem="kfH-5c-gle" firstAttribute="top" secondItem="fIC-Mv-ojv" secondAttribute="bottom" id="BI6-lq-pI8"/>
                             <constraint firstItem="Qty-Ia-wgm" firstAttribute="top" secondItem="G29-Ua-XQu" secondAttribute="bottom" id="BbL-pK-kqJ"/>
                             <constraint firstAttribute="trailing" secondItem="G29-Ua-XQu" secondAttribute="trailing" id="Cvo-ca-cD3"/>
+                            <constraint firstItem="9c3-Wk-2Tl" firstAttribute="top" secondItem="ljs-DW-Yd9" secondAttribute="bottom" constant="2" id="FTh-rC-X5o"/>
+                            <constraint firstAttribute="trailing" secondItem="9c3-Wk-2Tl" secondAttribute="trailing" id="I6M-n2-hfR"/>
                             <constraint firstItem="HVZ-1T-hfh" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="MIK-DZ-AUq"/>
                             <constraint firstAttribute="trailing" secondItem="Qty-Ia-wgm" secondAttribute="trailing" id="NTp-fh-y1O"/>
                             <constraint firstItem="ljs-DW-Yd9" firstAttribute="top" secondItem="Qty-Ia-wgm" secondAttribute="bottom" id="Onx-DW-Axd"/>
@@ -640,8 +668,10 @@
                             <constraint firstItem="fIC-Mv-ojv" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="pL6-1f-ua2"/>
                             <constraint firstAttribute="trailing" secondItem="YQ8-yn-gqf" secondAttribute="trailing" id="tfw-us-1qY"/>
                             <constraint firstAttribute="trailing" secondItem="ljs-DW-Yd9" secondAttribute="trailing" id="thZ-6b-0NN"/>
+                            <constraint firstItem="9c3-Wk-2Tl" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="vOY-QW-vja"/>
                             <constraint firstAttribute="bottom" secondItem="HVZ-1T-hfh" secondAttribute="bottom" id="wCo-Cm-vdL"/>
                             <constraint firstItem="Z22-hv-cLs" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="whc-C9-ZdL"/>
+                            <constraint firstItem="YQ8-yn-gqf" firstAttribute="top" secondItem="9c3-Wk-2Tl" secondAttribute="bottom" id="xF0-7R-ehg"/>
                             <constraint firstAttribute="trailing" secondItem="Z22-hv-cLs" secondAttribute="trailing" id="xuN-Bh-F9E"/>
                             <constraint firstItem="is1-YV-2RJ" firstAttribute="top" secondItem="WAG-Ah-78r" secondAttribute="top" id="yQD-lJ-g1l"/>
                             <constraint firstItem="fIC-Mv-ojv" firstAttribute="top" secondItem="WAG-Ah-78r" secondAttribute="top" id="zZT-xG-4Hr"/>
@@ -650,6 +680,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="adScrollBackView" destination="YQ8-yn-gqf" id="ZyW-MF-SKv"/>
+                        <outlet property="checkMoreView" destination="9c3-Wk-2Tl" id="8K9-NP-mhg"/>
                         <outlet property="tableView" destination="Z22-hv-cLs" id="qLW-BN-uv3"/>
                     </connections>
                 </viewController>
@@ -872,6 +903,7 @@
         <image name="wo.png" width="25" height="25"/>
         <image name="womi.png" width="155" height="85"/>
         <image name="womidengluyebeijing.png" width="915" height="1136"/>
+        <image name="xiangyou.png" width="7" height="14"/>
         <image name="zhiweidingyue.png" width="53" height="53"/>
         <image name="zhuce.png" width="127" height="34"/>
         <image name="注册页面1.jpg" width="640" height="1136"/>

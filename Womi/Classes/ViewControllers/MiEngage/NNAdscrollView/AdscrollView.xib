@@ -8,56 +8,23 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="ADh-i0-hKz" customClass="AdscrollView">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="名企推荐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Te-kk-Jam">
-                    <rect key="frame" x="8" y="8" width="66" height="21"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <color key="textColor" red="0.25882352939999997" green="0.69803921570000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="查看更多" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opt-eu-UAn">
-                    <rect key="frame" x="242" y="8" width="66" height="21"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <color key="textColor" red="0.25882352939999997" green="0.69803921570000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiangyou.png" translatesAutoresizingMaskIntoConstraints="NO" id="dzZ-g7-zYj">
-                    <rect key="frame" x="308" y="10" width="7" height="14"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="478-IN-Brg">
+                    <rect key="frame" x="18" y="19" width="51" height="53"/>
                 </imageView>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="04m-cu-b8s">
-                    <rect key="frame" x="11" y="39" width="297" height="61"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="478-IN-Brg">
-                            <rect key="frame" x="0.0" y="4" width="51" height="53"/>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="咕叽咕叽大公司" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMM-Tj-0gS">
-                            <rect key="frame" x="62" y="6" width="130" height="21"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangV.png" translatesAutoresizingMaskIntoConstraints="NO" id="u9z-qL-BXr">
-                            <rect key="frame" x="199" y="7" width="18" height="20"/>
-                        </imageView>
-                    </subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="咕叽咕叽大公司" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMM-Tj-0gS">
+                    <rect key="frame" x="77" y="19" width="130" height="21"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                </view>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangV.png" translatesAutoresizingMaskIntoConstraints="NO" id="u9z-qL-BXr">
+                    <rect key="frame" x="208" y="20" width="18" height="20"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="0Te-kk-Jam" firstAttribute="leading" secondItem="ADh-i0-hKz" secondAttribute="leading" constant="8" id="5l1-zk-Mjw"/>
-                <constraint firstAttribute="trailing" secondItem="dzZ-g7-zYj" secondAttribute="trailing" constant="5" id="J2K-V5-u14"/>
-                <constraint firstItem="Opt-eu-UAn" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="8" id="NuC-PS-bB7"/>
-                <constraint firstAttribute="trailing" secondItem="Opt-eu-UAn" secondAttribute="trailing" constant="12" id="a7K-wL-d5z"/>
-                <constraint firstAttribute="bottom" secondItem="04m-cu-b8s" secondAttribute="bottom" constant="22" id="be3-Cb-fhB"/>
-                <constraint firstItem="04m-cu-b8s" firstAttribute="leading" secondItem="ADh-i0-hKz" secondAttribute="leading" constant="11" id="qqT-Br-Ixs"/>
-                <constraint firstItem="0Te-kk-Jam" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="8" id="sY9-hn-lbj"/>
-                <constraint firstItem="dzZ-g7-zYj" firstAttribute="top" secondItem="ADh-i0-hKz" secondAttribute="top" constant="10" id="v71-RC-aFV"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
@@ -68,6 +35,5 @@
     <resources>
         <image name="huangV.png" width="18" height="20"/>
         <image name="qq.jpg" width="102" height="107"/>
-        <image name="xiangyou.png" width="7" height="14"/>
     </resources>
 </document>
