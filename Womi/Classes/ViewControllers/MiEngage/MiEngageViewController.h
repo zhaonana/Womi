@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 NaNa. All rights reserved.
 //  米聘
 
-#import "BaseViewController.h"
+#import "CDRViewController.h"
 
-@interface MiEngageViewController : BaseViewController
+@interface MiEngageViewController : CDRViewController
 
 @end

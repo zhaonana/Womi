@@ -119,7 +119,11 @@
 
 #pragma mark - UIButtonClick
 - (IBAction)buttonClick:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.sideBar show];
+}
+
+- (IBAction)unwindSegueToMiEngageViewController:(UIStoryboardSegue *)segue {
+    
 }
 
 #pragma mark - UITapGesture

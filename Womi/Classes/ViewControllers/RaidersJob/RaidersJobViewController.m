@@ -24,11 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - UIButtonClick
-- (IBAction)buttonClick:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
-}
-
 /*
 #pragma mark - Navigation
 
