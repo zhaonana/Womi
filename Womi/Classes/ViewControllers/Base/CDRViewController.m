@@ -13,6 +13,7 @@
 #import "LabelManageViewController.h"
 #import "ResumeStatusViewController.h"
 #import "SubscribePositionViewController.h"
+#import "SettingViewController.h"
 
 @interface CDRViewController () <CDRTranslucentSideBarDelegate, UIGestureRecognizerDelegate>
 
@@ -75,7 +76,8 @@
         }
             break;
         case 60: {  //设置
-            
+            SettingViewController *setVc = [[SettingViewController alloc] init];
+            [self.navigationController pushViewController:setVc animated:YES];
         }
             break;
         default:

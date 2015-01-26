@@ -178,6 +178,9 @@
 		397BE6D51A75E4EA001B62DE /* wozhiweidingyue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6D41A75E4EA001B62DE /* wozhiweidingyue@3x.png */; };
 		397BE6D91A75F004001B62DE /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6D71A75F004001B62DE /* LabelManageViewController.m */; };
 		397BE6DA1A75F004001B62DE /* LabelManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6D81A75F004001B62DE /* LabelManageViewController.xib */; };
+		397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6DD1A763176001B62DE /* SettingViewController.m */; };
+		397BE6E01A763176001B62DE /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6DE1A763176001B62DE /* SettingViewController.xib */; };
+		397BE6E21A7631DB001B62DE /* 设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6E11A7631DB001B62DE /* 设置.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,6 +400,10 @@
 		397BE6D61A75F004001B62DE /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelManageViewController.h; path = ../../../../../../Documents/LabelManageViewController.h; sourceTree = "<group>"; };
 		397BE6D71A75F004001B62DE /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelManageViewController.m; path = ../../../../../../Documents/LabelManageViewController.m; sourceTree = "<group>"; };
 		397BE6D81A75F004001B62DE /* LabelManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabelManageViewController.xib; path = ../../../../../../Documents/LabelManageViewController.xib; sourceTree = "<group>"; };
+		397BE6DC1A763176001B62DE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		397BE6DD1A763176001B62DE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		397BE6DE1A763176001B62DE /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		397BE6E11A7631DB001B62DE /* 设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "设置.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +512,7 @@
 				397BE4161A70D323001B62DE /* RootViewController.m */,
 				397BE4171A70D323001B62DE /* Search */,
 				397BE41A1A70D323001B62DE /* SubscribePosition */,
+				397BE6DB1A763153001B62DE /* Setting */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -656,6 +664,7 @@
 		397BE4E11A70F204001B62DE /* appPic */ = {
 			isa = PBXGroup;
 			children = (
+				397BE6E11A7631DB001B62DE /* 设置.jpg */,
 				397BE4E21A70F204001B62DE /* 10.1标签管理.jpg */,
 				397BE4E31A70F204001B62DE /* 10个人资料-个人资料.jpg */,
 				397BE4E41A70F204001B62DE /* 11个人资料-时间轴.jpg */,
@@ -901,6 +910,16 @@
 			path = Me;
 			sourceTree = "<group>";
 		};
+		397BE6DB1A763153001B62DE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				397BE6DC1A763176001B62DE /* SettingViewController.h */,
+				397BE6DD1A763176001B62DE /* SettingViewController.m */,
+				397BE6DE1A763176001B62DE /* SettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1028,6 +1047,7 @@
 				397BE54A1A70F204001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
 				397BE55F1A70F204001B62DE /* 我.jpg in Resources */,
 				397BE5991A70F204001B62DE /* qiuzhigonglue@2x.png in Resources */,
+				397BE6E21A7631DB001B62DE /* 设置.jpg in Resources */,
 				397BE6D51A75E4EA001B62DE /* wozhiweidingyue@3x.png in Resources */,
 				397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */,
 				397BE6751A73950D001B62DE /* dian_blue@2x.png in Resources */,
@@ -1048,6 +1068,7 @@
 				397BE5641A70F204001B62DE /* baise@2x.png in Resources */,
 				397BE55C1A70F204001B62DE /* 8.1订阅设置.jpg in Resources */,
 				397BE55A1A70F204001B62DE /* 7.0攻略详情.jpg in Resources */,
+				397BE6E01A763176001B62DE /* SettingViewController.xib in Resources */,
 				397BE5581A70F204001B62DE /* 6.1公司详情.jpg in Resources */,
 				397BE5661A70F204001B62DE /* kuang@3x.png in Resources */,
 				397BE6C91A75E282001B62DE /* wojianliguanli@3x.png in Resources */,
@@ -1152,6 +1173,7 @@
 				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
 				397BE6411A7352FD001B62DE /* NNAdscrollView.m in Sources */,
 				397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */,
+				397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */,
 				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
 				397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */,
 				397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */,
