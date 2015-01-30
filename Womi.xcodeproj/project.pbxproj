@@ -150,10 +150,6 @@
 		397BE6761A73950D001B62DE /* dian_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6721A73950D001B62DE /* dian_blue@3x.png */; };
 		397BE6771A73950D001B62DE /* dian_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6731A73950D001B62DE /* dian_gray@2x.png */; };
 		397BE6781A73950D001B62DE /* dian_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6741A73950D001B62DE /* dian_gray@3x.png */; };
-		397BE67C1A73992F001B62DE /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */; };
-		397BE67D1A73992F001B62DE /* FamousEnterpriseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */; };
-		397BE6811A739C95001B62DE /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE67F1A739C95001B62DE /* JobDetailViewController.m */; };
-		397BE6821A739C95001B62DE /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6801A739C95001B62DE /* JobDetailViewController.xib */; };
 		397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */; };
 		397BE6871A739E1D001B62DE /* RaidersDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */; };
 		397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE69F1A73A7A1001B62DE /* AwesomeMenu.m */; };
@@ -176,8 +172,6 @@
 		397BE6D01A75E282001B62DE /* wozhiweidingyue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6C41A75E282001B62DE /* wozhiweidingyue@2x.png */; };
 		397BE6D31A75E3F7001B62DE /* wobiaoqianguanli@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6D21A75E3F7001B62DE /* wobiaoqianguanli@3x.png */; };
 		397BE6D51A75E4EA001B62DE /* wozhiweidingyue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6D41A75E4EA001B62DE /* wozhiweidingyue@3x.png */; };
-		397BE6D91A75F004001B62DE /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6D71A75F004001B62DE /* LabelManageViewController.m */; };
-		397BE6DA1A75F004001B62DE /* LabelManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6D81A75F004001B62DE /* LabelManageViewController.xib */; };
 		397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE6DD1A763176001B62DE /* SettingViewController.m */; };
 		397BE6E01A763176001B62DE /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6DE1A763176001B62DE /* SettingViewController.xib */; };
 		397BE6E21A7631DB001B62DE /* 设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6E11A7631DB001B62DE /* 设置.jpg */; };
@@ -209,12 +203,18 @@
 		39A84B891A7B281C00D88B4B /* xiangshangsanjiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B671A7B281C00D88B4B /* xiangshangsanjiao@3x.png */; };
 		39A84B8A1A7B281C00D88B4B /* xiangxiasanjiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B681A7B281C00D88B4B /* xiangxiasanjiao@2x.png */; };
 		39A84B8B1A7B281C00D88B4B /* xiangxiasanjiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B691A7B281C00D88B4B /* xiangxiasanjiao@3x.png */; };
-		39A84B8C1A7B281C00D88B4B /* xiangyou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6A1A7B281C00D88B4B /* xiangyou@2x.png */; };
-		39A84B8D1A7B281C00D88B4B /* xiangyou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6B1A7B281C00D88B4B /* xiangyou@3x.png */; };
+		39A84B8C1A7B281C00D88B4B /* xiangyouda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6A1A7B281C00D88B4B /* xiangyouda@2x.png */; };
+		39A84B8D1A7B281C00D88B4B /* xiangyouda@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6B1A7B281C00D88B4B /* xiangyouda@3x.png */; };
 		39A84B8E1A7B281C00D88B4B /* xiugai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6C1A7B281C00D88B4B /* xiugai@2x.png */; };
 		39A84B8F1A7B281C00D88B4B /* xiugai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6D1A7B281C00D88B4B /* xiugai@3x.png */; };
 		39A84B901A7B281C00D88B4B /* zhankai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6E1A7B281C00D88B4B /* zhankai@3x.png */; };
 		39A84B911A7B281C00D88B4B /* zhenkai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B6F1A7B281C00D88B4B /* zhenkai@2x.png */; };
+		39A84B951A7B311600D88B4B /* FamousEnterpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84B931A7B311600D88B4B /* FamousEnterpriseViewController.m */; };
+		39A84B961A7B311600D88B4B /* FamousEnterpriseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B941A7B311600D88B4B /* FamousEnterpriseViewController.xib */; };
+		39A84B9A1A7B317300D88B4B /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84B981A7B317300D88B4B /* JobDetailViewController.m */; };
+		39A84B9B1A7B317300D88B4B /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B991A7B317300D88B4B /* JobDetailViewController.xib */; };
+		39A84B9F1A7B31AB00D88B4B /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84B9D1A7B31AB00D88B4B /* LabelManageViewController.m */; };
+		39A84BA01A7B31AB00D88B4B /* LabelManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -396,12 +396,6 @@
 		397BE6721A73950D001B62DE /* dian_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_blue@3x.png"; sourceTree = "<group>"; };
 		397BE6731A73950D001B62DE /* dian_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_gray@2x.png"; sourceTree = "<group>"; };
 		397BE6741A73950D001B62DE /* dian_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dian_gray@3x.png"; sourceTree = "<group>"; };
-		397BE6791A73992F001B62DE /* FamousEnterpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FamousEnterpriseViewController.h; path = ../../../../../../Documents/FamousEnterpriseViewController.h; sourceTree = "<group>"; };
-		397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FamousEnterpriseViewController.m; path = ../../../../../../Documents/FamousEnterpriseViewController.m; sourceTree = "<group>"; };
-		397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FamousEnterpriseViewController.xib; path = ../../../../../../Documents/FamousEnterpriseViewController.xib; sourceTree = "<group>"; };
-		397BE67E1A739C95001B62DE /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobDetailViewController.h; path = ../../../../../../Documents/JobDetailViewController.h; sourceTree = "<group>"; };
-		397BE67F1A739C95001B62DE /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobDetailViewController.m; path = ../../../../../../Documents/JobDetailViewController.m; sourceTree = "<group>"; };
-		397BE6801A739C95001B62DE /* JobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobDetailViewController.xib; path = ../../../../../../Documents/JobDetailViewController.xib; sourceTree = "<group>"; };
 		397BE6831A739E1D001B62DE /* RaidersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaidersDetailViewController.h; sourceTree = "<group>"; };
 		397BE6841A739E1D001B62DE /* RaidersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaidersDetailViewController.m; sourceTree = "<group>"; };
 		397BE6851A739E1D001B62DE /* RaidersDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RaidersDetailViewController.xib; sourceTree = "<group>"; };
@@ -431,9 +425,6 @@
 		397BE6C41A75E282001B62DE /* wozhiweidingyue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wozhiweidingyue@2x.png"; sourceTree = "<group>"; };
 		397BE6D21A75E3F7001B62DE /* wobiaoqianguanli@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wobiaoqianguanli@3x.png"; sourceTree = "<group>"; };
 		397BE6D41A75E4EA001B62DE /* wozhiweidingyue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wozhiweidingyue@3x.png"; sourceTree = "<group>"; };
-		397BE6D61A75F004001B62DE /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelManageViewController.h; path = ../../../../../../Documents/LabelManageViewController.h; sourceTree = "<group>"; };
-		397BE6D71A75F004001B62DE /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelManageViewController.m; path = ../../../../../../Documents/LabelManageViewController.m; sourceTree = "<group>"; };
-		397BE6D81A75F004001B62DE /* LabelManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabelManageViewController.xib; path = ../../../../../../Documents/LabelManageViewController.xib; sourceTree = "<group>"; };
 		397BE6DC1A763176001B62DE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		397BE6DD1A763176001B62DE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		397BE6DE1A763176001B62DE /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
@@ -466,12 +457,21 @@
 		39A84B671A7B281C00D88B4B /* xiangshangsanjiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangshangsanjiao@3x.png"; sourceTree = "<group>"; };
 		39A84B681A7B281C00D88B4B /* xiangxiasanjiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangxiasanjiao@2x.png"; sourceTree = "<group>"; };
 		39A84B691A7B281C00D88B4B /* xiangxiasanjiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangxiasanjiao@3x.png"; sourceTree = "<group>"; };
-		39A84B6A1A7B281C00D88B4B /* xiangyou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangyou@2x.png"; sourceTree = "<group>"; };
-		39A84B6B1A7B281C00D88B4B /* xiangyou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangyou@3x.png"; sourceTree = "<group>"; };
+		39A84B6A1A7B281C00D88B4B /* xiangyouda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangyouda@2x.png"; sourceTree = "<group>"; };
+		39A84B6B1A7B281C00D88B4B /* xiangyouda@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiangyouda@3x.png"; sourceTree = "<group>"; };
 		39A84B6C1A7B281C00D88B4B /* xiugai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiugai@2x.png"; sourceTree = "<group>"; };
 		39A84B6D1A7B281C00D88B4B /* xiugai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiugai@3x.png"; sourceTree = "<group>"; };
 		39A84B6E1A7B281C00D88B4B /* zhankai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhankai@3x.png"; sourceTree = "<group>"; };
 		39A84B6F1A7B281C00D88B4B /* zhenkai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhenkai@2x.png"; sourceTree = "<group>"; };
+		39A84B921A7B311600D88B4B /* FamousEnterpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousEnterpriseViewController.h; sourceTree = "<group>"; };
+		39A84B931A7B311600D88B4B /* FamousEnterpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousEnterpriseViewController.m; sourceTree = "<group>"; };
+		39A84B941A7B311600D88B4B /* FamousEnterpriseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamousEnterpriseViewController.xib; sourceTree = "<group>"; };
+		39A84B971A7B317300D88B4B /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
+		39A84B981A7B317300D88B4B /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
+		39A84B991A7B317300D88B4B /* JobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailViewController.xib; sourceTree = "<group>"; };
+		39A84B9C1A7B31AB00D88B4B /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelManageViewController.h; sourceTree = "<group>"; };
+		39A84B9D1A7B31AB00D88B4B /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelManageViewController.m; sourceTree = "<group>"; };
+		39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelManageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -610,9 +610,9 @@
 		397BE3F81A70D323001B62DE /* FamousEnterprise */ = {
 			isa = PBXGroup;
 			children = (
-				397BE6791A73992F001B62DE /* FamousEnterpriseViewController.h */,
-				397BE67A1A73992F001B62DE /* FamousEnterpriseViewController.m */,
-				397BE67B1A73992F001B62DE /* FamousEnterpriseViewController.xib */,
+				39A84B921A7B311600D88B4B /* FamousEnterpriseViewController.h */,
+				39A84B931A7B311600D88B4B /* FamousEnterpriseViewController.m */,
+				39A84B941A7B311600D88B4B /* FamousEnterpriseViewController.xib */,
 			);
 			path = FamousEnterprise;
 			sourceTree = "<group>";
@@ -620,9 +620,9 @@
 		397BE3FB1A70D323001B62DE /* JobDetail */ = {
 			isa = PBXGroup;
 			children = (
-				397BE67E1A739C95001B62DE /* JobDetailViewController.h */,
-				397BE67F1A739C95001B62DE /* JobDetailViewController.m */,
-				397BE6801A739C95001B62DE /* JobDetailViewController.xib */,
+				39A84B971A7B317300D88B4B /* JobDetailViewController.h */,
+				39A84B981A7B317300D88B4B /* JobDetailViewController.m */,
+				39A84B991A7B317300D88B4B /* JobDetailViewController.xib */,
 			);
 			path = JobDetail;
 			sourceTree = "<group>";
@@ -630,9 +630,9 @@
 		397BE3FE1A70D323001B62DE /* LabelManage */ = {
 			isa = PBXGroup;
 			children = (
-				397BE6D61A75F004001B62DE /* LabelManageViewController.h */,
-				397BE6D71A75F004001B62DE /* LabelManageViewController.m */,
-				397BE6D81A75F004001B62DE /* LabelManageViewController.xib */,
+				39A84B9C1A7B31AB00D88B4B /* LabelManageViewController.h */,
+				39A84B9D1A7B31AB00D88B4B /* LabelManageViewController.m */,
+				39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */,
 			);
 			path = LabelManage;
 			sourceTree = "<group>";
@@ -1020,8 +1020,8 @@
 				39A84B671A7B281C00D88B4B /* xiangshangsanjiao@3x.png */,
 				39A84B681A7B281C00D88B4B /* xiangxiasanjiao@2x.png */,
 				39A84B691A7B281C00D88B4B /* xiangxiasanjiao@3x.png */,
-				39A84B6A1A7B281C00D88B4B /* xiangyou@2x.png */,
-				39A84B6B1A7B281C00D88B4B /* xiangyou@3x.png */,
+				39A84B6A1A7B281C00D88B4B /* xiangyouda@2x.png */,
+				39A84B6B1A7B281C00D88B4B /* xiangyouda@3x.png */,
 				39A84B6C1A7B281C00D88B4B /* xiugai@2x.png */,
 				39A84B6D1A7B281C00D88B4B /* xiugai@3x.png */,
 				39A84B6E1A7B281C00D88B4B /* zhankai@3x.png */,
@@ -1151,6 +1151,7 @@
 				397BE5AD1A71118E001B62DE /* MiEngageCell.xib in Resources */,
 				397BE56B1A70F204001B62DE /* loca@3x.png in Resources */,
 				39A84B7E1A7B281C00D88B4B /* shanchu@2x.png in Resources */,
+				39A84B9B1A7B317300D88B4B /* JobDetailViewController.xib in Resources */,
 				39A84B8A1A7B281C00D88B4B /* xiangxiasanjiao@2x.png in Resources */,
 				397BE5611A70F204001B62DE /* 注册页面1.jpg in Resources */,
 				397BE58B1A70F204001B62DE /* liaotian_blue@2x.png in Resources */,
@@ -1164,7 +1165,6 @@
 				397BE5471A70F204001B62DE /* 10个人资料-个人资料.jpg in Resources */,
 				397BE5461A70F204001B62DE /* 10.1标签管理.jpg in Resources */,
 				397BE58A1A70F204001B62DE /* jianlizhuangtai@3x.png in Resources */,
-				397BE67D1A73992F001B62DE /* FamousEnterpriseViewController.xib in Resources */,
 				39A84B721A7B281C00D88B4B /* chakan@2x.png in Resources */,
 				397BE54A1A70F204001B62DE /* 12.1个人资料-我的简历_有简历.jpg in Resources */,
 				397BE55F1A70F204001B62DE /* 我.jpg in Resources */,
@@ -1174,13 +1174,13 @@
 				397BE6D51A75E4EA001B62DE /* wozhiweidingyue@3x.png in Resources */,
 				397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */,
 				397BE6751A73950D001B62DE /* dian_blue@2x.png in Resources */,
-				397BE6DA1A75F004001B62DE /* LabelManageViewController.xib in Resources */,
 				39A84B761A7B281C00D88B4B /* jindutiao2px@2x.png in Resources */,
 				397BE6601A736BA3001B62DE /* denglu@2x.png in Resources */,
 				397BE5A21A70F204001B62DE /* xiangyou@2x.png in Resources */,
 				397BE55D1A70F204001B62DE /* 8订阅职位.jpg in Resources */,
 				397BE5A01A70F204001B62DE /* xiangxia@2x.png in Resources */,
 				397BE5881A70F204001B62DE /* jianliguanli@3x.png in Resources */,
+				39A84B961A7B311600D88B4B /* FamousEnterpriseViewController.xib in Resources */,
 				397BE5801A70F204001B62DE /* faxian_blue@3x.png in Resources */,
 				397BE5761A70F204001B62DE /* you@2x.png in Resources */,
 				397BE58C1A70F204001B62DE /* liaotian_blue@3x.png in Resources */,
@@ -1212,10 +1212,9 @@
 				397BE59B1A70F204001B62DE /* qq.jpg in Resources */,
 				397BE59F1A70F204001B62DE /* wo@3x.png in Resources */,
 				397BE6701A736CFD001B62DE /* sousuokuang@3x.png in Resources */,
-				397BE6821A739C95001B62DE /* JobDetailViewController.xib in Resources */,
 				397BE5671A70F204001B62DE /* lan@2x.png in Resources */,
 				39A84B751A7B281C00D88B4B /* gongkai@3x.png in Resources */,
-				39A84B8D1A7B281C00D88B4B /* xiangyou@3x.png in Resources */,
+				39A84B8D1A7B281C00D88B4B /* xiangyouda@3x.png in Resources */,
 				397BE5971A70F204001B62DE /* qiuzhi@2x.png in Resources */,
 				39A84B8B1A7B281C00D88B4B /* xiangxiasanjiao@3x.png in Resources */,
 				397BE5701A70F204001B62DE /* person@2x.png in Resources */,
@@ -1245,6 +1244,7 @@
 				397BE6611A736BA3001B62DE /* denglu@3x.png in Resources */,
 				39A84B8E1A7B281C00D88B4B /* xiugai@2x.png in Resources */,
 				39A84B851A7B281C00D88B4B /* shuaxin@3x.png in Resources */,
+				39A84BA01A7B31AB00D88B4B /* LabelManageViewController.xib in Resources */,
 				397BE5961A70F204001B62DE /* miquan_gray@3x.png in Resources */,
 				39A84B7F1A7B281C00D88B4B /* shanchu@3x.png in Resources */,
 				397BE5A51A70F204001B62DE /* xingqv@3x.png in Resources */,
@@ -1282,7 +1282,7 @@
 				397BE5531A70F204001B62DE /* 3搜索_工作.jpg in Resources */,
 				397BE55B1A70F204001B62DE /* 7求职攻略.jpg in Resources */,
 				397BE5951A70F204001B62DE /* miquan_gray@2x.png in Resources */,
-				39A84B8C1A7B281C00D88B4B /* xiangyou@2x.png in Resources */,
+				39A84B8C1A7B281C00D88B4B /* xiangyouda@2x.png in Resources */,
 				397BE5551A70F204001B62DE /* 4招聘信息.jpg in Resources */,
 				397BE5A61A70F204001B62DE /* zhiweidingyue@2x.png in Resources */,
 				397BE5781A70F204001B62DE /* zuo@2x.png in Resources */,
@@ -1306,16 +1306,17 @@
 				397BE4241A70D323001B62DE /* LoginViewController.m in Sources */,
 				397BE5AC1A71118E001B62DE /* MiEngageCell.m in Sources */,
 				397BE63E1A7352FD001B62DE /* AdPageView.m in Sources */,
-				397BE67C1A73992F001B62DE /* FamousEnterpriseViewController.m in Sources */,
 				397BE6481A7353E3001B62DE /* NSDate+ITTAdditions.m in Sources */,
 				397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */,
 				397BE6A81A7491D9001B62DE /* CompanyDetailViewController.m in Sources */,
 				397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */,
-				397BE6811A739C95001B62DE /* JobDetailViewController.m in Sources */,
+				39A84B951A7B311600D88B4B /* FamousEnterpriseViewController.m in Sources */,
 				397BE6B61A74AC1D001B62DE /* CDRContentView.m in Sources */,
 				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,
+				39A84B9F1A7B31AB00D88B4B /* LabelManageViewController.m in Sources */,
 				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
 				397BE6411A7352FD001B62DE /* NNAdscrollView.m in Sources */,
+				39A84B9A1A7B317300D88B4B /* JobDetailViewController.m in Sources */,
 				397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */,
 				397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */,
 				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
@@ -1324,7 +1325,6 @@
 				397BE3501A7099A8001B62DE /* main.m in Sources */,
 				397BE42D1A70D323001B62DE /* SubscribePositionViewController.m in Sources */,
 				397BE4261A70D323001B62DE /* PersonalDataViewController.m in Sources */,
-				397BE6D91A75F004001B62DE /* LabelManageViewController.m in Sources */,
 				397BE63F1A7352FD001B62DE /* AdscrollView.m in Sources */,
 				397BE6491A7353E3001B62DE /* UIView+ITTAdditions.m in Sources */,
 				397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */,
