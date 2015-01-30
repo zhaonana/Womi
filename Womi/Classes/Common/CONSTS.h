@@ -14,6 +14,6 @@
 #define UICOLOR_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
 #pragma mark - 返回指定的ViewController
-#define popToThisContrller(obj,num)  NSArray * viewControllerArray = obj.navigationController.viewControllers;\
-UIViewController * controller = [viewControllerArray objectAtIndex:viewControllerArray.count - num];\
+#define popToThisContrller(obj,num)  NSArray *viewControllerArray = obj.navigationController.viewControllers;\
+UIViewController *controller = [viewControllerArray objectAtIndex:viewControllerArray.count - num];\
 [obj.navigationController popToViewController:controller animated:YES];
