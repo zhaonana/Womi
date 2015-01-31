@@ -129,25 +129,49 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12个人资料-我的简历_无简历.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n75-Td-TQv">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7A-Kb-OWy">
-                                <rect key="frame" x="9" y="20" width="46" height="37"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-py-Zfx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="255"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7A-Kb-OWy">
+                                        <rect key="frame" x="13" y="21" width="46" height="37"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="TvQ-gF-Qfd" kind="unwind" unwindAction="unwindSegueToMiEngageViewController:" id="Hml-ne-FaC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xyp-Yc-Nib">
+                                <rect key="frame" x="0.0" y="255" width="320" height="313"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="TvQ-gF-Qfd" kind="unwind" unwindAction="unwindSegueToMiEngageViewController:" id="Hml-ne-FaC"/>
+                                    <outlet property="dataSource" destination="4VD-SJ-3kw" id="6gg-gF-WM4"/>
+                                    <outlet property="delegate" destination="4VD-SJ-3kw" id="lLF-uL-Paj"/>
                                 </connections>
-                            </button>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="n75-Td-TQv" firstAttribute="top" secondItem="8WN-Pf-EYP" secondAttribute="top" id="3Mh-tf-haK"/>
+                            <constraint firstAttribute="trailing" secondItem="xyp-Yc-Nib" secondAttribute="trailing" id="6Tf-f0-yCM"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="EyF-PG-eb2"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="FeH-eJ-9I8"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="top" secondItem="8WN-Pf-EYP" secondAttribute="top" id="Neo-ph-mrb"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="top" secondItem="OQH-py-Zfx" secondAttribute="bottom" id="P8J-iI-jZW"/>
                             <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="n75-Td-TQv" secondAttribute="bottom" id="fWs-al-7xX"/>
+                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="xyp-Yc-Nib" secondAttribute="bottom" id="h6G-ts-J2O"/>
                             <constraint firstItem="n75-Td-TQv" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="oXm-oB-Ihr"/>
+                            <constraint firstAttribute="trailing" secondItem="OQH-py-Zfx" secondAttribute="trailing" id="r92-ZC-uNZ"/>
                             <constraint firstAttribute="trailing" secondItem="n75-Td-TQv" secondAttribute="trailing" id="sDC-QM-Wu2"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="resumeTableView" destination="xyp-Yc-Nib" id="R9k-7H-W1H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RLU-FM-lbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
