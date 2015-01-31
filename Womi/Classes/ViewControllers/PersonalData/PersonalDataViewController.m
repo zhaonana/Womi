@@ -38,7 +38,7 @@
     _optionsArray = @[@"基本信息",@"期望工作",@"工作经历",@"项目经验",@"教育经历"];
     _resumeArray = [[NSMutableArray alloc] initWithArray:@[@"产品经理",@"产品经理",@"产品经理",@"产品经理",@"产品经理"]];
     for (int i = 0; i < 5; i++) {
-        isopen[i] = 0;
+        isopen[i] = 1;
     }
 }
 
@@ -69,6 +69,37 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"ResumePullCell" owner:self options:nil] lastObject];
     }
+    cell.resumePullBlock = ^(NSInteger tag) {
+        switch (tag) {
+            case 10: {  //刷新
+                
+            }
+                break;
+            case 20: {  //设置默认
+                
+            }
+                break;
+            case 30: {  //公开
+                
+            }
+                break;
+            case 40: {  //查看
+                
+            }
+                break;
+            case 50: {  //修改
+                
+            }
+                break;
+            case 60: {  //删除
+                
+            }
+                break;
+            default:
+                break;
+        }
+    };
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
