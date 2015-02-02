@@ -147,7 +147,7 @@
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eoj-5D-ezT">
                                 <rect key="frame" x="0.0" y="216" width="320" height="39"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW7-0p-5f7">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW7-0p-5f7">
                                         <rect key="frame" x="0.0" y="0.0" width="96" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -159,7 +159,7 @@
                                             <color key="titleColor" red="0.2627450980392157" green="0.70196078431372544" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-6G-T3K">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-6G-T3K">
                                         <rect key="frame" x="104" y="0.0" width="112" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -171,7 +171,7 @@
                                             <color key="titleColor" red="0.26274509800000001" green="0.70196078429999997" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmW-aY-zbe">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmW-aY-zbe">
                                         <rect key="frame" x="224" y="0.0" width="96" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -851,18 +851,41 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="注册页面1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MsI-Lu-hAh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fq-A9-rC4">
-                                <rect key="frame" x="16" y="361" width="137" height="51"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIK-eS-0JU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIK-eS-0JU">
                                 <rect key="frame" x="166" y="361" width="137" height="51"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="下一步">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fq-A9-rC4">
+                                <rect key="frame" x="16" y="361" width="137" height="51"/>
+                                <state key="normal" title="登陆">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMd-g5-S64">
+                                <rect key="frame" x="160" y="127" width="120" height="55"/>
+                                <state key="normal" title="我是HR" backgroundImage="bai.png">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="lan.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMz-HO-MKV">
+                                <rect key="frame" x="40" y="127" width="120" height="55"/>
+                                <state key="normal" title="我是人才" backgroundImage="bai.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="lan.png"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kuang.png" translatesAutoresizingMaskIntoConstraints="NO" id="KUv-lD-3OW">
+                                <rect key="frame" x="15" y="245" width="290" height="55"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ikU-Pm-OiZ">
+                                <rect key="frame" x="28" y="255" width="267" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -877,7 +900,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7C-ia-Q3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="803" y="1367"/>
+            <point key="canvasLocation" x="803" y="1293"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F29-Eg-Gff">
@@ -904,6 +927,7 @@
         <image name="8.1订阅设置.jpg" width="640" height="1136"/>
         <image name="8订阅职位.jpg" width="640" height="1136"/>
         <image name="9简历状态.jpg" width="640" height="1136"/>
+        <image name="bai.png" width="137" height="53"/>
         <image name="banner.png" width="320" height="48"/>
         <image name="denglu.png" width="127" height="34"/>
         <image name="fanhui.png" width="25" height="25"/>
@@ -911,6 +935,8 @@
         <image name="faxian_gray.png" width="24" height="24"/>
         <image name="jianliguanli.png" width="53" height="53"/>
         <image name="jianlizhuangtai.png" width="53" height="53"/>
+        <image name="kuang.png" width="293" height="61"/>
+        <image name="lan.png" width="137" height="53"/>
         <image name="liaotian_blue.png" width="24" height="24"/>
         <image name="liaotian_gray.png" width="24" height="24"/>
         <image name="mipin_blue.png" width="24" height="24"/>
