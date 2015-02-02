@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396B241B1A7CB5A300C98E9A /* ResumePullCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24191A7CB5A300C98E9A /* ResumePullCell.m */; };
+		396B241C1A7CB5A300C98E9A /* ResumePullCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */; };
+		396B24211A7CC5CD00C98E9A /* ResumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24201A7CC5CD00C98E9A /* ResumeView.m */; };
+		396B24231A7CC5DE00C98E9A /* ResumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B24221A7CC5DE00C98E9A /* ResumeView.xib */; };
 		397BE3501A7099A8001B62DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE34F1A7099A8001B62DE /* main.m */; };
 		397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3521A7099A8001B62DE /* AppDelegate.m */; };
 		397BE3591A7099A8001B62DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3571A7099A8001B62DE /* Main.storyboard */; };
@@ -215,6 +219,7 @@
 		39A84B9B1A7B317300D88B4B /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B991A7B317300D88B4B /* JobDetailViewController.xib */; };
 		39A84B9F1A7B31AB00D88B4B /* LabelManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84B9D1A7B31AB00D88B4B /* LabelManageViewController.m */; };
 		39A84BA01A7B31AB00D88B4B /* LabelManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */; };
+<<<<<<< HEAD
 		F7BBF0671A7F77C30083A018 /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0651A7F77C30083A018 /* fanhui@2x.png */; };
 		F7BBF0681A7F77C30083A018 /* fanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0661A7F77C30083A018 /* fanhui@3x.png */; };
 		F7BBF0731A7F77E60083A018 /* beijing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0691A7F77E60083A018 /* beijing@2x.png */; };
@@ -233,6 +238,10 @@
 		F7BBF0881A7F7AF50083A018 /* paixv_daoxv@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0821A7F7AF50083A018 /* paixv_daoxv@3x.png */; };
 		F7BBF0891A7F7AF50083A018 /* paixv_shunxv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0831A7F7AF50083A018 /* paixv_shunxv@2x.png */; };
 		F7BBF08A1A7F7AF50083A018 /* paixv_shunxv@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF0841A7F7AF50083A018 /* paixv_shunxv@3x.png */; };
+=======
+		39A84C121A7C8A3400D88B4B /* SimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84C101A7C8A3400D88B4B /* SimpleCell.m */; };
+		39A84C131A7C8A3400D88B4B /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84C111A7C8A3400D88B4B /* SimpleCell.xib */; };
+>>>>>>> 46c9ce60fb6358819329e62d8f1fa63588294bd4
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +255,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396B24181A7CB5A300C98E9A /* ResumePullCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumePullCell.h; sourceTree = "<group>"; };
+		396B24191A7CB5A300C98E9A /* ResumePullCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumePullCell.m; sourceTree = "<group>"; };
+		396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumePullCell.xib; sourceTree = "<group>"; };
+		396B241F1A7CC5CD00C98E9A /* ResumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeView.h; sourceTree = "<group>"; };
+		396B24201A7CC5CD00C98E9A /* ResumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeView.m; sourceTree = "<group>"; };
+		396B24221A7CC5DE00C98E9A /* ResumeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeView.xib; sourceTree = "<group>"; };
 		397BE34A1A7099A8001B62DE /* Womi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Womi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BE34E1A7099A8001B62DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397BE34F1A7099A8001B62DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -490,6 +505,7 @@
 		39A84B9C1A7B31AB00D88B4B /* LabelManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelManageViewController.h; sourceTree = "<group>"; };
 		39A84B9D1A7B31AB00D88B4B /* LabelManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelManageViewController.m; sourceTree = "<group>"; };
 		39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelManageViewController.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		F7BBF0651A7F77C30083A018 /* fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui@2x.png"; sourceTree = "<group>"; };
 		F7BBF0661A7F77C30083A018 /* fanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui@3x.png"; sourceTree = "<group>"; };
 		F7BBF0691A7F77E60083A018 /* beijing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beijing@2x.png"; sourceTree = "<group>"; };
@@ -508,6 +524,11 @@
 		F7BBF0821A7F7AF50083A018 /* paixv_daoxv@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv_daoxv@3x.png"; sourceTree = "<group>"; };
 		F7BBF0831A7F7AF50083A018 /* paixv_shunxv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv_shunxv@2x.png"; sourceTree = "<group>"; };
 		F7BBF0841A7F7AF50083A018 /* paixv_shunxv@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv_shunxv@3x.png"; sourceTree = "<group>"; };
+=======
+		39A84C0F1A7C8A3400D88B4B /* SimpleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCell.h; sourceTree = "<group>"; };
+		39A84C101A7C8A3400D88B4B /* SimpleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCell.m; sourceTree = "<group>"; };
+		39A84C111A7C8A3400D88B4B /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
+>>>>>>> 46c9ce60fb6358819329e62d8f1fa63588294bd4
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -699,6 +720,7 @@
 			children = (
 				397BE4081A70D323001B62DE /* PersonalDataViewController.h */,
 				397BE4091A70D323001B62DE /* PersonalDataViewController.m */,
+				39A84C0E1A7C8A0200D88B4B /* Cell */,
 			);
 			path = PersonalData;
 			sourceTree = "<group>";
@@ -1079,6 +1101,7 @@
 			path = PersonalData;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		F7BBF07E1A7F7AF50083A018 /* EngageInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1090,6 +1113,22 @@
 				F7BBF0841A7F7AF50083A018 /* paixv_shunxv@3x.png */,
 			);
 			path = EngageInfo;
+=======
+		39A84C0E1A7C8A0200D88B4B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				39A84C0F1A7C8A3400D88B4B /* SimpleCell.h */,
+				39A84C101A7C8A3400D88B4B /* SimpleCell.m */,
+				39A84C111A7C8A3400D88B4B /* SimpleCell.xib */,
+				396B241F1A7CC5CD00C98E9A /* ResumeView.h */,
+				396B24201A7CC5CD00C98E9A /* ResumeView.m */,
+				396B24221A7CC5DE00C98E9A /* ResumeView.xib */,
+				396B24181A7CB5A300C98E9A /* ResumePullCell.h */,
+				396B24191A7CB5A300C98E9A /* ResumePullCell.m */,
+				396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */,
+			);
+			path = Cell;
+>>>>>>> 46c9ce60fb6358819329e62d8f1fa63588294bd4
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1187,6 +1226,7 @@
 				397BE56F1A70F204001B62DE /* note@3x.png in Resources */,
 				397BE6761A73950D001B62DE /* dian_blue@3x.png in Resources */,
 				397BE35E1A7099A8001B62DE /* LaunchScreen.xib in Resources */,
+				396B24231A7CC5DE00C98E9A /* ResumeView.xib in Resources */,
 				397BE54C1A70F204001B62DE /* 13收藏职位.jpg in Resources */,
 				397BE5691A70F204001B62DE /* lanse@2x.png in Resources */,
 				397BE5851A70F204001B62DE /* jia@2x.png in Resources */,
@@ -1243,6 +1283,7 @@
 				39A84B761A7B281C00D88B4B /* jindutiao2px@2x.png in Resources */,
 				397BE6601A736BA3001B62DE /* denglu@2x.png in Resources */,
 				397BE5A21A70F204001B62DE /* xiangyou@2x.png in Resources */,
+				39A84C131A7C8A3400D88B4B /* SimpleCell.xib in Resources */,
 				397BE55D1A70F204001B62DE /* 8订阅职位.jpg in Resources */,
 				397BE5A01A70F204001B62DE /* xiangxia@2x.png in Resources */,
 				397BE5881A70F204001B62DE /* jianliguanli@3x.png in Resources */,
@@ -1354,8 +1395,12 @@
 				397BE5571A70F204001B62DE /* 5职位详情.jpg in Resources */,
 				397BE5711A70F204001B62DE /* person@3x.png in Resources */,
 				397BE6CA1A75E282001B62DE /* wojianlizhuangtai@2x.png in Resources */,
+<<<<<<< HEAD
 				F7BBF0781A7F77E60083A018 /* zhuceyoubian_white@3x.png in Resources */,
 				F7BBF0731A7F77E60083A018 /* beijing@2x.png in Resources */,
+=======
+				396B241C1A7CB5A300C98E9A /* ResumePullCell.xib in Resources */,
+>>>>>>> 46c9ce60fb6358819329e62d8f1fa63588294bd4
 				397BE5531A70F204001B62DE /* 3搜索_工作.jpg in Resources */,
 				F7BBF0751A7F77E60083A018 /* zhuceyoubian_blue@2x.png in Resources */,
 				397BE55B1A70F204001B62DE /* 7求职攻略.jpg in Resources */,
@@ -1390,6 +1435,7 @@
 				397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */,
 				397BE6A81A7491D9001B62DE /* CompanyDetailViewController.m in Sources */,
 				397BE4281A70D323001B62DE /* RaidersJobViewController.m in Sources */,
+				396B24211A7CC5CD00C98E9A /* ResumeView.m in Sources */,
 				39A84B951A7B311600D88B4B /* FamousEnterpriseViewController.m in Sources */,
 				397BE6B61A74AC1D001B62DE /* CDRContentView.m in Sources */,
 				397BE42C1A70D323001B62DE /* SearchViewController.m in Sources */,
@@ -1400,6 +1446,7 @@
 				397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */,
 				397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */,
 				397BE42A1A70D323001B62DE /* ResumeStatusViewController.m in Sources */,
+				39A84C121A7C8A3400D88B4B /* SimpleCell.m in Sources */,
 				397BE4251A70D323001B62DE /* MiEngageViewController.m in Sources */,
 				397BE4291A70D323001B62DE /* RegisterViewController.m in Sources */,
 				397BE3501A7099A8001B62DE /* main.m in Sources */,
@@ -1410,6 +1457,7 @@
 				397BE6861A739E1D001B62DE /* RaidersDetailViewController.m in Sources */,
 				397BE4201A70D323001B62DE /* EngageInfoViewController.m in Sources */,
 				397BE6B11A74A6D1001B62DE /* CDRTranslucentSideBar.m in Sources */,
+				396B241B1A7CB5A300C98E9A /* ResumePullCell.m in Sources */,
 				397BE6A31A73A7A1001B62DE /* AwesomeMenuItem.m in Sources */,
 				397BE42E1A70D323001B62DE /* SubscribeSettingViewController.m in Sources */,
 				397BE42B1A70D323001B62DE /* RootViewController.m in Sources */,
