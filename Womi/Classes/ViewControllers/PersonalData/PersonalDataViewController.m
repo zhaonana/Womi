@@ -7,17 +7,17 @@
 //
 
 #import "PersonalDataViewController.h"
-#import "SimpleCell.h"
 #import "ResumeView.h"
 #import "ResumePullCell.h"
+#import "UIView+ITTAdditions.h"
+#import "ResumeDetailViewController.h"
 
 @interface PersonalDataViewController () <UITableViewDataSource, UITableViewDelegate> {
     int isopen[5];
 }
 
+@property (weak, nonatomic) IBOutlet UIImageView *headImgView;
 @property (weak, nonatomic) IBOutlet UITableView *resumeTableView;
-@property (strong, nonatomic) NSMutableArray *dataArray;
-@property (strong, nonatomic) NSArray *optionsArray;
 @property (strong, nonatomic) NSMutableArray *resumeArray;
 
 @end
@@ -27,15 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _dataArray = [[NSMutableArray alloc] initWithCapacity:0];
-    NSArray *baseInfo = @[@"年龄",@"生日",@"工作经验",@"学历",@"所在地",@"目前状态"];
-    NSArray *expectJob = @[@"工作性质",@"职位",@"城市",@"月薪"];
-    NSArray *workExperience = @[@"编辑"];
-    NSArray *projectExperience = @[@"编辑"];
-    NSArray *educationExperience = @[@"编辑"];
-    _dataArray = [NSMutableArray arrayWithObjects:baseInfo, expectJob, workExperience, projectExperience, educationExperience, nil];
+    [self setUpView];
     
-    _optionsArray = @[@"基本信息",@"期望工作",@"工作经历",@"项目经验",@"教育经历"];
     _resumeArray = [[NSMutableArray alloc] initWithArray:@[@"产品经理",@"产品经理",@"产品经理",@"产品经理",@"产品经理"]];
     for (int i = 0; i < 5; i++) {
         isopen[i] = 1;
@@ -47,9 +40,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - SetUpView
+- (void)setUpView {
+    _headImgView.layer.masksToBounds = YES;
+    [_headImgView.layer setCornerRadius:self.headImgView.width/2.0];
+}
+
 #pragma mark - UITableViewDataSource methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    return [[_dataArray objectAtIndex:section] count];
     if (!isopen[section]) {
         return 1;
     } else {
@@ -58,13 +56,6 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    SimpleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SimpleCell"];
-//    if (cell == nil) {
-//        cell = [[[NSBundle mainBundle] loadNibNamed:@"SimpleCell" owner:self options:nil] lastObject];
-//    }
-//    cell.optionsLab.text = [[_dataArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-//    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-//    return cell;
     ResumePullCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ResumePullCell"];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"ResumePullCell" owner:self options:nil] lastObject];
@@ -84,7 +75,8 @@
             }
                 break;
             case 40: {  //查看
-                
+                ResumeDetailViewController *resumeVc = [[ResumeDetailViewController alloc] init];
+                [self.navigationController pushViewController:resumeVc animated:YES];
             }
                 break;
             case 50: {  //修改
@@ -104,22 +96,15 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//    return _optionsArray.count;
     return _resumeArray.count;
 }
 
-//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-//    return [_optionsArray objectAtIndex:section];
-//}
-
 #pragma mark - UITableViewDelegate methods
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    return 35.0;
     return 154.0;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-//    return 30.0;
     return 72.0;
 }
 

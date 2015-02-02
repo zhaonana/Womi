@@ -141,6 +141,36 @@
                                             <segue destination="TvQ-gF-Qfd" kind="unwind" unwindAction="unwindSegueToMiEngageViewController:" id="Hml-ne-FaC"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OkD-yc-dE1">
+                                        <rect key="frame" x="26" y="123" width="79" height="79"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aex-1L-aEu">
+                                        <rect key="frame" x="125" y="129" width="187" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Danning" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KY5-0H-Pxd">
+                                                <rect key="frame" x="8" y="3" width="66" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangV.png" translatesAutoresizingMaskIntoConstraints="NO" id="hBC-ey-lfZ">
+                                                <rect key="frame" x="75" y="4" width="18" height="20"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nv.png" translatesAutoresizingMaskIntoConstraints="NO" id="zB9-hV-VkG">
+                                                <rect key="frame" x="98" y="7" width="9" height="13"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shouji.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eod-uj-XEW">
+                                                <rect key="frame" x="7" y="26" width="16" height="16"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1300138000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFL-0H-PN3">
+                                                <rect key="frame" x="24" y="23" width="77" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
@@ -211,20 +241,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="OQH-py-Zfx" secondAttribute="trailing" id="1fs-ZC-u27"/>
-                            <constraint firstItem="OQH-py-Zfx" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="9vl-ty-5aw"/>
-                            <constraint firstItem="OQH-py-Zfx" firstAttribute="top" secondItem="8WN-Pf-EYP" secondAttribute="top" id="CkO-NC-h0x"/>
-                            <constraint firstAttribute="trailing" secondItem="xyp-Yc-Nib" secondAttribute="trailing" id="JUe-J6-Hzv"/>
-                            <constraint firstItem="eoj-5D-ezT" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="PLN-6a-6Mv"/>
-                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="xyp-Yc-Nib" secondAttribute="bottom" id="SDG-FQ-k8h"/>
-                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="ZSt-Ng-rgG"/>
-                            <constraint firstAttribute="trailing" secondItem="eoj-5D-ezT" secondAttribute="trailing" id="rzX-Mv-yTf"/>
-                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="bottom" id="teo-U0-ogj"/>
-                            <constraint firstItem="eoj-5D-ezT" firstAttribute="top" secondItem="OQH-py-Zfx" secondAttribute="bottom" id="xGe-xZ-xek"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="bottom" id="6H9-k2-1gx"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="top" secondItem="6nZ-zn-twh" secondAttribute="bottom" constant="-20" id="ASD-bK-Mr4"/>
+                            <constraint firstAttribute="trailing" secondItem="xyp-Yc-Nib" secondAttribute="trailing" id="B7U-J8-smN"/>
+                            <constraint firstAttribute="trailing" secondItem="OQH-py-Zfx" secondAttribute="trailing" id="MJa-jY-yXT"/>
+                            <constraint firstItem="eoj-5D-ezT" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="abW-IC-9Tt"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="bsa-oT-sLH"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="eCy-4n-a8H"/>
+                            <constraint firstItem="eoj-5D-ezT" firstAttribute="top" secondItem="OQH-py-Zfx" secondAttribute="bottom" id="myn-bM-egt"/>
+                            <constraint firstAttribute="trailing" secondItem="eoj-5D-ezT" secondAttribute="trailing" id="pEa-54-G5F"/>
+                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="xyp-Yc-Nib" secondAttribute="bottom" id="qQe-9h-WDc"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="headImgView" destination="OkD-yc-dE1" id="u0D-an-SIu"/>
                         <outlet property="resumeTableView" destination="xyp-Yc-Nib" id="R9k-7H-W1H"/>
                     </connections>
                 </viewController>
@@ -933,6 +964,7 @@
         <image name="fanhui.png" width="25" height="25"/>
         <image name="faxian_blue.png" width="24" height="24"/>
         <image name="faxian_gray.png" width="24" height="24"/>
+        <image name="huangV.png" width="18" height="20"/>
         <image name="jianliguanli.png" width="53" height="53"/>
         <image name="jianlizhuangtai.png" width="53" height="53"/>
         <image name="kuang.png" width="293" height="61"/>
@@ -943,8 +975,11 @@
         <image name="mipin_gray.png" width="24" height="24"/>
         <image name="miquan_blue.png" width="24" height="24"/>
         <image name="miquan_gray.png" width="24" height="24"/>
+        <image name="nv.png" width="9" height="13"/>
         <image name="personal.jpg" width="640" height="432"/>
         <image name="qiuzhigonglue.png" width="53" height="53"/>
+        <image name="qq.jpg" width="102" height="107"/>
+        <image name="shouji.png" width="16" height="16"/>
         <image name="sousuokuang.png" width="175" height="30"/>
         <image name="suibiankankan.png" width="56" height="13"/>
         <image name="wo.png" width="25" height="25"/>
