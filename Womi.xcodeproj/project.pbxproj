@@ -11,6 +11,9 @@
 		396B241C1A7CB5A300C98E9A /* ResumePullCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */; };
 		396B24211A7CC5CD00C98E9A /* ResumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24201A7CC5CD00C98E9A /* ResumeView.m */; };
 		396B24231A7CC5DE00C98E9A /* ResumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B24221A7CC5DE00C98E9A /* ResumeView.xib */; };
+		396B243F1A7F84E800C98E9A /* personal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B243E1A7F84E800C98E9A /* personal.jpg */; };
+		396B24431A7FA21500C98E9A /* ResumeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24411A7FA21500C98E9A /* ResumeDetailViewController.m */; };
+		396B24441A7FA21500C98E9A /* ResumeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B24421A7FA21500C98E9A /* ResumeDetailViewController.xib */; };
 		397BE3501A7099A8001B62DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE34F1A7099A8001B62DE /* main.m */; };
 		397BE3531A7099A8001B62DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE3521A7099A8001B62DE /* AppDelegate.m */; };
 		397BE3591A7099A8001B62DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE3571A7099A8001B62DE /* Main.storyboard */; };
@@ -247,6 +250,10 @@
 		396B241F1A7CC5CD00C98E9A /* ResumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeView.h; sourceTree = "<group>"; };
 		396B24201A7CC5CD00C98E9A /* ResumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeView.m; sourceTree = "<group>"; };
 		396B24221A7CC5DE00C98E9A /* ResumeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeView.xib; sourceTree = "<group>"; };
+		396B243E1A7F84E800C98E9A /* personal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = personal.jpg; sourceTree = "<group>"; };
+		396B24401A7FA21500C98E9A /* ResumeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeDetailViewController.h; sourceTree = "<group>"; };
+		396B24411A7FA21500C98E9A /* ResumeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeDetailViewController.m; sourceTree = "<group>"; };
+		396B24421A7FA21500C98E9A /* ResumeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeDetailViewController.xib; sourceTree = "<group>"; };
 		397BE34A1A7099A8001B62DE /* Womi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Womi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BE34E1A7099A8001B62DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397BE34F1A7099A8001B62DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -695,8 +702,12 @@
 		397BE4071A70D323001B62DE /* PersonalData */ = {
 			isa = PBXGroup;
 			children = (
+				396B243E1A7F84E800C98E9A /* personal.jpg */,
 				397BE4081A70D323001B62DE /* PersonalDataViewController.h */,
 				397BE4091A70D323001B62DE /* PersonalDataViewController.m */,
+				396B24401A7FA21500C98E9A /* ResumeDetailViewController.h */,
+				396B24411A7FA21500C98E9A /* ResumeDetailViewController.m */,
+				396B24421A7FA21500C98E9A /* ResumeDetailViewController.xib */,
 				39A84C0E1A7C8A0200D88B4B /* Cell */,
 			);
 			path = PersonalData;
@@ -1917,8 +1928,12 @@
 				F7BBF15B1A80DCAF0083A018 /* tianjia_click@3x.png in Resources */,
 				397BE6CE1A75E282001B62DE /* woshoucangzhiwei@2x.png in Resources */,
 				397BE5541A70F204001B62DE /* 4.1招聘信息.jpg in Resources */,
+<<<<<<< HEAD
 				F7BBF1451A80DCAF0083A018 /* biaoqing_click@3x.png in Resources */,
 				F7BBF1441A80DCAF0083A018 /* biaoqing_click@2x.png in Resources */,
+=======
+				396B24441A7FA21500C98E9A /* ResumeDetailViewController.xib in Resources */,
+>>>>>>> e2567875eb064c83ede6323cc2200e2cdb00b43e
 				F7BBF0941A7F7CB70083A018 /* paixv_daoxv@2x.png in Resources */,
 				39A84B891A7B281C00D88B4B /* xiangshangsanjiao@3x.png in Resources */,
 				397BE5651A70F204001B62DE /* kuang@2x.png in Resources */,
@@ -1953,7 +1968,11 @@
 				397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */,
 				39A84B761A7B281C00D88B4B /* jindutiao2px@2x.png in Resources */,
 				F7BBF09A1A7F7CC00083A018 /* fanhui@2x.png in Resources */,
+<<<<<<< HEAD
 				F7BBF1491A80DCAF0083A018 /* gongkai_click@3x.png in Resources */,
+=======
+				396B243F1A7F84E800C98E9A /* personal.jpg in Resources */,
+>>>>>>> e2567875eb064c83ede6323cc2200e2cdb00b43e
 				397BE6601A736BA3001B62DE /* denglu@2x.png in Resources */,
 				39A84C131A7C8A3400D88B4B /* SimpleCell.xib in Resources */,
 				F7BBF16E1A80FBBC0083A018 /* tengxun@2x.png in Resources */,
@@ -2084,6 +2103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				397BE4241A70D323001B62DE /* LoginViewController.m in Sources */,
+				396B24431A7FA21500C98E9A /* ResumeDetailViewController.m in Sources */,
 				397BE5AC1A71118E001B62DE /* MiEngageCell.m in Sources */,
 				397BE63E1A7352FD001B62DE /* AdPageView.m in Sources */,
 				397BE6481A7353E3001B62DE /* NSDate+ITTAdditions.m in Sources */,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vNi-h4-bZN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vNi-h4-bZN">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -232,25 +232,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12个人资料-我的简历_无简历.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n75-Td-TQv">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-py-Zfx">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="255"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7A-Kb-OWy">
-                                        <rect key="frame" x="13" y="21" width="46" height="37"/>
-                                        <state key="normal" title="Button">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="personal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iit-h5-vZA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7A-Kb-OWy">
+                                        <rect key="frame" x="21" y="28" width="25" height="25"/>
+                                        <state key="normal" backgroundImage="fanhui.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <segue destination="TvQ-gF-Qfd" kind="unwind" unwindAction="unwindSegueToMiEngageViewController:" id="Hml-ne-FaC"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OkD-yc-dE1">
+                                        <rect key="frame" x="26" y="123" width="79" height="79"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aex-1L-aEu">
+                                        <rect key="frame" x="125" y="129" width="187" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Danning" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KY5-0H-Pxd">
+                                                <rect key="frame" x="8" y="3" width="66" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huangV.png" translatesAutoresizingMaskIntoConstraints="NO" id="hBC-ey-lfZ">
+                                                <rect key="frame" x="75" y="4" width="18" height="20"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nv.png" translatesAutoresizingMaskIntoConstraints="NO" id="zB9-hV-VkG">
+                                                <rect key="frame" x="98" y="7" width="9" height="13"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shouji.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eod-uj-XEW">
+                                                <rect key="frame" x="7" y="26" width="16" height="16"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1300138000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFL-0H-PN3">
+                                                <rect key="frame" x="24" y="23" width="77" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xyp-Yc-Nib">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eoj-5D-ezT">
+                                <rect key="frame" x="0.0" y="216" width="320" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW7-0p-5f7">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="39"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="个人资料">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="个人资料">
+                                            <color key="titleColor" red="0.2627450980392157" green="0.70196078431372544" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-6G-T3K">
+                                        <rect key="frame" x="104" y="0.0" width="112" height="39"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="我的timeline">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="我的timeline">
+                                            <color key="titleColor" red="0.26274509800000001" green="0.70196078429999997" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmW-aY-zbe">
+                                        <rect key="frame" x="224" y="0.0" width="96" height="39"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="我的简历">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="我的简历">
+                                            <color key="titleColor" red="0.26274509800000001" green="0.70196078429999997" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="lW7-0p-5f7" firstAttribute="width" secondItem="2aY-6G-T3K" secondAttribute="width" id="6Hb-wA-fLr"/>
+                                    <constraint firstAttribute="bottom" secondItem="2aY-6G-T3K" secondAttribute="bottom" id="70e-Rw-PTF"/>
+                                    <constraint firstItem="pmW-aY-zbe" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="top" id="8ab-yh-xFs"/>
+                                    <constraint firstAttribute="trailing" secondItem="pmW-aY-zbe" secondAttribute="trailing" id="P94-UV-pyr"/>
+                                    <constraint firstAttribute="bottom" secondItem="pmW-aY-zbe" secondAttribute="bottom" id="PrM-aT-V54"/>
+                                    <constraint firstItem="pmW-aY-zbe" firstAttribute="width" secondItem="2aY-6G-T3K" secondAttribute="width" id="SMK-wK-iCw"/>
+                                    <constraint firstItem="2aY-6G-T3K" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="top" id="fP9-ls-Soo"/>
+                                    <constraint firstItem="lW7-0p-5f7" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="top" id="mUp-ge-Bn4"/>
+                                    <constraint firstAttribute="bottom" secondItem="lW7-0p-5f7" secondAttribute="bottom" id="qSg-0n-6Bq"/>
+                                    <constraint firstItem="2aY-6G-T3K" firstAttribute="leading" secondItem="lW7-0p-5f7" secondAttribute="trailing" constant="8" id="rXs-a9-ACt"/>
+                                    <constraint firstItem="lW7-0p-5f7" firstAttribute="leading" secondItem="eoj-5D-ezT" secondAttribute="leading" id="tUq-Uc-uP5"/>
+                                    <constraint firstItem="pmW-aY-zbe" firstAttribute="leading" secondItem="2aY-6G-T3K" secondAttribute="trailing" constant="8" id="wpI-cM-8Qd"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xyp-Yc-Nib">
                                 <rect key="frame" x="0.0" y="255" width="320" height="313"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -261,21 +347,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="n75-Td-TQv" firstAttribute="top" secondItem="8WN-Pf-EYP" secondAttribute="top" id="3Mh-tf-haK"/>
-                            <constraint firstAttribute="trailing" secondItem="xyp-Yc-Nib" secondAttribute="trailing" id="6Tf-f0-yCM"/>
-                            <constraint firstItem="OQH-py-Zfx" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="EyF-PG-eb2"/>
-                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="FeH-eJ-9I8"/>
-                            <constraint firstItem="OQH-py-Zfx" firstAttribute="top" secondItem="8WN-Pf-EYP" secondAttribute="top" id="Neo-ph-mrb"/>
-                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="top" secondItem="OQH-py-Zfx" secondAttribute="bottom" id="P8J-iI-jZW"/>
-                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="n75-Td-TQv" secondAttribute="bottom" id="fWs-al-7xX"/>
-                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="xyp-Yc-Nib" secondAttribute="bottom" id="h6G-ts-J2O"/>
-                            <constraint firstItem="n75-Td-TQv" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="oXm-oB-Ihr"/>
-                            <constraint firstAttribute="trailing" secondItem="OQH-py-Zfx" secondAttribute="trailing" id="r92-ZC-uNZ"/>
-                            <constraint firstAttribute="trailing" secondItem="n75-Td-TQv" secondAttribute="trailing" id="sDC-QM-Wu2"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="top" secondItem="eoj-5D-ezT" secondAttribute="bottom" id="6H9-k2-1gx"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="top" secondItem="6nZ-zn-twh" secondAttribute="bottom" constant="-20" id="ASD-bK-Mr4"/>
+                            <constraint firstAttribute="trailing" secondItem="xyp-Yc-Nib" secondAttribute="trailing" id="B7U-J8-smN"/>
+                            <constraint firstAttribute="trailing" secondItem="OQH-py-Zfx" secondAttribute="trailing" id="MJa-jY-yXT"/>
+                            <constraint firstItem="eoj-5D-ezT" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="abW-IC-9Tt"/>
+                            <constraint firstItem="xyp-Yc-Nib" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="bsa-oT-sLH"/>
+                            <constraint firstItem="OQH-py-Zfx" firstAttribute="leading" secondItem="8WN-Pf-EYP" secondAttribute="leading" id="eCy-4n-a8H"/>
+                            <constraint firstItem="eoj-5D-ezT" firstAttribute="top" secondItem="OQH-py-Zfx" secondAttribute="bottom" id="myn-bM-egt"/>
+                            <constraint firstAttribute="trailing" secondItem="eoj-5D-ezT" secondAttribute="trailing" id="pEa-54-G5F"/>
+                            <constraint firstItem="Mke-zi-KRh" firstAttribute="top" secondItem="xyp-Yc-Nib" secondAttribute="bottom" id="qQe-9h-WDc"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="headImgView" destination="OkD-yc-dE1" id="u0D-an-SIu"/>
                         <outlet property="resumeTableView" destination="xyp-Yc-Nib" id="R9k-7H-W1H"/>
                     </connections>
                 </viewController>
@@ -1565,7 +1651,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="12个人资料-我的简历_无简历.jpg" width="640" height="1136"/>
         <image name="3搜索_工作.jpg" width="640" height="1136"/>
         <image name="4招聘信息.jpg" width="640" height="1136"/>
         <image name="7求职攻略.jpg" width="640" height="1136"/>
@@ -1575,9 +1660,13 @@
         <image name="banner.png" width="320" height="48"/>
         <image name="beijing.png" width="320" height="568"/>
         <image name="denglu.png" width="127" height="34"/>
+
         <image name="denglu_phone.png" width="25" height="25"/>
+        <image name="fanhui.png" width="25" height="25"/>
+
         <image name="faxian_blue.png" width="24" height="24"/>
         <image name="faxian_gray.png" width="24" height="24"/>
+        <image name="huangV.png" width="18" height="20"/>
         <image name="jianliguanli.png" width="53" height="53"/>
         <image name="jianlizhuangtai.png" width="53" height="53"/>
         <image name="kuang.png" width="293" height="61"/>
@@ -1587,7 +1676,11 @@
         <image name="mipin_gray.png" width="24" height="24"/>
         <image name="miquan_blue.png" width="24" height="24"/>
         <image name="miquan_gray.png" width="24" height="24"/>
+        <image name="nv.png" width="9" height="13"/>
+        <image name="personal.jpg" width="640" height="432"/>
         <image name="qiuzhigonglue.png" width="53" height="53"/>
+        <image name="qq.jpg" width="102" height="107"/>
+        <image name="shouji.png" width="16" height="16"/>
         <image name="sousuokuang.png" width="175" height="30"/>
         <image name="suibiankankan.png" width="56" height="13"/>
         <image name="tengxun.png" width="36" height="36"/>
