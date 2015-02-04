@@ -1,32 +1,29 @@
 //
-//  RegisterViewController.m
+//  EducationViewController.m
 //  Womi
 //
-//  Created by NaNa on 15/1/22.
+//  Created by zhongqinglongtu on 15-2-3.
 //  Copyright (c) 2015年 NaNa. All rights reserved.
 //
 
-#import "RegisterViewController.h"
+#import "EducationViewController.h"
 
-@interface RegisterViewController ()
+@interface EducationViewController ()
 - (IBAction)buttonClick:(UIButton *)sender;
 
 @end
 
-@implementation RegisterViewController
+@implementation EducationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
 
-
-
 - (IBAction)buttonClick:(UIButton *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end
