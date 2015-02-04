@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eM1-RD-Pe7">
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eM1-RD-Pe7">
                     <rect key="frame" x="0.0" y="20" width="320" height="45"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwK-dt-o1N">
@@ -28,10 +28,16 @@
                                 <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="g27-dT-4yP"/>
                             </connections>
                         </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="简历详情" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9Z-ac-ygj">
+                            <rect key="frame" x="124" y="10" width="72" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.26274509800000001" green="0.70196078429999997" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="VYL-G2-tGS">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="VYL-G2-tGS">
                     <rect key="frame" x="0.0" y="73" width="320" height="495"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
@@ -41,6 +47,15 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eM1-RD-Pe7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1q1-ty-XdD"/>
+                <constraint firstAttribute="trailing" secondItem="eM1-RD-Pe7" secondAttribute="trailing" id="Lbq-F8-4Yu"/>
+                <constraint firstAttribute="bottom" secondItem="VYL-G2-tGS" secondAttribute="bottom" id="UmA-F2-EgP"/>
+                <constraint firstItem="VYL-G2-tGS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gsG-no-bd0"/>
+                <constraint firstItem="VYL-G2-tGS" firstAttribute="top" secondItem="eM1-RD-Pe7" secondAttribute="bottom" constant="8" id="h8i-33-ZoN"/>
+                <constraint firstAttribute="trailing" secondItem="VYL-G2-tGS" secondAttribute="trailing" id="mGt-gW-oke"/>
+                <constraint firstItem="eM1-RD-Pe7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="xba-ZM-ZcF"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>

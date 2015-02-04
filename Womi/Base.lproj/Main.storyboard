@@ -1660,10 +1660,8 @@
         <image name="banner.png" width="320" height="48"/>
         <image name="beijing.png" width="320" height="568"/>
         <image name="denglu.png" width="127" height="34"/>
-
         <image name="denglu_phone.png" width="25" height="25"/>
         <image name="fanhui.png" width="25" height="25"/>
-
         <image name="faxian_blue.png" width="24" height="24"/>
         <image name="faxian_gray.png" width="24" height="24"/>
         <image name="huangV.png" width="18" height="20"/>
