@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394DA32E1A820668009BD1E7 /* suibiankankan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394DA32D1A820668009BD1E7 /* suibiankankan@3x.png */; };
 		396B241B1A7CB5A300C98E9A /* ResumePullCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24191A7CB5A300C98E9A /* ResumePullCell.m */; };
 		396B241C1A7CB5A300C98E9A /* ResumePullCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */; };
 		396B24211A7CC5CD00C98E9A /* ResumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24201A7CC5CD00C98E9A /* ResumeView.m */; };
@@ -190,7 +191,6 @@
 		397BE6621A736BA3001B62DE /* denglu_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6551A736BA3001B62DE /* denglu_xuanzhong@2x.png */; };
 		397BE6631A736BA3001B62DE /* denglu_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6561A736BA3001B62DE /* denglu_xuanzhong@3x.png */; };
 		397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6571A736BA3001B62DE /* suibiankankan@2x.png */; };
-		397BE6651A736BA3001B62DE /* suibiankankan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6581A736BA3001B62DE /* suibiankankan@3x.png */; };
 		397BE6661A736BA3001B62DE /* womi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE6591A736BA3001B62DE /* womi@2x.png */; };
 		397BE6671A736BA3001B62DE /* womi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE65A1A736BA3001B62DE /* womi@3x.png */; };
 		397BE6681A736BA3001B62DE /* womidengluyebeijing.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BE65B1A736BA3001B62DE /* womidengluyebeijing.png */; };
@@ -296,6 +296,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394DA32D1A820668009BD1E7 /* suibiankankan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suibiankankan@3x.png"; sourceTree = "<group>"; };
 		396B24181A7CB5A300C98E9A /* ResumePullCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumePullCell.h; sourceTree = "<group>"; };
 		396B24191A7CB5A300C98E9A /* ResumePullCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumePullCell.m; sourceTree = "<group>"; };
 		396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumePullCell.xib; sourceTree = "<group>"; };
@@ -512,7 +513,6 @@
 		397BE6551A736BA3001B62DE /* denglu_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu_xuanzhong@2x.png"; sourceTree = "<group>"; };
 		397BE6561A736BA3001B62DE /* denglu_xuanzhong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu_xuanzhong@3x.png"; sourceTree = "<group>"; };
 		397BE6571A736BA3001B62DE /* suibiankankan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suibiankankan@2x.png"; sourceTree = "<group>"; };
-		397BE6581A736BA3001B62DE /* suibiankankan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suibiankankan@3x.png"; sourceTree = "<group>"; };
 		397BE6591A736BA3001B62DE /* womi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "womi@2x.png"; sourceTree = "<group>"; };
 		397BE65A1A736BA3001B62DE /* womi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "womi@3x.png"; sourceTree = "<group>"; };
 		397BE65B1A736BA3001B62DE /* womidengluyebeijing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = womidengluyebeijing.png; sourceTree = "<group>"; };
@@ -1110,12 +1110,12 @@
 		397BE6521A736BA3001B62DE /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				394DA32D1A820668009BD1E7 /* suibiankankan@3x.png */,
 				397BE6531A736BA3001B62DE /* denglu@2x.png */,
 				397BE6541A736BA3001B62DE /* denglu@3x.png */,
 				397BE6551A736BA3001B62DE /* denglu_xuanzhong@2x.png */,
 				397BE6561A736BA3001B62DE /* denglu_xuanzhong@3x.png */,
 				397BE6571A736BA3001B62DE /* suibiankankan@2x.png */,
-				397BE6581A736BA3001B62DE /* suibiankankan@3x.png */,
 				397BE6591A736BA3001B62DE /* womi@2x.png */,
 				397BE65A1A736BA3001B62DE /* womi@3x.png */,
 				397BE65B1A736BA3001B62DE /* womidengluyebeijing.png */,
@@ -1498,7 +1498,6 @@
 				397BE5701A70F204001B62DE /* person@2x.png in Resources */,
 				397BE6661A736BA3001B62DE /* womi@2x.png in Resources */,
 				396B24E71A81C63100C98E9A /* banner@2x.png in Resources */,
-				397BE6651A736BA3001B62DE /* suibiankankan@3x.png in Resources */,
 				397BE6621A736BA3001B62DE /* denglu_xuanzhong@2x.png in Resources */,
 				F7BBF0A91A7F7CD40083A018 /* zhuceyoubian_blue@3x.png in Resources */,
 				396B25081A81C63100C98E9A /* qiuzhigonglue@2x.png in Resources */,
@@ -1530,6 +1529,7 @@
 				39A84B901A7B281C00D88B4B /* zhankai@3x.png in Resources */,
 				396B25001A81C63100C98E9A /* mipin_gray@2x.png in Resources */,
 				39A84B821A7B281C00D88B4B /* shouji@2x.png in Resources */,
+				394DA32E1A820668009BD1E7 /* suibiankankan@3x.png in Resources */,
 				F7BBF0961A7F7CB70083A018 /* paixv_shunxv@2x.png in Resources */,
 				397BE5481A70F204001B62DE /* 11个人资料-时间轴.jpg in Resources */,
 				39A84B791A7B281C00D88B4B /* jindutiao@3x.png in Resources */,
@@ -1768,10 +1768,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu binjie (F66XSBWD3U)";
 				INFOPLIST_FILE = Womi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0dd30748-c651-4443-88dc-8641cfd50e60";
 			};
 			name = Debug;
 		};
@@ -1780,10 +1782,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu binjie (F66XSBWD3U)";
 				INFOPLIST_FILE = Womi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0dd30748-c651-4443-88dc-8641cfd50e60";
 			};
 			name = Release;
 		};
