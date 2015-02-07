@@ -264,6 +264,10 @@
 		39A84BA01A7B31AB00D88B4B /* LabelManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84B9E1A7B31AB00D88B4B /* LabelManageViewController.xib */; };
 		39A84C121A7C8A3400D88B4B /* SimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A84C101A7C8A3400D88B4B /* SimpleCell.m */; };
 		39A84C131A7C8A3400D88B4B /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A84C111A7C8A3400D88B4B /* SimpleCell.xib */; };
+		39B52AA81A85FE7400867992 /* liaotian_shouye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B52AA61A85FE7400867992 /* liaotian_shouye@2x.png */; };
+		39B52AA91A85FE7400867992 /* liaotian_shouye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B52AA71A85FE7400867992 /* liaotian_shouye@3x.png */; };
+		39B52AAE1A86001400867992 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B52AAC1A86001400867992 /* ChatViewController.m */; };
+		39B52AAF1A86001400867992 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B52AAD1A86001400867992 /* ChatViewController.xib */; };
 		F7BBF0921A7F7CB70083A018 /* paixv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF08C1A7F7CB70083A018 /* paixv@2x.png */; };
 		F7BBF0931A7F7CB70083A018 /* paixv@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF08D1A7F7CB70083A018 /* paixv@3x.png */; };
 		F7BBF0941A7F7CB70083A018 /* paixv_daoxv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BBF08E1A7F7CB70083A018 /* paixv_daoxv@2x.png */; };
@@ -597,6 +601,11 @@
 		39A84C0F1A7C8A3400D88B4B /* SimpleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCell.h; sourceTree = "<group>"; };
 		39A84C101A7C8A3400D88B4B /* SimpleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCell.m; sourceTree = "<group>"; };
 		39A84C111A7C8A3400D88B4B /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
+		39B52AA61A85FE7400867992 /* liaotian_shouye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liaotian_shouye@2x.png"; sourceTree = "<group>"; };
+		39B52AA71A85FE7400867992 /* liaotian_shouye@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liaotian_shouye@3x.png"; sourceTree = "<group>"; };
+		39B52AAB1A86001400867992 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		39B52AAC1A86001400867992 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		39B52AAD1A86001400867992 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		F7BBF08C1A7F7CB70083A018 /* paixv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv@2x.png"; sourceTree = "<group>"; };
 		F7BBF08D1A7F7CB70083A018 /* paixv@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv@3x.png"; sourceTree = "<group>"; };
 		F7BBF08E1A7F7CB70083A018 /* paixv_daoxv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paixv_daoxv@2x.png"; sourceTree = "<group>"; };
@@ -638,6 +647,8 @@
 		396B24451A81C1CE00C98E9A /* MiEngage */ = {
 			isa = PBXGroup;
 			children = (
+				39B52AA61A85FE7400867992 /* liaotian_shouye@2x.png */,
+				39B52AA71A85FE7400867992 /* liaotian_shouye@3x.png */,
 				396B24B11A81C63100C98E9A /* bagua@2x.png */,
 				396B24B21A81C63100C98E9A /* bagua@3x.png */,
 				396B24B31A81C63100C98E9A /* banner@2x.png */,
@@ -816,6 +827,7 @@
 				397BE4161A70D323001B62DE /* RootViewController.m */,
 				397BE4171A70D323001B62DE /* Search */,
 				397BE41A1A70D323001B62DE /* SubscribePosition */,
+				39B52AAA1A85FFEC00867992 /* Chat */,
 				397BE6DB1A763153001B62DE /* Setting */,
 			);
 			path = ViewControllers;
@@ -1252,6 +1264,16 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		39B52AAA1A85FFEC00867992 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				39B52AAB1A86001400867992 /* ChatViewController.h */,
+				39B52AAC1A86001400867992 /* ChatViewController.m */,
+				39B52AAD1A86001400867992 /* ChatViewController.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		F7BBF08B1A7F7CB70083A018 /* EngageInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1438,6 +1460,7 @@
 				396B249F1A81C1F500C98E9A /* zhuce_suo@3x.png in Resources */,
 				397BE6E21A7631DB001B62DE /* 设置.jpg in Resources */,
 				39A84B7A1A7B281C00D88B4B /* nan@2x.png in Resources */,
+				39B52AA91A85FE7400867992 /* liaotian_shouye@3x.png in Resources */,
 				396B24A01A81C1F500C98E9A /* zhuce_white@2x.png in Resources */,
 				397BE6D51A75E4EA001B62DE /* wozhiweidingyue@3x.png in Resources */,
 				397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */,
@@ -1463,6 +1486,7 @@
 				396B25121A81C63100C98E9A /* xiangxia@3x.png in Resources */,
 				397BE5731A70F204001B62DE /* phone@3x.png in Resources */,
 				396B24861A81C1CE00C98E9A /* xiangyou_click@2x.png in Resources */,
+				39B52AAF1A86001400867992 /* ChatViewController.xib in Resources */,
 				397BE55C1A70F204001B62DE /* 8.1订阅设置.jpg in Resources */,
 				397BE55A1A70F204001B62DE /* 7.0攻略详情.jpg in Resources */,
 				397BE6E01A763176001B62DE /* SettingViewController.xib in Resources */,
@@ -1577,6 +1601,7 @@
 				396B249A1A81C1F500C98E9A /* xinlang@2x.png in Resources */,
 				39A84B8C1A7B281C00D88B4B /* xiangyouda@2x.png in Resources */,
 				397BE5551A70F204001B62DE /* 4招聘信息.jpg in Resources */,
+				39B52AA81A85FE7400867992 /* liaotian_shouye@2x.png in Resources */,
 				F7BBF0A81A7F7CD40083A018 /* zhuceyoubian_blue@2x.png in Resources */,
 				396B24EB1A81C63100C98E9A /* dian_blue@3x.png in Resources */,
 			);
@@ -1612,6 +1637,7 @@
 				397BE41F1A70D323001B62DE /* BaseViewController.m in Sources */,
 				397BE6411A7352FD001B62DE /* NNAdscrollView.m in Sources */,
 				396B24AF1A81C20B00C98E9A /* MymiViewController.m in Sources */,
+				39B52AAE1A86001400867992 /* ChatViewController.m in Sources */,
 				39A84B9A1A7B317300D88B4B /* JobDetailViewController.m in Sources */,
 				397BE6A21A73A7A1001B62DE /* AwesomeMenu.m in Sources */,
 				397BE6DF1A763176001B62DE /* SettingViewController.m in Sources */,

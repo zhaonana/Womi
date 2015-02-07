@@ -537,7 +537,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G29-Ua-XQu">
                                 <rect key="frame" x="0.0" y="20" width="320" height="45"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cah-gP-zPH">
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cah-gP-zPH">
                                         <rect key="frame" x="16" y="7" width="25" height="25"/>
                                         <state key="normal" backgroundImage="wo.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -834,6 +834,15 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJH-7o-ptF">
+                                <rect key="frame" x="258" y="472" width="50" height="50"/>
+                                <state key="normal" backgroundImage="liaotian_shouye.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClick:" destination="EyV-d5-NGH" eventType="touchUpInside" id="Q29-uW-EnR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -842,6 +851,7 @@
                             <constraint firstItem="Z22-hv-cLs" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="5da-2l-W9r"/>
                             <constraint firstItem="G29-Ua-XQu" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="C68-yy-g7v"/>
                             <constraint firstItem="G29-Ua-XQu" firstAttribute="top" secondItem="is1-YV-2RJ" secondAttribute="bottom" id="FJs-mB-cP3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TJH-7o-ptF" secondAttribute="trailing" constant="-4" id="IWz-63-SbA"/>
                             <constraint firstItem="is1-YV-2RJ" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="Iow-u2-eJi"/>
                             <constraint firstItem="Z22-hv-cLs" firstAttribute="top" secondItem="YQ8-yn-gqf" secondAttribute="bottom" constant="3" id="Ofz-iy-Slb"/>
                             <constraint firstItem="9c3-Wk-2Tl" firstAttribute="top" secondItem="ljs-DW-Yd9" secondAttribute="bottom" constant="3" id="SOe-qs-TOb"/>
@@ -856,6 +866,7 @@
                             <constraint firstAttribute="trailing" secondItem="9c3-Wk-2Tl" secondAttribute="trailing" id="oyI-g8-tMn"/>
                             <constraint firstAttribute="trailing" secondItem="Qty-Ia-wgm" secondAttribute="trailing" id="qBi-iD-fWy"/>
                             <constraint firstAttribute="trailing" secondItem="G29-Ua-XQu" secondAttribute="trailing" id="qtY-U7-uob"/>
+                            <constraint firstItem="kfH-5c-gle" firstAttribute="top" secondItem="TJH-7o-ptF" secondAttribute="bottom" constant="46" id="tWb-Vu-QE9"/>
                             <constraint firstItem="YQ8-yn-gqf" firstAttribute="top" secondItem="9c3-Wk-2Tl" secondAttribute="bottom" constant="1" id="uJM-xu-L2H"/>
                             <constraint firstAttribute="trailing" secondItem="is1-YV-2RJ" secondAttribute="trailing" id="ulY-1A-9BC"/>
                             <constraint firstItem="9c3-Wk-2Tl" firstAttribute="leading" secondItem="WAG-Ah-78r" secondAttribute="leading" id="yJt-wr-z9l"/>
@@ -2130,6 +2141,7 @@
         <image name="kuang.png" width="293" height="61"/>
         <image name="liaotian_blue.png" width="24" height="24"/>
         <image name="liaotian_gray.png" width="24" height="24"/>
+        <image name="liaotian_shouye.png" width="50" height="50"/>
         <image name="mipin_blue.png" width="24" height="24"/>
         <image name="mipin_gray.png" width="24" height="24"/>
         <image name="miquan_blue.png" width="24" height="24"/>

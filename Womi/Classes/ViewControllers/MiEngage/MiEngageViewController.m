@@ -15,8 +15,9 @@
 #import "AwesomeMenu.h"
 #import "UIView+ITTAdditions.h"
 #import "CompanyDetailViewController.h"
+#import "ChatViewController.h"
 
-@interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate, AwesomeMenuDelegate>
+@interface MiEngageViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView      *adScrollBackView;
@@ -69,57 +70,69 @@
 }
 
 - (void)setUpAwesomeMenu {
-    AwesomeMenuItem *starMenuItem1 = [[AwesomeMenuItem alloc] initWithImage:nil
-                                                           highlightedImage:nil
-                                                               ContentImage:[UIImage imageNamed:@"dating"]
-                                                    highlightedContentImage:nil];
-    AwesomeMenuItem *starMenuItem2 = [[AwesomeMenuItem alloc] initWithImage:nil
-                                                           highlightedImage:nil
-                                                               ContentImage:[UIImage imageNamed:@"bagua"]
-                                                    highlightedContentImage:nil];
-    AwesomeMenuItem *starMenuItem3 = [[AwesomeMenuItem alloc] initWithImage:nil
-                                                           highlightedImage:nil
-                                                               ContentImage:[UIImage imageNamed:@"xingqv"]
-                                                    highlightedContentImage:nil];
-    AwesomeMenuItem *starMenuItem4 = [[AwesomeMenuItem alloc] initWithImage:nil
-                                                           highlightedImage:nil
-                                                               ContentImage:[UIImage imageNamed:@"qiuzhi"]
-                                                    highlightedContentImage:nil];
-    
-    NSArray *menus = [NSArray arrayWithObjects:starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4, nil];
-    
-    AwesomeMenuItem *startItem = [[AwesomeMenuItem alloc] initWithImage:[UIImage imageNamed:@"jia"]
-                                                       highlightedImage:[UIImage imageNamed:@"jia"]
-                                                           ContentImage:nil
-                                                highlightedContentImage:nil];
-    
-    AwesomeMenu *menu = [[AwesomeMenu alloc] initWithFrame:self.view.bounds startItem:startItem optionMenus:menus];
-    menu.delegate = self;
-    menu.menuWholeAngle = -M_PI_2;
-    menu.farRadius = 110.0f;
-    menu.endRadius = 100.0f;
-    menu.nearRadius = 90.0f;
-    menu.animationDuration = 0.3f;
-    menu.startPoint = CGPointMake(self.view.width - 28, self.view.height - 78);
-    [self.view addSubview:menu];
+//    AwesomeMenuItem *starMenuItem1 = [[AwesomeMenuItem alloc] initWithImage:nil
+//                                                           highlightedImage:nil
+//                                                               ContentImage:[UIImage imageNamed:@"dating"]
+//                                                    highlightedContentImage:nil];
+//    AwesomeMenuItem *starMenuItem2 = [[AwesomeMenuItem alloc] initWithImage:nil
+//                                                           highlightedImage:nil
+//                                                               ContentImage:[UIImage imageNamed:@"bagua"]
+//                                                    highlightedContentImage:nil];
+//    AwesomeMenuItem *starMenuItem3 = [[AwesomeMenuItem alloc] initWithImage:nil
+//                                                           highlightedImage:nil
+//                                                               ContentImage:[UIImage imageNamed:@"xingqv"]
+//                                                    highlightedContentImage:nil];
+//    AwesomeMenuItem *starMenuItem4 = [[AwesomeMenuItem alloc] initWithImage:nil
+//                                                           highlightedImage:nil
+//                                                               ContentImage:[UIImage imageNamed:@"qiuzhi"]
+//                                                    highlightedContentImage:nil];
+//    
+//    NSArray *menus = [NSArray arrayWithObjects:starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4, nil];
+//    
+//    AwesomeMenuItem *startItem = [[AwesomeMenuItem alloc] initWithImage:[UIImage imageNamed:@"jia"]
+//                                                       highlightedImage:[UIImage imageNamed:@"jia"]
+//                                                           ContentImage:nil
+//                                                highlightedContentImage:nil];
+//    
+//    AwesomeMenu *menu = [[AwesomeMenu alloc] initWithFrame:self.view.bounds startItem:startItem optionMenus:menus];
+//    menu.delegate = self;
+//    menu.menuWholeAngle = -M_PI_2;
+//    menu.farRadius = 110.0f;
+//    menu.endRadius = 100.0f;
+//    menu.nearRadius = 90.0f;
+//    menu.animationDuration = 0.3f;
+//    menu.startPoint = CGPointMake(self.view.width - 28, self.view.height - 78);
+//    [self.view addSubview:menu];
 }
 
-#pragma mark - AwesomeMenuDelegate
-- (void)awesomeMenu:(AwesomeMenu *)menu didSelectIndex:(NSInteger)idx {
-    NSLog(@"Select the index : %ld",(long)idx);
-}
-
-- (void)awesomeMenuDidFinishAnimationClose:(AwesomeMenu *)menu {
-    NSLog(@"Menu was closed!");
-}
-
-- (void)awesomeMenuDidFinishAnimationOpen:(AwesomeMenu *)menu {
-    NSLog(@"Menu is open!");
-}
+//#pragma mark - AwesomeMenuDelegate
+//- (void)awesomeMenu:(AwesomeMenu *)menu didSelectIndex:(NSInteger)idx {
+//    NSLog(@"Select the index : %ld",(long)idx);
+//}
+//
+//- (void)awesomeMenuDidFinishAnimationClose:(AwesomeMenu *)menu {
+//    NSLog(@"Menu was closed!");
+//}
+//
+//- (void)awesomeMenuDidFinishAnimationOpen:(AwesomeMenu *)menu {
+//    NSLog(@"Menu is open!");
+//}
 
 #pragma mark - UIButtonClick
-- (IBAction)buttonClick:(id)sender {
-    [self.sideBar show];
+- (IBAction)buttonClick:(UIButton *)sender {
+    switch (sender.tag) {
+        case 10: {  //我的
+            [self.sideBar show];
+        }
+            break;
+        case 20: {  //聊天
+            ChatViewController *chatVc = [[ChatViewController alloc] init];
+            [self.navigationController pushViewController:chatVc animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
 }
 
 - (IBAction)unwindSegueToMiEngageViewController:(UIStoryboardSegue *)segue {
