@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-lI-fIA">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-lI-fIA">
                     <rect key="frame" x="0.0" y="0.0" width="135" height="196"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lfh-T4-wY6">
@@ -29,11 +29,8 @@
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="196" id="QZh-Tj-ZmI"/>
-                    </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwQ-QX-hbt">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwQ-QX-hbt">
                     <rect key="frame" x="0.0" y="197" width="135" height="229"/>
                     <subviews>
                         <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAV-0K-VD9">
@@ -103,19 +100,12 @@
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="229" id="Q22-qD-fXX"/>
-                    </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HqX-Ds-oKl">
                     <rect key="frame" x="0.0" y="427" width="135" height="141"/>
                     <subviews>
-                        <button opaque="NO" tag="60" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5g-Sw-2U5">
+                        <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5g-Sw-2U5">
                             <rect key="frame" x="27" y="100" width="81" height="33"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="33" id="NI3-po-CRF"/>
-                                <constraint firstAttribute="width" constant="81" id="Pmy-VC-94G"/>
-                            </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <state key="normal" title="设置" image="woshezhi.png">
@@ -130,23 +120,15 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="S5g-Sw-2U5" firstAttribute="leading" secondItem="HqX-Ds-oKl" secondAttribute="leading" constant="27" id="WEZ-QS-DKX"/>
-                        <constraint firstAttribute="bottom" secondItem="S5g-Sw-2U5" secondAttribute="bottom" constant="8" id="ojZ-0e-jJV"/>
+                        <constraint firstAttribute="height" constant="141" id="PzH-zh-mbV"/>
+                        <constraint firstAttribute="width" constant="135" id="h5B-os-oql"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="gwQ-QX-hbt" firstAttribute="top" secondItem="k6d-lI-fIA" secondAttribute="bottom" constant="1" id="5bb-C1-ECR"/>
-                <constraint firstItem="k6d-lI-fIA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="65m-tl-4Ak"/>
-                <constraint firstAttribute="bottom" secondItem="HqX-Ds-oKl" secondAttribute="bottom" id="8yP-0c-Rpm"/>
-                <constraint firstItem="HqX-Ds-oKl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Flx-Ho-gFF"/>
-                <constraint firstItem="gwQ-QX-hbt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HWz-VK-9gr"/>
-                <constraint firstAttribute="trailing" secondItem="k6d-lI-fIA" secondAttribute="trailing" constant="185" id="jXh-Gx-S6r"/>
-                <constraint firstItem="k6d-lI-fIA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oSW-Uq-2oO"/>
-                <constraint firstItem="HqX-Ds-oKl" firstAttribute="top" secondItem="gwQ-QX-hbt" secondAttribute="bottom" constant="1" id="sBP-eH-FhZ"/>
-                <constraint firstAttribute="trailing" secondItem="gwQ-QX-hbt" secondAttribute="trailing" constant="185" id="tId-6R-Z2I"/>
-                <constraint firstAttribute="trailing" secondItem="HqX-Ds-oKl" secondAttribute="trailing" constant="185" id="ytH-35-cBv"/>
+                <constraint firstItem="HqX-Ds-oKl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CAW-Kb-ku2"/>
+                <constraint firstAttribute="bottom" secondItem="HqX-Ds-oKl" secondAttribute="bottom" id="UO3-ZG-AG8"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
