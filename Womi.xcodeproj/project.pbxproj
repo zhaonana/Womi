@@ -12,7 +12,6 @@
 		396B241C1A7CB5A300C98E9A /* ResumePullCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B241A1A7CB5A300C98E9A /* ResumePullCell.xib */; };
 		396B24211A7CC5CD00C98E9A /* ResumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24201A7CC5CD00C98E9A /* ResumeView.m */; };
 		396B24231A7CC5DE00C98E9A /* ResumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B24221A7CC5DE00C98E9A /* ResumeView.xib */; };
-		396B243F1A7F84E800C98E9A /* personal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B243E1A7F84E800C98E9A /* personal.jpg */; };
 		396B24431A7FA21500C98E9A /* ResumeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B24411A7FA21500C98E9A /* ResumeDetailViewController.m */; };
 		396B24441A7FA21500C98E9A /* ResumeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396B24421A7FA21500C98E9A /* ResumeDetailViewController.xib */; };
 		396B24681A81C1CE00C98E9A /* bianji_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396B24461A81C1CE00C98E9A /* bianji_click@2x.png */; };
@@ -303,7 +302,6 @@
 		396B241F1A7CC5CD00C98E9A /* ResumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeView.h; sourceTree = "<group>"; };
 		396B24201A7CC5CD00C98E9A /* ResumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeView.m; sourceTree = "<group>"; };
 		396B24221A7CC5DE00C98E9A /* ResumeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeView.xib; sourceTree = "<group>"; };
-		396B243E1A7F84E800C98E9A /* personal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = personal.jpg; sourceTree = "<group>"; };
 		396B24401A7FA21500C98E9A /* ResumeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeDetailViewController.h; sourceTree = "<group>"; };
 		396B24411A7FA21500C98E9A /* ResumeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeDetailViewController.m; sourceTree = "<group>"; };
 		396B24421A7FA21500C98E9A /* ResumeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeDetailViewController.xib; sourceTree = "<group>"; };
@@ -899,7 +897,6 @@
 		397BE4071A70D323001B62DE /* PersonalData */ = {
 			isa = PBXGroup;
 			children = (
-				396B243E1A7F84E800C98E9A /* personal.jpg */,
 				397BE4081A70D323001B62DE /* PersonalDataViewController.h */,
 				397BE4091A70D323001B62DE /* PersonalDataViewController.m */,
 				396B24401A7FA21500C98E9A /* ResumeDetailViewController.h */,
@@ -1446,7 +1443,6 @@
 				397BE6641A736BA3001B62DE /* suibiankankan@2x.png in Resources */,
 				39A84B761A7B281C00D88B4B /* jindutiao2px@2x.png in Resources */,
 				F7BBF09A1A7F7CC00083A018 /* fanhui@2x.png in Resources */,
-				396B243F1A7F84E800C98E9A /* personal.jpg in Resources */,
 				397BE6601A736BA3001B62DE /* denglu@2x.png in Resources */,
 				396B25101A81C63100C98E9A /* wo@3x.png in Resources */,
 				39A84C131A7C8A3400D88B4B /* SimpleCell.xib in Resources */,

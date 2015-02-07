@@ -23,14 +23,14 @@
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="公开" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKn-Ig-RsV">
-                    <rect key="frame" x="247" y="28" width="57" height="21"/>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公开" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKn-Ig-RsV">
+                    <rect key="frame" x="278" y="28" width="26" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="默认简历" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h22-dw-NhW">
-                    <rect key="frame" x="247" y="45" width="57" height="21"/>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="默认简历" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h22-dw-NhW">
+                    <rect key="frame" x="252" y="50" width="52" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="odb-ko-PDE">
                     <rect key="frame" x="15" y="54" width="133" height="2"/>
                 </progressView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7v-Gp-dIN">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7v-Gp-dIN">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,12 +50,10 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="M7v-Gp-dIN" secondAttribute="bottom" id="3Nw-4Z-Swq"/>
-                <constraint firstAttribute="trailing" secondItem="M7v-Gp-dIN" secondAttribute="trailing" id="KW4-cb-a8R"/>
-                <constraint firstAttribute="trailing" secondItem="iKn-Ig-RsV" secondAttribute="trailing" constant="16" id="T4N-Lj-1qH"/>
-                <constraint firstItem="M7v-Gp-dIN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eQY-wt-MoV"/>
-                <constraint firstItem="M7v-Gp-dIN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kgw-qg-TTH"/>
-                <constraint firstAttribute="trailing" secondItem="h22-dw-NhW" secondAttribute="trailing" constant="16" id="oFC-tx-5uS"/>
+                <constraint firstAttribute="trailing" secondItem="iKn-Ig-RsV" secondAttribute="trailing" constant="16" id="eWG-ib-EkM"/>
+                <constraint firstAttribute="bottom" secondItem="h22-dw-NhW" secondAttribute="bottom" constant="6" id="gDt-9K-NwQ"/>
+                <constraint firstItem="iKn-Ig-RsV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="28" id="jab-FN-gms"/>
+                <constraint firstAttribute="trailing" secondItem="h22-dw-NhW" secondAttribute="trailing" constant="16" id="nop-cA-8Ox"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
